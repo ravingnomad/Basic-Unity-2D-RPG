@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -44,6 +45,12 @@ TagManager:
   - name: Ground
     uniqueID: 3110616351
     locked: 0
+  - name: Doorways
+    uniqueID: 3939668809
+    locked: 0
   - name: Player
     uniqueID: 2020492919
+    locked: 0
+  - name: Objects
+    uniqueID: 49655649
     locked: 0
