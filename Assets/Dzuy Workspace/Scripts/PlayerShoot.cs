@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour {
 
-    public MeshRenderer gunMesh;
     private Animator anim;
     public bool isMoving; //if character is/not moving, change to appropraite animation
     public float shootTime; //how long until next shot is fired
@@ -18,7 +17,7 @@ public class PlayerShoot : MonoBehaviour {
     // Use this for initialization
     void Start () {
         anim = GetComponent<Animator>();
-        gunMesh.enabled = false;
+        
         player = GameObject.FindGameObjectWithTag("Player");
         playerRigid = player.GetComponent<Rigidbody2D>();
         spawner = player.GetComponentInChildren<SpawnBullets>();
@@ -33,7 +32,7 @@ public class PlayerShoot : MonoBehaviour {
             faceDirection = player.GetComponent<PlayerMove>().GetLastMove();
             //isMoving = player.GetComponent<PlayerMove>().moving();
             shootTimeCounter = shootTime;
-            gunMesh.enabled = true;
+            
 
             anim.SetBool("Shooting", true);
             //anim.SetBool("Player Moving", isMoving);
@@ -55,7 +54,7 @@ public class PlayerShoot : MonoBehaviour {
 
         if (shootTimeCounter <= 0)
         {
-            gunMesh.enabled = false;
+           
             //attackTrigger.enabled = false;
             anim.SetBool("Shooting", false);
             player.GetComponent<PlayerMove>().enabled = true;
