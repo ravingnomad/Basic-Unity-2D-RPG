@@ -15,7 +15,8 @@ public class PlayerMove : MonoBehaviour {
 	void Start () {
         anim = GetComponent<Animator>();
         MCBody = GetComponent<Rigidbody2D>();
-
+        lastMove = new Vector2(0, -1);
+        
         if (!playerExists)
         {
             playerExists = true;
@@ -71,5 +72,10 @@ public class PlayerMove : MonoBehaviour {
     public Vector2 GetLastMove()
     {
         return lastMove;
+    }
+
+    public bool moving()
+    {
+        return playerMoving;
     }
 }

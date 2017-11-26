@@ -29,6 +29,7 @@ public class PlayerAttack : MonoBehaviour {
         anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerRigid = player.GetComponent<Rigidbody2D>();
+
         attackTrigger.enabled = false;
         weaponSprite.enabled = false;
 	}
@@ -46,7 +47,7 @@ public class PlayerAttack : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetKeyDown(KeyCode.Comma) || Input.GetKeyDown(KeyCode.Period))
+        if (Input.GetKeyDown(KeyCode.Comma))
         {
             Vector2 faceDirection = player.GetComponent<PlayerMove>().GetLastMove();
 
@@ -55,14 +56,12 @@ public class PlayerAttack : MonoBehaviour {
             {
                 faceDirection = new Vector2(0, -1);
             }
+
             attackTimeCounter = attackTime;
             Attacking = true;
             attackTrigger.enabled = true;
             weaponSprite.enabled = true;
-            //don't want player to move while attacking
-            //so disable PlayerMove script while attacking
-            player.GetComponent<PlayerMove>().enabled = false;
-            playerRigid.velocity = Vector2.zero;
+            
 
             //animates movement based on direction facing
             anim.SetBool("Attacking", true);
@@ -72,9 +71,13 @@ public class PlayerAttack : MonoBehaviour {
         }
 
         //countdown to know when to end attack animation
+        //don't want player to move while attacking
+        //so disable PlayerMove script while attacking
         if (attackTimeCounter > 0)
         {
             attackTimeCounter -= Time.deltaTime;
+            player.GetComponent<PlayerMove>().enabled = false;
+            playerRigid.velocity = Vector2.zero;
         }
 
         if (attackTimeCounter <= 0)

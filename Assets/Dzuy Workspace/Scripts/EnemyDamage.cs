@@ -24,7 +24,8 @@ public class EnemyDamage : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player Weapon")
         {
-            Health -= 10;
+            PlayerMelee playerWeapon = col.GetComponent<PlayerMelee>();
+            Health -= playerWeapon.Damage;
         }
     }
 
