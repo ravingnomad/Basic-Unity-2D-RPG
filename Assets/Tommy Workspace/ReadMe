@@ -1,1 +1,10 @@
 Deleted all files on my section. Will upload my files via zip files with a corresponding date with details in the ReadMe.
+
+
+Version 1.0
+    Forest Maps and Space Maps have been created. Only lacking a forest map with the crashed spaceship.
+        At this time, it may not be feasible to create a village.
+        Shortcut in the initial map could possibly not be created, due to time constraints.
+    Issue with the dialogue boxes was discovered and a solution was found, however unsure if this solution works for all resolutions.
+    Story has been created; flavor text and details added for story depth.
+    Unifying code with Dzuy's code has yet to be implemented. Will focus on trying to unify some aspects on Monday Nov 27, 2017.
