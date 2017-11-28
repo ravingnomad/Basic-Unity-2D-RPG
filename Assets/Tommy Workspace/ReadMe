@@ -5,9 +5,11 @@ Version 1.0
     Forest Maps and Space Maps have been created. Only lacking a forest map with the crashed spaceship.
         At this time, it may not be feasible to create a village.
         Shortcut in the initial map could possibly not be created, due to time constraints.
-    Issue with the dialogue boxes was discovered and a solution was found, however unsure if this solution works for all resolutions.
+    Issue with the dialogue boxes was discovered and a solution was found
+        however unsure if this solution works for all resolutions.
     Story has been created; flavor text and details added for story depth.
-    Unifying code with Dzuy's code has yet to be implemented. Will focus on trying to unify some aspects on Monday Nov 27, 2017.
+    Unifying code with Dzuy's code has yet to be implemented.
+        Will focus on trying to unify some aspects on Monday Nov 27, 2017.
 Version 1.1
     Forest Maps and Space maps have all been linked.
         It is unknown if it is feasible to create a spaceship wreckage map at this time.
@@ -23,6 +25,7 @@ Version 1.1
         Slime enemies need to be altered such that guns will only inflict 1 damage to them.
         Spaceship should have a variety of enemies inside.
         The last room, Space 4, should have alot of slimes, probably of varying color, size, and health.
-        If the arming sword needs to float behind the character, then modify the default layer map items to have order in layer 1.
+        If the arming sword needs to float behind the character
+            then modify the default layer map items to have order in layer 1.
         Our game still doesn't have a name.
         We probably need sound.
