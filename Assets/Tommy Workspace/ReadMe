@@ -8,3 +8,21 @@ Version 1.0
     Issue with the dialogue boxes was discovered and a solution was found, however unsure if this solution works for all resolutions.
     Story has been created; flavor text and details added for story depth.
     Unifying code with Dzuy's code has yet to be implemented. Will focus on trying to unify some aspects on Monday Nov 27, 2017.
+Version 1.1
+    Forest Maps and Space maps have all been linked.
+        It is unknown if it is feasible to create a spaceship wreckage map at this time.
+    Player Sprite and Camera need to be updated with Dzuy code.
+        Ensure that the objects are not destroyed on load.
+        If player health reaches zero, load the first scene and restore health.
+        Player must not be able to use sword and gun respectively until they obtain the corresponding weapon.
+            Use a boolean variable that is changed to true when the character interacts with corresponding weapons.
+    There may be a need to modify the health of the destroyable objects, as 100 is currently too high.
+        Probably change to 10 so that objects are destroyed in a single strike.
+    Other details:
+        Wooden Boards needs to be altered such that they can only be destroyed by guns.
+        Slime enemies need to be altered such that guns will only inflict 1 damage to them.
+        Spaceship should have a variety of enemies inside.
+        The last room, Space 4, should have alot of slimes, probably of varying color, size, and health.
+        If the arming sword needs to float behind the character, then modify the default layer map items to have order in layer 1.
+        Our game still doesn't have a name.
+        We probably need sound.
