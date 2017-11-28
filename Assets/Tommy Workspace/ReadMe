@@ -1,4 +1,5 @@
-Deleted all files on my section. Will upload my files via zip files with a corresponding date with details in the ReadMe.
+Deleted all files on my section. Will upload my files via 
+zip files with a corresponding date with details in the ReadMe.
 
 
 Version 1.0
@@ -16,10 +17,13 @@ Version 1.1
     Player Sprite and Camera need to be updated with Dzuy code.
         Ensure that the objects are not destroyed on load.
         If player health reaches zero, load the first scene and restore health.
-        Player must not be able to use sword and gun respectively until they obtain the corresponding weapon.
-            Use a boolean variable that is changed to true when the character interacts with corresponding weapons.
+        Player must not be able to use sword and gun respectively
+            until they obtain the corresponding weapon.
+        Probably use a boolean variable that is changed to true
+            when the character interacts with corresponding weapons.
     There may be a need to modify the health of the destroyable objects, as 100 is currently too high.
         Probably change to 10 so that objects are destroyed in a single strike.
+        
     Other details:
         Wooden Boards needs to be altered such that they can only be destroyed by guns.
         Slime enemies need to be altered such that guns will only inflict 1 damage to them.
