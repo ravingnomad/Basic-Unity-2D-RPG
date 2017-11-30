@@ -33,3 +33,6 @@ Version 1.1
             then modify the default layer map items to have order in layer 1.
         Our game still doesn't have a name.
         We probably need sound.
+Version 1.2
+    Fixed spawning points. The player will now spawn appropriately in the correct locations.
+    Fixed Dialogue. Dialogue now works as intended.
