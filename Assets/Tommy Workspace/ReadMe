@@ -36,3 +36,5 @@ Version 1.1
 Version 1.2
     Fixed spawning points. The player will now spawn appropriately in the correct locations.
     Fixed Dialogue. Dialogue now works as intended.
+Version 1.3
+    Added in company logo screen, credits screen, explanation screen, etc.
