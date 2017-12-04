@@ -114,7 +114,10 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 f87a32bec09f361d9ff8de3211e9c438 Assembly-CSharp.dll:.BulletController
+aa43a78362211f656633165e3e6794a4 Assembly-CSharp.dll:.StartScreen
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EndScreen
 74bdfe3150293437bfa63a797afb4793 Assembly-CSharp.dll:.PlayerCamera
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Fade
 fb91b251c0666bf970e52731c9a23416 Assembly-CSharp.dll:.EnemyDamage
 555bdd7d614f83dd1d0a79ae62f44e72 Assembly-CSharp.dll:.PlayerMove
 74bdfe3150293437bfa63a797afb4793 Assembly-CSharp.dll:.CameraControl
@@ -156,6 +159,3 @@ ca85baa647772d40e44841a501c07fdc Assembly-CSharp.dll:.DialogueTrigger
 4d67cd9ef5417256959e71f51ee2a892 Assembly-CSharp.dll:.NpcTalk
 23dc16377d0e76fa7a00da54050d8253 Assembly-CSharp.dll:.PlayerMelee
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AttackTest
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Fade
-aa43a78362211f656633165e3e6794a4 Assembly-CSharp.dll:.StartScreen
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EndScreen
