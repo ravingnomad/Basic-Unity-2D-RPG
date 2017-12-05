@@ -8,7 +8,7 @@ public class PlayerShoot : MonoBehaviour {
     public bool isMoving; //if character is/not moving, change to appropraite animation
     public float shootTime; //how long until next shot is fired
     public float shootTimeCounter;
-
+    
     private SpawnBullets spawner;
     private Rigidbody2D playerRigid;
     private Vector2 faceDirection;
@@ -39,7 +39,6 @@ public class PlayerShoot : MonoBehaviour {
             anim.SetFloat("Last Move X", faceDirection.x);
             anim.SetFloat("Last Move Y", faceDirection.y);
             spawner.isFiring = true;
-
         }
 
 

@@ -20,29 +20,36 @@ public class SpawnBullets : MonoBehaviour {
         if (isFiring == true && firedOnce == false)
         {
             Vector2 playerFace = player.GetLastMove();
-            BulletController newBullet = Instantiate(bullet, this.transform.position, this.transform.rotation) as BulletController;
+            
 
-            Vector3 temp = newBullet.transform.position;
-            temp.z = 0;
-            newBullet.transform.position = temp;
+            Vector3 position = transform.position;
+            position.z = 0;
+
+            Vector3 rotation = transform.rotation.eulerAngles;
+            
             //if player faces down, rotate bullet to shoot down
             if (playerFace.Equals(new Vector2(playerFace.x, -1)))
                 {
-                    Vector3 rotation = transform.rotation.eulerAngles;
-                    temp.y = 0;
-                    temp.z = -90;
-                    newBullet.transform.rotation = Quaternion.Euler(rotation);
-                }
+                    
+                    rotation.y = 0;
+                    rotation.z = -90;
+            }
 
             //if player faces up, rotate bullet to shoot up
             if (playerFace.Equals(new Vector2(playerFace.x, 1)))
             {
-                Vector3 rotation = transform.rotation.eulerAngles;
-                temp.y = 0;
-                temp.z = 90;
-                newBullet.transform.rotation = Quaternion.Euler(rotation);
+                rotation.y = 0;
+                rotation.z = 90;
             }
-            print(newBullet.transform.position);
+
+            //if player faces left, rotate bullet to shoot up
+            if (playerFace.Equals(new Vector2(-1, playerFace.y)))
+            {
+                rotation.y = 0;
+                rotation.z = 180;
+            }
+
+            BulletController newBullet = Instantiate(bullet, position, Quaternion.Euler(rotation)) as BulletController;
             firedOnce = true;
         }
 

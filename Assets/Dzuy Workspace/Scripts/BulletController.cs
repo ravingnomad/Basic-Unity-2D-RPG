@@ -13,10 +13,14 @@ public class BulletController : MonoBehaviour {
 	void Start () {
 		
 	}
-	
+
 
     //Destroy on collision with anything
-
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag != "Player")
+            Destroy(gameObject);
+    }
 
 	// Update is called once per frame
 	void Update () {

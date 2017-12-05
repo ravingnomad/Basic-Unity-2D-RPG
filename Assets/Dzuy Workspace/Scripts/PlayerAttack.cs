@@ -34,19 +34,9 @@ public class PlayerAttack : MonoBehaviour {
         weaponSprite.enabled = false;
 	}
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-
-    }
-
-    void InflictDamage()
-    {
-        
-    }
 
 	// Update is called once per frame
 	void Update () {
-
         if (Input.GetKeyDown(KeyCode.Comma))
         {
             Vector2 faceDirection = player.GetComponent<PlayerMove>().GetLastMove();
@@ -67,7 +57,6 @@ public class PlayerAttack : MonoBehaviour {
             anim.SetBool("Attacking", true);
             anim.SetFloat("Last Move X", faceDirection.x);
             anim.SetFloat("Last Move Y", faceDirection.y);
-            InflictDamage();
         }
 
         //countdown to know when to end attack animation
