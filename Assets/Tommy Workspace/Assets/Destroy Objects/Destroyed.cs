@@ -8,7 +8,7 @@ public class Destroyed : MonoBehaviour {
 
     private void Update()
     {
-        if (item.health == 0)
+        if (item.health <= 0)
         {
             FindObjectOfType<DestroyManager>().AddToList(this.name);
             Destroy(gameObject);
