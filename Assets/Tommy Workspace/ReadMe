@@ -46,3 +46,5 @@ Version 1.6
     Bug fixes
 Version 1.7
     Removed non-asset folders and added a sound folder with corresponding files in assets folder.
+Version 1.8
+    Added bgm audio to scenes.
