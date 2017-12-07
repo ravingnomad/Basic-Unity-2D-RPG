@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/Space END.unity
-  isLoaded: 1
-  isActive: 1
