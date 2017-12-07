@@ -44,3 +44,5 @@ Version 1.5
     Added village and crashed spaceship map.
 Version 1.6
     Bug fixes
+Version 1.7
+    Removed non-asset folders and added a sound folder with corresponding files in assets folder.
