@@ -18,10 +18,11 @@ public class EnemyMovement : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+
         anim = GetComponent<Animator>();
         enemyBody = GetComponent<Rigidbody2D>();
         isMoving = false;
-        //lastMove = new Vector2(0, -1);
+        
         enemyBody.velocity = Vector2.zero;
         waitCounter = Random.Range(0, 4);
 	}

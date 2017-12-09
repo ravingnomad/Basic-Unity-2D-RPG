@@ -8,7 +8,7 @@ public class PlayerShoot : MonoBehaviour {
     public bool isMoving; //if character is/not moving, change to appropraite animation
     public float shootTime; //how long until next shot is fired
     public float shootTimeCounter;
-    
+    public bool hasGun; //can only shoot if player has gun
     private SpawnBullets spawner;
     private Rigidbody2D playerRigid;
     private Vector2 faceDirection;
@@ -27,7 +27,7 @@ public class PlayerShoot : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetKeyDown(KeyCode.Period))
+        if (Input.GetKeyDown(KeyCode.Period) && hasGun == true)
         {
             faceDirection = player.GetComponent<PlayerMove>().GetLastMove();
             //isMoving = player.GetComponent<PlayerMove>().moving();

@@ -4,18 +4,21 @@ using UnityEngine;
 
 public class PlayerStart : MonoBehaviour {
 
-    private GameObject thePlayer;
-    private GameObject theCamera;
+    public string pointName;
+
+    public PlayerMove thePlayer;
+    public PlayerCamera theCamera;
 
 
 	// Use this for initialization
-	void Start () {
-        thePlayer = GameObject.FindGameObjectWithTag("Player");
-        theCamera = GameObject.FindGameObjectWithTag("MainCamera");
-
-        thePlayer.transform.position = transform.position;
-        theCamera.transform.position = new Vector3(transform.position.x, transform.position.y, theCamera.transform.position.z);
-
+	void Awake () {
+        thePlayer = FindObjectOfType<PlayerMove>();
+        theCamera = FindObjectOfType<PlayerCamera>();
+        if (thePlayer.StartPoint == pointName)
+        {
+            thePlayer.transform.position = transform.position;
+            theCamera.transform.position = new Vector3(transform.position.x, transform.position.y, theCamera.transform.position.z);
+        }
 	}
 	
 	// Update is called once per frame

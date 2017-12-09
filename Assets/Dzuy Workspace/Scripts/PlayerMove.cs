@@ -5,23 +5,24 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour {
 
     public int moveSpeed = 5;
+    public string StartPoint;
 
     private Rigidbody2D MCBody;
     private Animator anim;
     private bool playerMoving;
     private Vector2 lastMove;
-    private static bool playerExists;
+    public static bool Exists;
 
 	void Start () {
         anim = GetComponent<Animator>();
         MCBody = GetComponent<Rigidbody2D>();
         lastMove = new Vector2(0, -1);
         
-        if (!playerExists)
+        if (!Exists)
         {
-            playerExists = true;
+           Exists = true;
             DontDestroyOnLoad(transform.gameObject);
-        }
+       }
 
         else
         {

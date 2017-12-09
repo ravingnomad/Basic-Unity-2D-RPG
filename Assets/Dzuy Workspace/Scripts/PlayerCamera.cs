@@ -7,14 +7,14 @@ public class PlayerCamera : MonoBehaviour {
     private Vector3 targetPosition;
     public float moveSpeed;
 
-    private static bool cameraExists;
+    public static bool Exists;
 	// Use this for initialization
 	void Start () {
         DontDestroyOnLoad(transform.gameObject);
 
-        if (!cameraExists)
+        if (!Exists)
         {
-            cameraExists = true;
+            Exists = true;
             DontDestroyOnLoad(transform.gameObject);
         }
 

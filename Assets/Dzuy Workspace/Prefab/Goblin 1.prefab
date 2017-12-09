@@ -175,6 +175,7 @@ MonoBehaviour:
   CurrentHealth: 0
   MaxHealth: 5
   dead: 0
+  hitBox: {fileID: 61917618710091624}
 --- !u!114 &114336751613540594
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -218,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f64bacc6017e414dabf19da708e0a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
+  damage: 1
 --- !u!114 &114805596455596710
 MonoBehaviour:
   m_ObjectHideFlags: 1

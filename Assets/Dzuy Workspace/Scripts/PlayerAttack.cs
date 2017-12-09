@@ -6,6 +6,7 @@ public class PlayerAttack : MonoBehaviour {
 
     private bool Attacking;
 
+    public bool hasSword;
     //attackTime is how long until attack is done
     //set Attacking to false
     //attackTimeCounter is the countdown
@@ -37,7 +38,7 @@ public class PlayerAttack : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.Comma))
+        if (hasSword == true && Input.GetKeyDown(KeyCode.Comma))
         {
             Vector2 faceDirection = player.GetComponent<PlayerMove>().GetLastMove();
 

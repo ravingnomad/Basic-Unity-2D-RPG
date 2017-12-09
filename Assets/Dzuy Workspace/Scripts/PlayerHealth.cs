@@ -30,7 +30,8 @@ public class PlayerHealth : MonoBehaviour {
             dead = true;
             StartCoroutine(DeathFade());
             //Destroy(gameObject);
-            
+            PlayerMove.Exists = false;
+            PlayerCamera.Exists = false;
             SceneManager.LoadScene("Game Over");
             //Destroy(playerCamera);
             faded = true;

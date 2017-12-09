@@ -336,6 +336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 6
+  StartPoint: 
 --- !u!212 &212621179857347030
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -11,7 +11,15 @@ public class LoadNewArea : MonoBehaviour {
     private int drawDepth = -1000;
     private float alpha = 1.0f;
     private int fadeDir = -1;
+
+    public string exitPoint;
     public string LevelToLoad;
+    private PlayerMove player;
+
+    void Start()
+    {
+        player = FindObjectOfType<PlayerMove>();
+    }
 
     void OnGUI()
     {
@@ -60,6 +68,7 @@ public class LoadNewArea : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
+            player.StartPoint = exitPoint;
             StartCoroutine(ChangeLevel());
         }
     }        
