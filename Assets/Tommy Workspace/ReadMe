@@ -48,3 +48,9 @@ Version 1.7
     Removed non-asset folders and added a sound folder with corresponding files in assets folder.
 Version 1.8
     Added bgm audio to scenes.
+Version 1.9
+    Details in email I sent to you. I added the sound folder with the audio tracks you will need.
+    The changes I made are in the version 1.9 zip file.
+    However, it would be faster to edit the scenes you currently.
+    Since I was unable to work with the scenes that you pushed.
+    Because the scenes wouldn't run due to missing prefabs/dependencies and other issues.
