@@ -1,0 +1,762 @@
+fileFormatVersion: 2
+guid: 7f042867e89e4e34aac8afd48bb58296
+timeCreated: 1511991137
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Slime Sprite_0
+    21300002: Slime Sprite_1
+    21300004: Slime Sprite_2
+    21300006: Slime Sprite_3
+    21300008: Slime Sprite_4
+    21300010: Slime Sprite_5
+    21300012: Slime Sprite_6
+    21300014: Slime Sprite_7
+    21300016: Slime Sprite_8
+    21300018: Slime Sprite_9
+    21300020: Slime Sprite_10
+    21300022: Slime Sprite_11
+    21300024: Slime Sprite_12
+    21300026: Slime Sprite_13
+    21300028: Slime Sprite_14
+    21300030: Slime Sprite_15
+    21300032: Slime Sprite_16
+    21300034: Slime Sprite_17
+    21300036: Slime Sprite_18
+    21300038: Slime Sprite_19
+    21300040: Slime Sprite_20
+    21300042: Slime Sprite_21
+    21300044: Slime Sprite_22
+    21300046: Slime Sprite_23
+    21300048: Slime Sprite_24
+    21300050: Slime Sprite_25
+    21300052: Slime Sprite_26
+    21300054: Slime Sprite_27
+    21300056: Slime Sprite_28
+    21300058: Slime Sprite_29
+    21300060: Slime Sprite_30
+    21300062: Slime Sprite_31
+    21300064: Slime Sprite_32
+    21300066: Slime Sprite_33
+    21300068: Slime Sprite_34
+    21300070: Slime Sprite_35
+    21300072: Slime Sprite_36
+    21300074: Slime Sprite_37
+    21300076: Slime Sprite_38
+    21300078: Slime Sprite_39
+    21300080: Slime Sprite_40
+    21300082: Slime Sprite_41
+    21300084: Slime Sprite_42
+    21300086: Slime Sprite_43
+    21300088: Slime Sprite_44
+    21300090: Slime Sprite_45
+    21300092: Slime Sprite_46
+    21300094: Slime Sprite_47
+    21300096: Slime Sprite_48
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 371
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 370
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 370
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 370
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 372
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 372
+        width: 64
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 327
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 327
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 328
+        width: 60
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 282
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 279
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 284
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 297
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 287
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 288
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 289
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 291
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 293
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 282
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 240
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 243
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 258
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 259
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 256
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 257
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 259
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 261
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 229
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 228
+        width: 64
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 207
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 206
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 216
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 215
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 214
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 111
+        width: 21
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 136
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 153
+        width: 48
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 167
+        width: 64
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 167
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 165
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 81
+        width: 38
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 55
+        width: 21
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 119
+        width: 50
+        height: 22
+      alignment: 9
+      pivot: {x: 0.2, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 119
+        width: 66
+        height: 21
+      alignment: 9
+      pivot: {x: 0.2, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 120
+        width: 92
+        height: 21
+      alignment: 9
+      pivot: {x: 0.2, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 88
+        width: 48
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_46
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 77
+        width: 92
+        height: 21
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 76
+        width: 66
+        height: 21
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime Sprite_48
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 76
+        width: 50
+        height: 22
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

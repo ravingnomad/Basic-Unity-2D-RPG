@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Enemy
+  - Player Weapon
+  - Enemy Attack
+  - Slime
+  - Goblin
+  - Player Bullet
+  - Destroy Enemies
+  - Game Over
+  - Camera Bounds
+  - Goblin Attack
+  - Slime Attack
   layers:
   - Default
   - TransparentFX
@@ -41,9 +53,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ground
+  - name: Environment
     uniqueID: 3110616351
     locked: 0
   - name: Player
     uniqueID: 2020492919
+    locked: 0
+  - name: Above Player
+    uniqueID: 3202313607
+    locked: 0
+  - name: Doorways
+    uniqueID: 3939668809
+    locked: 0
+  - name: Weapons
+    uniqueID: 265762861
+    locked: 0
+  - name: Objects
+    uniqueID: 49655649
     locked: 0

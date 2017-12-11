@@ -1,0 +1,1672 @@
+fileFormatVersion: 2
+guid: eeda32e7dadae3041a494dba83c0162b
+timeCreated: 1512874504
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Skeletons_0
+    21300002: Skeletons_1
+    21300004: Skeletons_2
+    21300006: Skeletons_3
+    21300008: Skeletons_4
+    21300010: Skeletons_5
+    21300012: Skeletons_6
+    21300014: Skeletons_7
+    21300016: Skeletons_8
+    21300018: Skeletons_9
+    21300020: Skeletons_10
+    21300022: Skeletons_11
+    21300024: Skeletons_12
+    21300026: Skeletons_13
+    21300028: Skeletons_14
+    21300030: Skeletons_15
+    21300032: Skeletons_16
+    21300034: Skeletons_17
+    21300036: Skeletons_18
+    21300038: Skeletons_19
+    21300040: Skeletons_20
+    21300042: Skeletons_21
+    21300044: Skeletons_22
+    21300046: Skeletons_23
+    21300048: Skeletons_24
+    21300050: Skeletons_25
+    21300052: Skeletons_26
+    21300054: Skeletons_27
+    21300056: Skeletons_28
+    21300058: Skeletons_29
+    21300060: Skeletons_30
+    21300062: Skeletons_31
+    21300064: Skeletons_32
+    21300066: Skeletons_33
+    21300068: Skeletons_34
+    21300070: Skeletons_35
+    21300072: Skeletons_36
+    21300074: Skeletons_37
+    21300076: Skeletons_38
+    21300078: Skeletons_39
+    21300080: Skeletons_40
+    21300082: Skeletons_41
+    21300084: Skeletons_42
+    21300086: Skeletons_43
+    21300088: Skeletons_44
+    21300090: Skeletons_45
+    21300092: Skeletons_46
+    21300094: Skeletons_47
+    21300096: Skeletons_48
+    21300098: Skeletons_49
+    21300100: Skeletons_50
+    21300102: Skeletons_51
+    21300104: Skeletons_52
+    21300106: Skeletons_53
+    21300108: Skeletons_54
+    21300110: Skeletons_55
+    21300112: Skeletons_56
+    21300114: Skeletons_57
+    21300116: Skeletons_58
+    21300118: Skeletons_59
+    21300120: Skeletons_60
+    21300122: Skeletons_61
+    21300124: Skeletons_62
+    21300126: Skeletons_63
+    21300128: Skeletons_64
+    21300130: Skeletons_65
+    21300132: Skeletons_66
+    21300134: Skeletons_67
+    21300136: Skeletons_68
+    21300138: Skeletons_69
+    21300140: Skeletons_70
+    21300142: Skeletons_71
+    21300144: Skeletons_72
+    21300146: Skeletons_73
+    21300148: Skeletons_74
+    21300150: Skeletons_75
+    21300152: Skeletons_76
+    21300154: Skeletons_77
+    21300156: Skeletons_78
+    21300158: Skeletons_79
+    21300160: Skeletons_80
+    21300162: Skeletons_81
+    21300164: Skeletons_82
+    21300166: Skeletons_83
+    21300168: Skeletons_84
+    21300170: Skeletons_85
+    21300172: Skeletons_86
+    21300174: Skeletons_87
+    21300176: Skeletons_88
+    21300178: Skeletons_89
+    21300180: Skeletons_90
+    21300182: Skeletons_91
+    21300184: Skeletons_92
+    21300186: Skeletons_93
+    21300188: Skeletons_94
+    21300190: Skeletons_95
+    21300192: Skeletons_96
+    21300194: Skeletons_97
+    21300196: Skeletons_98
+    21300198: Skeletons_99
+    21300200: Skeletons_100
+    21300202: Skeletons_101
+    21300204: Skeletons_102
+    21300206: Skeletons_103
+    21300208: Skeletons_104
+    21300210: Skeletons_105
+    21300212: Skeletons_106
+    21300214: Skeletons_107
+    21300216: Skeletons_108
+    21300218: Skeletons_109
+    21300220: Skeletons_110
+    21300222: Skeletons_111
+    21300224: Skeletons_112
+    21300226: Skeletons_113
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeletons_0
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 801
+        width: 203
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_1
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 962
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_2
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 833
+        width: 61
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_3
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 964
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_4
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 969
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_5
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 923
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_6
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 961
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_7
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 965
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_8
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 906
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_9
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 923
+        width: 119
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_10
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 964
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_11
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 969
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_12
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 957
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_13
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 963
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_14
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 957
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_15
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 957
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_16
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 950
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_17
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 952
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_18
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 942
+        width: 53
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_19
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 944
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_20
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 864
+        width: 193
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_21
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 922
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_22
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 922
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_23
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 936
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_24
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 927
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 841
+        width: 397
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_26
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 928
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_27
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 927
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_28
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 923
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_29
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 919
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_30
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 864
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_31
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 898
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_32
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 906
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_33
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 911
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_34
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 900
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_35
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 805
+        width: 8
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_36
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 902
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_37
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 894
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_38
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 895
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_39
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 448
+        width: 965
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_40
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 882
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_41
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 865
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_42
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 466
+        width: 558
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_43
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 876
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_44
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 872
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_45
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 889
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_46
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 835
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_47
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 881
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_48
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 871
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_49
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 879
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_50
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 848
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_51
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 871
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_52
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 850
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_53
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 824
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_54
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 803
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_55
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 821
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_56
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 810
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_57
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 806
+        width: 51
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_58
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 796
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 802
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_60
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 808
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 801
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_62
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 450
+        width: 242
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_63
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 477
+        width: 223
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_64
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 798
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_65
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 762
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_66
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 793
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_67
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 786
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 786
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_69
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 787
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_70
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 763
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_71
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 481
+        width: 229
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_72
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 763
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_73
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 757
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_74
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 757
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_75
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 749
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_76
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 728
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_77
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 738
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_78
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 729
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_79
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 721
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_80
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 695
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_81
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 705
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_82
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 698
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_83
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 695
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_84
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 688
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 626
+        width: 10
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_86
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 660
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_87
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 629
+        width: 77
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_88
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 639
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_89
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 627
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_90
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 558
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_91
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 529
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_92
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 551
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_93
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 403
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_94
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 396
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_95
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 321
+        width: 39
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_96
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 361
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_97
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 374
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_98
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 392
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_99
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 375
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_100
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 349
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_101
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 350
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_102
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 335
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_103
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 59
+        width: 170
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_104
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 321
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_105
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 48
+        width: 162
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_106
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 144
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_107
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 55
+        width: 155
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_108
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 55
+        width: 148
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_109
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 55
+        width: 171
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_110
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 55
+        width: 180
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_111
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 0
+        width: 530
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_112
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 71
+        width: 187
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skeletons_113
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 0
+        width: 242
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
