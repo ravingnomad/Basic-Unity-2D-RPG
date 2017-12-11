@@ -14,12 +14,19 @@ public class EnemyHealth : MonoBehaviour {
     private GoblinChase attack;
     private DestroyEnemies destroy;
     private BoxCollider2D collider;
+<<<<<<< HEAD
 
     private SFXManager sfx;
 
     // Use this for initialization
     void Start () {
         sfx = FindObjectOfType<SFXManager>();
+=======
+    
+
+    // Use this for initialization
+    void Start () {
+>>>>>>> origin/master
         collider = GetComponent<BoxCollider2D>();
         CurrentHealth = MaxHealth;
         anim = GetComponent<Animator>();
@@ -31,7 +38,12 @@ public class EnemyHealth : MonoBehaviour {
 
         if (CurrentHealth <= 0)
         {
+<<<<<<< HEAD
             anim.SetBool("Dead", true);            
+=======
+            anim.SetBool("Dead", true);
+           
+>>>>>>> origin/master
         }
     }
 
@@ -48,6 +60,7 @@ public class EnemyHealth : MonoBehaviour {
 
     public void Death()
     {
+<<<<<<< HEAD
         if (gameObject.tag == "Goblin")
         {
             GetComponent<GoblinTakeDamage>().enabled = false;
@@ -59,6 +72,8 @@ public class EnemyHealth : MonoBehaviour {
             GetComponent<SlimeTakeDamage>().enabled = false;
             sfx.SlimeDeath.Play();
         }
+=======
+>>>>>>> origin/master
         Rigidbody2D rigid = GetComponent<Rigidbody2D>();
         rigid.velocity = Vector2.zero;
         rigid.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
@@ -68,9 +83,23 @@ public class EnemyHealth : MonoBehaviour {
         attack.enabled = false;
         hitBox.enabled = false;
         collider.enabled = false;
+<<<<<<< HEAD
  
 
         //FindObjectOfType<DestroyManager>().AddToList(this.name);
+=======
+        if (gameObject.tag == "Goblin")
+        {
+            GetComponent<GoblinTakeDamage>().enabled = false;
+        }
+
+        if (gameObject.tag == "Slime")
+        {
+            GetComponent<SlimeTakeDamage>().enabled = false;
+        }
+
+        FindObjectOfType<DestroyManager>().AddToList(this.name);
+>>>>>>> origin/master
     }
 
 }

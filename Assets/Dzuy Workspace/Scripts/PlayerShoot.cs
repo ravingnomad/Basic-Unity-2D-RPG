@@ -14,12 +14,19 @@ public class PlayerShoot : MonoBehaviour {
     private Vector2 faceDirection;
     private GameObject player;
 
+<<<<<<< HEAD
     private SFXManager sfx;
 
     // Use this for initialization
     void Start () {
         anim = GetComponent<Animator>();
         sfx = FindObjectOfType<SFXManager>();
+=======
+    // Use this for initialization
+    void Start () {
+        anim = GetComponent<Animator>();
+        
+>>>>>>> origin/master
         player = GameObject.FindGameObjectWithTag("Player");
         playerRigid = player.GetComponent<Rigidbody2D>();
         spawner = player.GetComponentInChildren<SpawnBullets>();
@@ -40,7 +47,10 @@ public class PlayerShoot : MonoBehaviour {
             //anim.SetBool("Player Moving", isMoving);
             anim.SetFloat("Last Move X", faceDirection.x);
             anim.SetFloat("Last Move Y", faceDirection.y);
+<<<<<<< HEAD
             sfx.playerGunAttack.Play();
+=======
+>>>>>>> origin/master
             spawner.isFiring = true;
         }
 

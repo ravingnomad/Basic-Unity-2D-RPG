@@ -8,7 +8,11 @@ public class UIController : MonoBehaviour {
     public Slider healthBar;
     public PlayerHealth health;
 
+<<<<<<< HEAD
     public static bool UIExists;
+=======
+    private static bool UIExists;
+>>>>>>> origin/master
 	// Use this for initialization
 	void Start () {
         if (!UIExists)

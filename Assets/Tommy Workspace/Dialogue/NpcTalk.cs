@@ -46,6 +46,10 @@ public class NpcTalk : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
             FindObjectOfType<DialogueManager>().EndDialogue();
             in_range = false;
         }

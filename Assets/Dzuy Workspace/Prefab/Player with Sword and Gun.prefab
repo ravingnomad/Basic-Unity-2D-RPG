@@ -119,8 +119,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1797105893092308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -11.85, y: 6.77, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+=======
+  m_LocalPosition: {x: 10.916, y: -2.153, z: 0}
+  m_LocalScale: {x: 0.18, y: 0.14, z: 1}
+>>>>>>> origin/master
   m_Children:
   - {fileID: 4464983767572448}
   - {fileID: 4099119520682032}
@@ -261,7 +266,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 142b59957f4d73f4cb528049f7be7434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   hasSword: 0
+=======
+>>>>>>> origin/master
   attackTime: 0.5
   attackTrigger: {fileID: 61739388671834274}
   weaponSprite: {fileID: 212621179857347030}
@@ -292,7 +300,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b04ef2193748a4646929656444df5084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   damage: 10
+=======
+  damage: 5
+>>>>>>> origin/master
   weaponType: Sword
 --- !u!114 &114697551632450482
 MonoBehaviour:
@@ -308,7 +320,10 @@ MonoBehaviour:
   isMoving: 0
   shootTime: 0.15
   shootTimeCounter: 0
+<<<<<<< HEAD
   hasGun: 0
+=======
+>>>>>>> origin/master
 --- !u!114 &114984343186651582
 MonoBehaviour:
   m_ObjectHideFlags: 1

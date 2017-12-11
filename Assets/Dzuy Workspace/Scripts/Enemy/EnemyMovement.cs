@@ -16,6 +16,7 @@ public class EnemyMovement : MonoBehaviour {
     public bool isMoving;
     private Vector2 lastMove;
 
+<<<<<<< HEAD
     private bool ableToPlay; //only play sfx when on camera
 
     private SFXManager sfx;
@@ -23,6 +24,11 @@ public class EnemyMovement : MonoBehaviour {
     // Use this for initialization
     void Start () {
         sfx = FindObjectOfType<SFXManager>();
+=======
+    // Use this for initialization
+    void Start () {
+
+>>>>>>> origin/master
         anim = GetComponent<Animator>();
         enemyBody = GetComponent<Rigidbody2D>();
         isMoving = false;
@@ -84,10 +90,13 @@ public class EnemyMovement : MonoBehaviour {
             }
 
             //move for as long as this is greater than 0; once at zero, reset the waitCounter
+<<<<<<< HEAD
             if (gameObject.tag == "Slime" && sfx.SlimeMove.isPlaying == false && ableToPlay == true)
             {
                 sfx.SlimeMove.Play();
             }
+=======
+>>>>>>> origin/master
             moveCounter -= Time.deltaTime;
             if (moveCounter <= 0)
             {
@@ -111,6 +120,7 @@ public class EnemyMovement : MonoBehaviour {
         walkDirection = Random.Range(0, 4); //0 = up, 1 = down, 2 = right, 3 = left
 
     }
+<<<<<<< HEAD
 
     void OnBecameInvisible()
     {
@@ -121,4 +131,6 @@ public class EnemyMovement : MonoBehaviour {
     {
         ableToPlay = true;
     }
+=======
+>>>>>>> origin/master
 }

@@ -17,10 +17,15 @@ public class PlayerHealth : MonoBehaviour {
     private float alpha = 1.0f;
     private int fadeDir = -1;
 
+<<<<<<< HEAD
     private SFXManager sfx;
 
     void Start () {
         sfx = FindObjectOfType<SFXManager>();
+=======
+
+    void Start () {
+>>>>>>> origin/master
         CurrentHealth = MaxHealth;
         faded = false;
 	}
@@ -30,6 +35,7 @@ public class PlayerHealth : MonoBehaviour {
         if (CurrentHealth <= 0 && faded == false)
         {
             dead = true;
+<<<<<<< HEAD
             sfx.playerDeadGrunt.Play();
             sfx.playerDeadMusic.Play();
             StartCoroutine(DeathFade());
@@ -42,6 +48,12 @@ public class PlayerHealth : MonoBehaviour {
             //Destroy(FindObjectOfType<UIController>());
             Destroy(FindObjectOfType<PlayerCamera>());
             //FindObjectOfType<PlayerCamera>().gameObject.SetActive(false);
+=======
+            StartCoroutine(DeathFade());
+            //Destroy(gameObject);
+            PlayerMove.Exists = false;
+            PlayerCamera.Exists = false;
+>>>>>>> origin/master
             SceneManager.LoadScene("Game Over");
             //Destroy(playerCamera);
             faded = true;

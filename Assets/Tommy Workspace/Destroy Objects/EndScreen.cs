@@ -9,6 +9,7 @@ public class EndScreen : MonoBehaviour {
     {
         if (Input.inputString == "e")
         {
+<<<<<<< HEAD
             Destroy(GameObject.FindGameObjectWithTag("Player"));
             PlayerMove.Exists = false;
             PlayerCamera.Exists = false;
@@ -19,6 +20,10 @@ public class EndScreen : MonoBehaviour {
             SceneManager.LoadScene("Start Screen");
         }
 
+=======
+            SceneManager.LoadScene("Start Screen");
+        }
+>>>>>>> origin/master
         else if (Input.inputString == "q")
         {
             Application.Quit();

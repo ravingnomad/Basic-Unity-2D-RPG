@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour {
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
     public GameObject followTarget;
     private Vector3 targetPosition;
     public float moveSpeed;
 
+<<<<<<< HEAD
     public BoxCollider2D boundBox;
     private Vector3 minBounds;
     private Vector3 maxBounds;
@@ -20,6 +24,12 @@ public class PlayerCamera : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         //DontDestroyOnLoad(transform.gameObject);
+=======
+    public static bool Exists;
+	// Use this for initialization
+	void Start () {
+        DontDestroyOnLoad(transform.gameObject);
+>>>>>>> origin/master
 
         if (!Exists)
         {
@@ -31,6 +41,7 @@ public class PlayerCamera : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+<<<<<<< HEAD
         //boundBox = GameObject.FindGameObjectWithTag("Camera Bounds").GetComponent<BoxCollider2D>();
         //minBounds = boundBox.bounds.min;
         //maxBounds = boundBox.bounds.max;
@@ -38,12 +49,15 @@ public class PlayerCamera : MonoBehaviour {
         theCamera = GetComponent<Camera>();
         halfHeight = theCamera.orthographicSize;
         halfWidth = halfHeight * (Screen.width / Screen.height);
+=======
+>>>>>>> origin/master
     }
 	
 	// Update is called once per frame
 	void Update () {
         targetPosition = new Vector3(followTarget.transform.position.x, followTarget.transform.position.y, transform.position.z);
         transform.position = Vector3.Lerp(transform.position, targetPosition, moveSpeed);
+<<<<<<< HEAD
 
         if (boundBox == null)
         {
@@ -64,5 +78,7 @@ public class PlayerCamera : MonoBehaviour {
 
         minBounds = boundBox.bounds.min;
         maxBounds = boundBox.bounds.max;
+=======
+>>>>>>> origin/master
     }
 }

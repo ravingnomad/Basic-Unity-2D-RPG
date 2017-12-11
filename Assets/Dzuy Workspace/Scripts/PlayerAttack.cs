@@ -19,7 +19,10 @@ public class PlayerAttack : MonoBehaviour {
     private Animator anim;
     private Rigidbody2D playerRigid;
 
+<<<<<<< HEAD
     private SFXManager sfx;
+=======
+>>>>>>> origin/master
     //used to communicate with other scripts on whether the player is attacking or not
     public bool isAttacking()
     {
@@ -28,7 +31,10 @@ public class PlayerAttack : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+<<<<<<< HEAD
         sfx = FindObjectOfType<SFXManager>();
+=======
+>>>>>>> origin/master
         anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerRigid = player.GetComponent<Rigidbody2D>();
@@ -60,7 +66,10 @@ public class PlayerAttack : MonoBehaviour {
             anim.SetBool("Attacking", true);
             anim.SetFloat("Last Move X", faceDirection.x);
             anim.SetFloat("Last Move Y", faceDirection.y);
+<<<<<<< HEAD
             sfx.playerSwordAttack.Play();
+=======
+>>>>>>> origin/master
         }
 
         //countdown to know when to end attack animation

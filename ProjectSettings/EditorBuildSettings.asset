@@ -5,6 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+<<<<<<< HEAD
   - enabled: 0
     path: Assets/Dzuy Workspace/Scenes/Hand Dungeon.unity
   - enabled: 0
@@ -45,3 +46,9 @@ EditorBuildSettings:
     path: Assets/Tommy Workspace/Scenes/Space 2.unity
   - enabled: 1
     path: Assets/Tommy Workspace/Scenes/Credits.unity
+=======
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Hand Dungeon.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Basic Movement.unity
+>>>>>>> origin/master

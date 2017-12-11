@@ -18,12 +18,18 @@ public class GoblinTakeDamage : MonoBehaviour {
     private GoblinChase chasing;
     private Rigidbody2D rigid;
 
+<<<<<<< HEAD
     private SFXManager sfx;
 
     // Use this for initialization
     void Start()
     {
         sfx = FindObjectOfType<SFXManager>();
+=======
+    // Use this for initialization
+    void Start()
+    {
+>>>>>>> origin/master
         anim = GetComponent<Animator>();
         wasHit = false;
         rigid = GetComponent<Rigidbody2D>();
@@ -41,6 +47,7 @@ public class GoblinTakeDamage : MonoBehaviour {
         {
             PlayerWeaponProperties weapon = col.gameObject.GetComponent<PlayerWeaponProperties>();
 
+<<<<<<< HEAD
             int damageSound = Random.Range(1, 3);
             if (damageSound == 1)
             {
@@ -54,6 +61,9 @@ public class GoblinTakeDamage : MonoBehaviour {
             Debug.Log(damageSound);
             health.HurtEnemy(weapon.damage);
             
+=======
+            health.HurtEnemy(weapon.damage);
+>>>>>>> origin/master
             wasHit = true;
             Vector3 attackDirection = col.transform.position - transform.position;
             attackDirection = attackDirection.normalized;
@@ -61,7 +71,10 @@ public class GoblinTakeDamage : MonoBehaviour {
             if (Mathf.Abs(attackDirection.x) < .5)
             {
                 attackDirection.x = 0;
+<<<<<<< HEAD
                 
+=======
+>>>>>>> origin/master
             }
 
             if (Mathf.Abs(attackDirection.y) < .5)

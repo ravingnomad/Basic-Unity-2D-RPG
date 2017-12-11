@@ -15,6 +15,7 @@ public class PlayerDamaged : MonoBehaviour {
     private PlayerMove moving;
     private Rigidbody2D rigid;
 
+<<<<<<< HEAD
     private PlayerHealth health;
     private SFXManager sfx;
     private bool wasGoblin; //these two tells script which enemy attacked player and which SFX to use
@@ -23,6 +24,10 @@ public class PlayerDamaged : MonoBehaviour {
 	void Start () {
         health = GetComponent<PlayerHealth>();
         sfx = FindObjectOfType<SFXManager>();
+=======
+	// Use this for initialization
+	void Start () {
+>>>>>>> origin/master
         anim = GetComponent<Animator>();
         wasHit = false;
         rigid = GetComponent<Rigidbody2D>();
@@ -34,7 +39,11 @@ public class PlayerDamaged : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D col)
     {
+<<<<<<< HEAD
         if (col.gameObject.tag == "Slime Attack" || col.gameObject.tag == "Goblin Attack")
+=======
+        if (col.gameObject.tag == "Enemy Attack")
+>>>>>>> origin/master
         {
             wasHit = true;
             anim.SetBool("Damaged", true);
@@ -54,6 +63,7 @@ public class PlayerDamaged : MonoBehaviour {
             anim.SetFloat("Damaged X", attackDirection.x);
             anim.SetFloat("Damaged Y", attackDirection.y);
             force = new Vector2(attackDirection.x * knockback, attackDirection.y * knockback);
+<<<<<<< HEAD
 
             if (col.gameObject.tag == "Slime Attack" && health.CurrentHealth > col.gameObject.GetComponent<EnemyDamagePlayer>().damage)
                 sfx.playerHurtBySlime.Play();
@@ -62,6 +72,8 @@ public class PlayerDamaged : MonoBehaviour {
                 sfx.playerHurtByGoblin.Play();
 
             sfx.playerHurtGrunt.Play();
+=======
+>>>>>>> origin/master
         }
     }
 
@@ -76,7 +88,10 @@ public class PlayerDamaged : MonoBehaviour {
             attack.enabled = false;
 
             knockbackCounter -= Time.deltaTime;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
             if (knockbackCounter <= 0)
             {
                 moving.enabled = true;
@@ -84,8 +99,11 @@ public class PlayerDamaged : MonoBehaviour {
                 knockbackCounter = knockbackTime;
                 wasHit = false;
                 anim.SetBool("Damaged", false);
+<<<<<<< HEAD
                 wasGoblin = false;
                 wasSlime = false;
+=======
+>>>>>>> origin/master
             }
 
             else

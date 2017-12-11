@@ -7,6 +7,7 @@ public class DestroyManager : MonoBehaviour {
     // Use this for initialization
     public List<string> list;
 
+<<<<<<< HEAD
     public static bool Exists;
 
     private void Start()
@@ -21,6 +22,11 @@ public class DestroyManager : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+=======
+    private void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+>>>>>>> origin/master
     }
 
     private void Update()

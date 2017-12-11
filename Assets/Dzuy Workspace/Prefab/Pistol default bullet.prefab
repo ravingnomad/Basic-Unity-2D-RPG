@@ -83,7 +83,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b04ef2193748a4646929656444df5084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   damage: 5
+=======
+  damage: 2
+>>>>>>> origin/master
   weaponType: Pistol
 --- !u!212 &212757965309302540
 SpriteRenderer:

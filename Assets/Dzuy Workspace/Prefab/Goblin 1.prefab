@@ -23,7 +23,11 @@ GameObject:
   - component: {fileID: 114735178547097158}
   m_Layer: 0
   m_Name: Goblin Hit Box
+<<<<<<< HEAD
   m_TagString: Goblin Attack
+=======
+  m_TagString: Enemy Attack
+>>>>>>> origin/master
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,9 +62,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1262090213537454}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 22.7, y: 4.2448087, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.0584679, y: -1.1388595, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+>>>>>>> origin/master
   m_Children:
   - {fileID: 4724599288345056}
   m_Father: {fileID: 0}
@@ -173,7 +183,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentHealth: 0
+<<<<<<< HEAD
   MaxHealth: 50
+=======
+  MaxHealth: 5
+>>>>>>> origin/master
   dead: 0
   hitBox: {fileID: 61917618710091624}
 --- !u!114 &114336751613540594
@@ -187,9 +201,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1b52024abe6b14c9fb4e56c1882bb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   aggroDistance: 8
   player: {fileID: 0}
   moveSpeed: 3
+=======
+  aggroDistance: 5
+  player: {fileID: 0}
+  moveSpeed: 2
+>>>>>>> origin/master
   chaseTimer: 0
   aggroed: 1
   enemyMovement: {fileID: 0}
@@ -219,7 +239,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f64bacc6017e414dabf19da708e0a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   damage: 6
+=======
+  damage: 1
+>>>>>>> origin/master
 --- !u!114 &114805596455596710
 MonoBehaviour:
   m_ObjectHideFlags: 1

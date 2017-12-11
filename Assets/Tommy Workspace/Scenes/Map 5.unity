@@ -91,28 +91,43 @@ NavMeshSettings:
     cellSize: 0.16666667
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &483965
+=======
+--- !u!1 &50931373
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 483966}
   - component: {fileID: 483968}
   - component: {fileID: 483967}
   m_Layer: 0
   m_Name: Tree (17)
+=======
+  - component: {fileID: 50931374}
+  m_Layer: 0
+  m_Name: Rocks
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &483966
+=======
+--- !u!4 &50931374
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 483965}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.77, y: -3.6700008, z: 0}
@@ -171,26 +186,58 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &5728344
+=======
+  m_GameObject: {fileID: 50931373}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.2119417, y: -0.3555231, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 493291896}
+  - {fileID: 1286540881}
+  - {fileID: 1251893147}
+  - {fileID: 1103656801}
+  - {fileID: 1670879860}
+  - {fileID: 619958458}
+  - {fileID: 791977263}
+  - {fileID: 1432286334}
+  - {fileID: 839824810}
+  m_Father: {fileID: 1213017841}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &70881397
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 5728345}
   - component: {fileID: 5728350}
   m_Layer: 0
   m_Name: grass from opengameart (1)
+=======
+  - component: {fileID: 70881398}
+  - component: {fileID: 70881399}
+  m_Layer: 0
+  m_Name: gray rock (10)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &5728345
+=======
+--- !u!4 &70881398
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 5728344}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0.19031978, y: 12.95, z: 0.10546875}
@@ -200,11 +247,26 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &5728350
+=======
+  m_GameObject: {fileID: 70881397}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.7, y: 4, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200257909}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &70881399
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 5728344}
+=======
+  m_GameObject: {fileID: 70881397}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -228,6 +290,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b42828e0920e15249ac93d86f866523e, type: 3}
@@ -235,22 +298,40 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &6712592
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
+  m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &102408838
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 6712593}
   - component: {fileID: 6712595}
   - component: {fileID: 6712594}
   m_Layer: 0
   m_Name: Tree (25)
+=======
+  - component: {fileID: 102408841}
+  - component: {fileID: 102408840}
+  - component: {fileID: 102408839}
+  m_Layer: 0
+  m_Name: pine tree from opengameart (4)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &6712593
 Transform:
   m_ObjectHideFlags: 0
@@ -265,11 +346,18 @@ Transform:
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &6712594
+=======
+--- !u!61 &102408839
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 6712592}
+=======
+  m_GameObject: {fileID: 102408838}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -277,13 +365,22 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &6712595
+=======
+  m_Size: {x: 0.4, y: 0.25}
+--- !u!212 &102408840
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 6712592}
+=======
+  m_GameObject: {fileID: 102408838}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -313,28 +410,56 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< HEAD
 --- !u!1 &8460906
+=======
+--- !u!4 &102408841
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 102408838}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -21.2, y: -75.2, z: 0}
+  m_LocalScale: {x: 22.22222, y: 28.57143, z: 1}
+  m_Children: []
+  m_Father: {fileID: 296020744}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &179730677
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 8460907}
   - component: {fileID: 8460909}
   - component: {fileID: 8460908}
   m_Layer: 0
   m_Name: Tree (24)
+=======
+  - component: {fileID: 179730678}
+  m_Layer: 0
+  m_Name: Above Player Layer
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &8460907
+=======
+--- !u!4 &179730678
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 8460906}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.31, y: -3.63, z: 0}
@@ -344,11 +469,95 @@ Transform:
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &8460908
+=======
+  m_GameObject: {fileID: 179730677}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.301942, y: -4.334477, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 296020744}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &296020743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 296020744}
+  m_Layer: 0
+  m_Name: Trees
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &296020744
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 296020743}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.6719418, y: 4.5344768, z: 0}
+  m_LocalScale: {x: 0.18, y: 0.14, z: 1}
+  m_Children:
+  - {fileID: 1799853401}
+  - {fileID: 941235780}
+  - {fileID: 2088196355}
+  - {fileID: 686721327}
+  - {fileID: 102408841}
+  - {fileID: 457976716}
+  - {fileID: 1173637238}
+  - {fileID: 1907800700}
+  - {fileID: 983229086}
+  - {fileID: 432596430}
+  m_Father: {fileID: 179730678}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &432596429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 432596430}
+  - component: {fileID: 432596432}
+  - component: {fileID: 432596431}
+  m_Layer: 0
+  m_Name: pine tree from opengameart (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &432596430
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 432596429}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -64.49999, y: -36.500004, z: 0}
+  m_LocalScale: {x: 22.222218, y: 28.571434, z: 1}
+  m_Children: []
+  m_Father: {fileID: 296020744}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &432596431
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 8460906}
+=======
+  m_GameObject: {fileID: 432596429}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -356,13 +565,22 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &8460909
+=======
+  m_Size: {x: 0.4, y: 0.25}
+--- !u!212 &432596432
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 8460906}
+=======
+  m_GameObject: {fileID: 432596429}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -387,32 +605,53 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1092653689
+<<<<<<< HEAD
   m_SortingOrder: 4
+=======
+  m_SortingOrder: 0
+>>>>>>> origin/master
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< HEAD
 --- !u!1 &9585655
+=======
+--- !u!1 &457976715
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 9585656}
   - component: {fileID: 9585657}
   m_Layer: 0
   m_Name: gray rock (18)
+=======
+  - component: {fileID: 457976716}
+  - component: {fileID: 457976718}
+  - component: {fileID: 457976717}
+  m_Layer: 0
+  m_Name: pine tree from opengameart
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &9585656
+=======
+--- !u!4 &457976716
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 9585655}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -47.03, y: 4, z: 0}
@@ -422,11 +661,40 @@ Transform:
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &9585657
+=======
+  m_GameObject: {fileID: 457976715}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -139.16664, y: -47.142857, z: 0}
+  m_LocalScale: {x: 22.222218, y: 28.571434, z: 1}
+  m_Children: []
+  m_Father: {fileID: 296020744}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &457976717
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457976715}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: -0.25}
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.25}
+--- !u!212 &457976718
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 9585655}
+=======
+  m_GameObject: {fileID: 457976715}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -450,6 +718,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1184350945
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
@@ -457,27 +726,49 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &18671733
+=======
+  m_SortingLayerID: -1092653689
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &493291895
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 18671734}
   - component: {fileID: 18671736}
   - component: {fileID: 18671735}
   m_Layer: 0
   m_Name: Tree (16)
+=======
+  - component: {fileID: 493291896}
+  - component: {fileID: 493291898}
+  - component: {fileID: 493291897}
+  m_Layer: 0
+  m_Name: boulder
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &18671734
+=======
+--- !u!4 &493291896
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 18671733}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.36, y: -3.6500003, z: 0}
@@ -487,25 +778,51 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &18671735
+=======
+  m_GameObject: {fileID: 493291895}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.67, y: 7.6000004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 50931374}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &493291897
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 18671733}
+=======
+  m_GameObject: {fileID: 493291895}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< HEAD
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &18671736
+=======
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.28}
+--- !u!212 &493291898
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 18671733}
+=======
+  m_GameObject: {fileID: 493291895}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -529,6 +846,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -536,27 +854,108 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &20004524
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1001 &510240845
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 114830112483618376, guid: 4f04166c0bfecb64b8a247c2b16a5221,
+        type: 2}
+      propertyPath: LevelToLoad
+      value: Map 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150693996824848, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_Name
+      value: To Map 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114830112483618376, guid: 4f04166c0bfecb64b8a247c2b16a5221,
+        type: 2}
+      propertyPath: exitPoint
+      value: From Map 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &515687166
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 20004525}
   - component: {fileID: 20004527}
   - component: {fileID: 20004526}
   m_Layer: 0
   m_Name: Tree (18)
+=======
+  - component: {fileID: 515687167}
+  - component: {fileID: 515687168}
+  m_Layer: 0
+  m_Name: gray rock (1)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &20004525
+=======
+--- !u!4 &515687167
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 20004524}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.23, y: -3.63, z: 0}
@@ -580,11 +979,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &20004527
+=======
+  m_GameObject: {fileID: 515687166}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 28, y: 4, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200257909}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &515687168
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 20004524}
+=======
+  m_GameObject: {fileID: 515687166}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -608,6 +1022,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -615,27 +1030,52 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &22042144
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
+  m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &530940235
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 22042145}
   - component: {fileID: 22042147}
   - component: {fileID: 22042146}
   m_Layer: 0
   m_Name: Tree (17)
+=======
+  - component: {fileID: 530940236}
+  - component: {fileID: 530940238}
+  - component: {fileID: 530940237}
+  - component: {fileID: 530940240}
+  - component: {fileID: 530940239}
+  - component: {fileID: 530940241}
+  m_Layer: 0
+  m_Name: grass from opengameart
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &22042145
+=======
+--- !u!4 &530940236
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 22042144}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.77, y: -3.6700008, z: 0}
@@ -650,20 +1090,48 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 22042144}
+=======
+  m_GameObject: {fileID: 530940235}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.19031979, y: -3.8433185, z: 0.10546875}
+  m_LocalScale: {x: 8, y: 4, z: 1}
+  m_Children: []
+  m_Father: {fileID: 935118588}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &530940237
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 530940235}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< HEAD
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &22042147
+=======
+  m_Offset: {x: 0, y: 2.1}
+  m_Points:
+  - {x: -2.145, y: 0.058898687}
+  - {x: 2.145, y: 0}
+--- !u!212 &530940238
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 22042144}
+=======
+  m_GameObject: {fileID: 530940235}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -687,6 +1155,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -694,27 +1163,130 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &26766979
+=======
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b42828e0920e15249ac93d86f866523e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!114 &530940239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 530940235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!68 &530940240
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 530940235}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: -2.1376376, y: 2.1645262}
+  - {x: -2.1325164, y: -2.1056275}
+--- !u!68 &530940241
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 530940235}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: -2.135275, y: -2.1006336}
+  - {x: 2.1352746, y: -2.152501}
+--- !u!1 &617742344
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 26766980}
-  - component: {fileID: 26766982}
-  - component: {fileID: 26766981}
+  - component: {fileID: 617742345}
+  - component: {fileID: 617742346}
   m_Layer: 0
-  m_Name: Tree (18)
+  m_Name: Start Point 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &26766980
+--- !u!4 &617742345
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617742344}
+  m_LocalRotation: {x: -0.008562875, y: -0.02655274, z: -0.30680132, w: 0.95136464}
+  m_LocalPosition: {x: -34.3, y: 2.3, z: 9.2}
+  m_LocalScale: {x: 3, y: 4, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 1928435904}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &617742346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617742344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 083d7a6dcb7e0d1498309efcd33d52ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &619958457
+>>>>>>> origin/master
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 26766980}
+  - component: {fileID: 26766982}
+  - component: {fileID: 26766981}
+  m_Layer: 0
+  m_Name: Tree (18)
+=======
+  - component: {fileID: 619958458}
+  - component: {fileID: 619958460}
+  - component: {fileID: 619958459}
+  m_Layer: 0
+  m_Name: boulder
+>>>>>>> origin/master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!4 &26766980
+=======
+--- !u!4 &619958458
+>>>>>>> origin/master
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 26766979}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.23, y: -3.63, z: 0}
@@ -724,25 +1296,51 @@ Transform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &26766981
+=======
+  m_GameObject: {fileID: 619958457}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -26.06, y: 0.19000006, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 50931374}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &619958459
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 26766979}
+=======
+  m_GameObject: {fileID: 619958457}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< HEAD
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &26766982
+=======
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.28}
+--- !u!212 &619958460
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 26766979}
+=======
+  m_GameObject: {fileID: 619958457}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -766,6 +1364,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -773,27 +1372,48 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &37207257
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &684532366
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 37207258}
   - component: {fileID: 37207260}
   - component: {fileID: 37207259}
   m_Layer: 0
   m_Name: Tree (18)
+=======
+  - component: {fileID: 684532367}
+  - component: {fileID: 684532368}
+  m_Layer: 0
+  m_Name: gray rock (14)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &37207258
+=======
+--- !u!4 &684532367
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 37207257}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.23, y: -3.63, z: 0}
@@ -817,11 +1437,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &37207260
+=======
+  m_GameObject: {fileID: 684532366}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -27.9, y: 4, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200257909}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &684532368
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 37207257}
+=======
+  m_GameObject: {fileID: 684532366}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -845,6 +1480,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -852,22 +1488,40 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &39481207
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
+  m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &686721324
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 39481208}
   - component: {fileID: 39481210}
   - component: {fileID: 39481209}
   m_Layer: 0
   m_Name: Tree (22)
+=======
+  - component: {fileID: 686721327}
+  - component: {fileID: 686721326}
+  - component: {fileID: 686721325}
+  m_Layer: 0
+  m_Name: pine tree from opengameart (3)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &39481208
 Transform:
   m_ObjectHideFlags: 0
@@ -882,11 +1536,18 @@ Transform:
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &39481209
+=======
+--- !u!61 &686721325
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 39481207}
+=======
+  m_GameObject: {fileID: 686721324}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -894,13 +1555,22 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &39481210
+=======
+  m_Size: {x: 0.4, y: 0.25}
+--- !u!212 &686721326
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 39481207}
+=======
+  m_GameObject: {fileID: 686721324}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -930,6 +1600,7 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< HEAD
 --- !u!1 &40355344
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,10 +1657,14 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &50931374
+=======
+--- !u!4 &686721327
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 50931373}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.2119417, y: -0.3555231, z: 0}
@@ -1008,27 +1683,51 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &58359901
+=======
+  m_GameObject: {fileID: 686721324}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -67.2, y: 45.5, z: 0}
+  m_LocalScale: {x: 22.22222, y: 28.57143, z: 1}
+  m_Children: []
+  m_Father: {fileID: 296020744}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &791977262
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 58359902}
   - component: {fileID: 58359904}
   - component: {fileID: 58359903}
   m_Layer: 0
   m_Name: Tree (15)
+=======
+  - component: {fileID: 791977263}
+  - component: {fileID: 791977265}
+  - component: {fileID: 791977264}
+  m_Layer: 0
+  m_Name: boulder (1)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &58359902
+=======
+--- !u!4 &791977263
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 58359901}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.96, y: -3.6600006, z: 0}
@@ -1038,25 +1737,51 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &58359903
+=======
+  m_GameObject: {fileID: 791977262}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.169999, y: 0.19000006, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 50931374}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &791977264
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 58359901}
+=======
+  m_GameObject: {fileID: 791977262}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< HEAD
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &58359904
+=======
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.28}
+--- !u!212 &791977265
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 58359901}
+=======
+  m_GameObject: {fileID: 791977262}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1080,6 +1805,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -1087,27 +1813,49 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &60819325
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &839824809
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 60819326}
   - component: {fileID: 60819328}
   - component: {fileID: 60819327}
   m_Layer: 0
   m_Name: Tree (24)
+=======
+  - component: {fileID: 839824810}
+  - component: {fileID: 839824812}
+  - component: {fileID: 839824811}
+  m_Layer: 0
+  m_Name: boulder (3)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &60819326
+=======
+--- !u!4 &839824810
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 60819325}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.31, y: -3.63, z: 0}
@@ -1117,25 +1865,51 @@ Transform:
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &60819327
+=======
+  m_GameObject: {fileID: 839824809}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -18.39, y: -7.4100003, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 50931374}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &839824811
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 60819325}
+=======
+  m_GameObject: {fileID: 839824809}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< HEAD
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &60819328
+=======
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.28}
+--- !u!212 &839824812
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 60819325}
+=======
+  m_GameObject: {fileID: 839824809}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1159,6 +1933,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -1166,27 +1941,48 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &61401253
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &912827194
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 61401254}
   - component: {fileID: 61401256}
   - component: {fileID: 61401255}
   m_Layer: 0
   m_Name: Tree (18)
+=======
+  - component: {fileID: 912827195}
+  - component: {fileID: 912827196}
+  m_Layer: 0
+  m_Name: gray rock (4)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &61401254
+=======
+--- !u!4 &912827195
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 61401253}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.23, y: -3.63, z: 0}
@@ -1210,11 +2006,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &61401256
+=======
+  m_GameObject: {fileID: 912827194}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.53, y: 4, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200257909}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &912827196
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 61401253}
+=======
+  m_GameObject: {fileID: 912827194}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1238,6 +2049,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -1245,27 +2057,49 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &63273757
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
+  m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &935118587
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 63273758}
   - component: {fileID: 63273760}
   - component: {fileID: 63273759}
   m_Layer: 0
   m_Name: Tree (16)
+=======
+  - component: {fileID: 935118588}
+  - component: {fileID: 935118590}
+  - component: {fileID: 935118589}
+  m_Layer: 0
+  m_Name: Grass
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &63273758
+=======
+--- !u!4 &935118588
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 63273757}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.36, y: -3.6500003, z: 0}
@@ -1275,11 +2109,70 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &63273759
+=======
+  m_GameObject: {fileID: 935118587}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.492262, y: 8.177795, z: -0.10546875}
+  m_LocalScale: {x: 2, y: 1.5, z: 1}
+  m_Children:
+  - {fileID: 530940236}
+  m_Father: {fileID: 1065146229}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &935118589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 935118587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!68 &935118590
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 935118587}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: 17.276861, y: -12.5027485}
+  - {x: 17.343706, y: 4.537284}
+--- !u!1 &941235777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 941235780}
+  - component: {fileID: 941235779}
+  - component: {fileID: 941235778}
+  m_Layer: 0
+  m_Name: pine tree from opengameart (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &941235778
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 63273757}
+=======
+  m_GameObject: {fileID: 941235777}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -1287,13 +2180,22 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &63273760
+=======
+  m_Size: {x: 0.4, y: 0.25}
+--- !u!212 &941235779
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 63273757}
+=======
+  m_GameObject: {fileID: 941235777}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1318,33 +2220,66 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1092653689
+<<<<<<< HEAD
   m_SortingOrder: 4
+=======
+  m_SortingOrder: 0
+>>>>>>> origin/master
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< HEAD
 --- !u!1 &64443959
+=======
+--- !u!4 &941235780
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 941235777}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 65.4, y: -65.3, z: 0}
+  m_LocalScale: {x: 22.22222, y: 28.57143, z: 1}
+  m_Children: []
+  m_Father: {fileID: 296020744}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &979568550
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 64443960}
   - component: {fileID: 64443962}
   - component: {fileID: 64443961}
   m_Layer: 0
   m_Name: Tree (17)
+=======
+  - component: {fileID: 979568551}
+  - component: {fileID: 979568552}
+  m_Layer: 0
+  m_Name: gray rock (12)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &64443960
+=======
+--- !u!4 &979568551
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 64443959}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.77, y: -3.6700008, z: 0}
@@ -1368,11 +2303,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &64443962
+=======
+  m_GameObject: {fileID: 979568550}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -15.3, y: 4, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200257909}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &979568552
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 64443959}
+=======
+  m_GameObject: {fileID: 979568550}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1396,6 +2346,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -1404,26 +2355,49 @@ SpriteRenderer:
   m_FlipY: 0
 --- !u!1 &69148257
 GameObject:
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
+  m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &983229085
+GameObject:
+>>>>>>> origin/master
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 69148258}
   - component: {fileID: 69148260}
   - component: {fileID: 69148259}
   m_Layer: 0
   m_Name: Tree (25)
+=======
+  - component: {fileID: 983229086}
+  - component: {fileID: 983229088}
+  - component: {fileID: 983229087}
+  m_Layer: 0
+  m_Name: pine tree from opengameart (3)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &69148258
+=======
+--- !u!4 &983229086
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 69148257}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.72, y: -3.63, z: 0}
@@ -1433,11 +2407,26 @@ Transform:
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &69148259
+=======
+  m_GameObject: {fileID: 983229085}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -129.77776, y: 29.571432, z: 0}
+  m_LocalScale: {x: 22.222218, y: 28.571434, z: 1}
+  m_Children: []
+  m_Father: {fileID: 296020744}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &983229087
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 69148257}
+=======
+  m_GameObject: {fileID: 983229085}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -1445,13 +2434,22 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &69148260
+=======
+  m_Size: {x: 0.4, y: 0.25}
+--- !u!212 &983229088
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 69148257}
+=======
+  m_GameObject: {fileID: 983229085}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1481,27 +2479,54 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< HEAD
 --- !u!1 &70881397
+=======
+--- !u!1 &1007653474
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 70881398}
   - component: {fileID: 70881399}
   m_Layer: 0
   m_Name: gray rock (10)
+=======
+  - component: {fileID: 1007653476}
+  - component: {fileID: 1007653475}
+  m_Layer: 0
+  m_Name: Start Point 1
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &70881398
+=======
+--- !u!114 &1007653475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1007653474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 083d7a6dcb7e0d1498309efcd33d52ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1007653476
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 70881397}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.7, y: 4, z: 0}
@@ -1511,11 +2536,99 @@ Transform:
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &70881399
+=======
+  m_GameObject: {fileID: 1007653474}
+  m_LocalRotation: {x: -0.008562875, y: -0.02655274, z: -0.30680132, w: 0.95136464}
+  m_LocalPosition: {x: 27.32, y: 3.02, z: 11.92}
+  m_LocalScale: {x: 3, y: 4, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1928435904}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1065146228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1065146229}
+  m_Layer: 0
+  m_Name: Default Layer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1065146229
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065146228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.301942, y: -4.334477, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 935118588}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1103656800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1103656801}
+  - component: {fileID: 1103656803}
+  - component: {fileID: 1103656802}
+  m_Layer: 0
+  m_Name: boulder (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1103656801
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103656800}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 34.63, y: 7.2900004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 50931374}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1103656802
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103656800}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.28}
+--- !u!212 &1103656803
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 70881397}
+=======
+  m_GameObject: {fileID: 1103656800}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1541,31 +2654,102 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1184350945
   m_SortingOrder: 0
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &86749510
+=======
+  m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1001 &1109389471
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -30.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1409934694301142, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_Name
+      value: From Map 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114312403056931820, guid: 03a0c6e411629d346bc8524e03dbb8ae,
+        type: 2}
+      propertyPath: pointName
+      value: From Map 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1159795469
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 86749511}
   - component: {fileID: 86749512}
   m_Layer: 0
   m_Name: gray rock (7)
+=======
+  - component: {fileID: 1159795470}
+  - component: {fileID: 1159795471}
+  m_Layer: 0
+  m_Name: gray rock (11)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &86749511
+=======
+--- !u!4 &1159795470
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 86749510}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 5.4399996, y: 10.92, z: 0}
@@ -1575,11 +2759,26 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &86749512
+=======
+  m_GameObject: {fileID: 1159795469}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9, y: 4, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200257909}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1159795471
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 86749510}
+=======
+  m_GameObject: {fileID: 1159795469}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1609,6 +2808,7 @@ SpriteRenderer:
   m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< HEAD
 --- !u!1 &88467704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,27 +2850,43 @@ Transform:
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &90831665
+=======
+--- !u!1 &1173637237
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 90831666}
   - component: {fileID: 90831668}
   - component: {fileID: 90831667}
   m_Layer: 0
   m_Name: Tree (25)
+=======
+  - component: {fileID: 1173637238}
+  - component: {fileID: 1173637240}
+  - component: {fileID: 1173637239}
+  m_Layer: 0
+  m_Name: pine tree from opengameart (1)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &90831666
+=======
+--- !u!4 &1173637238
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 90831665}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.72, y: -3.63, z: 0}
@@ -1680,11 +2896,26 @@ Transform:
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &90831667
+=======
+  m_GameObject: {fileID: 1173637237}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.777771, y: -47.142857, z: 0}
+  m_LocalScale: {x: 22.222218, y: 28.571434, z: 1}
+  m_Children: []
+  m_Father: {fileID: 296020744}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1173637239
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 90831665}
+=======
+  m_GameObject: {fileID: 1173637237}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -1692,13 +2923,22 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &90831668
+=======
+  m_Size: {x: 0.4, y: 0.25}
+--- !u!212 &1173637240
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 90831665}
+=======
+  m_GameObject: {fileID: 1173637237}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1723,33 +2963,52 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1092653689
+<<<<<<< HEAD
   m_SortingOrder: 4
+=======
+  m_SortingOrder: 0
+>>>>>>> origin/master
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< HEAD
 --- !u!1 &94171856
+=======
+--- !u!1 &1200257908
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 94171857}
   - component: {fileID: 94171859}
   - component: {fileID: 94171858}
   m_Layer: 0
   m_Name: Tree (20)
+=======
+  - component: {fileID: 1200257909}
+  m_Layer: 0
+  m_Name: Road
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &94171857
+=======
+--- !u!4 &1200257909
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 94171856}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.08, y: -3.6600006, z: 0}
@@ -1808,27 +3067,93 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &94289255
+=======
+  m_GameObject: {fileID: 1200257908}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.2119417, y: -0.3555231, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1841218401}
+  - {fileID: 515687167}
+  - {fileID: 1793832235}
+  - {fileID: 1360521676}
+  - {fileID: 912827195}
+  - {fileID: 1345567681}
+  - {fileID: 70881398}
+  - {fileID: 1159795470}
+  - {fileID: 979568551}
+  - {fileID: 1924455768}
+  - {fileID: 684532367}
+  - {fileID: 1982835830}
+  m_Father: {fileID: 1213017841}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1213017840
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 94289256}
-  - component: {fileID: 94289258}
-  - component: {fileID: 94289257}
+  - component: {fileID: 1213017841}
   m_Layer: 0
-  m_Name: Tree (20)
+  m_Name: Environment Layer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &94289256
+--- !u!4 &1213017841
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1213017840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.301942, y: -4.334477, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1200257909}
+  - {fileID: 50931374}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1251893146
+>>>>>>> origin/master
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 94289256}
+  - component: {fileID: 94289258}
+  - component: {fileID: 94289257}
+  m_Layer: 0
+  m_Name: Tree (20)
+=======
+  - component: {fileID: 1251893147}
+  - component: {fileID: 1251893149}
+  - component: {fileID: 1251893148}
+  m_Layer: 0
+  m_Name: boulder
+>>>>>>> origin/master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!4 &94289256
+=======
+--- !u!4 &1251893147
+>>>>>>> origin/master
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 94289255}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.08, y: -3.6600006, z: 0}
@@ -1838,25 +3163,51 @@ Transform:
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &94289257
+=======
+  m_GameObject: {fileID: 1251893146}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.74, y: 7.2900004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 50931374}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1251893148
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 94289255}
+=======
+  m_GameObject: {fileID: 1251893146}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< HEAD
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &94289258
+=======
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.28}
+--- !u!212 &1251893149
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 94289255}
+=======
+  m_GameObject: {fileID: 1251893146}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1880,6 +3231,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -1887,27 +3239,49 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &97669390
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1286540880
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 97669391}
   - component: {fileID: 97669393}
   - component: {fileID: 97669392}
   m_Layer: 0
   m_Name: Tree (16)
+=======
+  - component: {fileID: 1286540881}
+  - component: {fileID: 1286540883}
+  - component: {fileID: 1286540882}
+  m_Layer: 0
+  m_Name: boulder (2)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &97669391
+=======
+--- !u!4 &1286540881
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 97669390}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.36, y: -3.6500003, z: 0}
@@ -1917,25 +3291,51 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &97669392
+=======
+  m_GameObject: {fileID: 1286540880}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.22, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 50931374}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1286540882
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 97669390}
+=======
+  m_GameObject: {fileID: 1286540880}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< HEAD
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &97669393
+=======
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.28}
+--- !u!212 &1286540883
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 97669390}
+=======
+  m_GameObject: {fileID: 1286540880}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1959,6 +3359,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -1966,22 +3367,39 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &102408838
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1345567680
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 102408841}
   - component: {fileID: 102408840}
   - component: {fileID: 102408839}
   m_Layer: 0
   m_Name: pine tree from opengameart (4)
+=======
+  - component: {fileID: 1345567681}
+  - component: {fileID: 1345567682}
+  m_Layer: 0
+  m_Name: gray rock (9)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!61 &102408839
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1997,11 +3415,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.25}
 --- !u!212 &102408840
+=======
+--- !u!4 &1345567681
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1345567680}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.6, y: 4, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200257909}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1345567682
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 102408838}
+=======
+  m_GameObject: {fileID: 1345567680}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -2025,6 +3463,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -2045,27 +3484,48 @@ Transform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &109733951
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
+  m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1360521675
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 109733952}
   - component: {fileID: 109733954}
   - component: {fileID: 109733953}
   m_Layer: 0
   m_Name: Tree (18)
+=======
+  - component: {fileID: 1360521676}
+  - component: {fileID: 1360521677}
+  m_Layer: 0
+  m_Name: gray rock (3)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &109733952
+=======
+--- !u!4 &1360521676
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 109733951}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.23, y: -3.63, z: 0}
@@ -2089,11 +3549,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &109733954
+=======
+  m_GameObject: {fileID: 1360521675}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.76, y: 4, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200257909}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1360521677
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 109733951}
+=======
+  m_GameObject: {fileID: 1360521675}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -2117,6 +3592,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -2124,27 +3600,49 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &120987986
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
+  m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1432286333
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 120987987}
   - component: {fileID: 120987989}
   - component: {fileID: 120987988}
   m_Layer: 0
   m_Name: Tree (17)
+=======
+  - component: {fileID: 1432286334}
+  - component: {fileID: 1432286336}
+  - component: {fileID: 1432286335}
+  m_Layer: 0
+  m_Name: boulder (2)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &120987987
+=======
+--- !u!4 &1432286334
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 120987986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.77, y: -3.6700008, z: 0}
@@ -2154,25 +3652,51 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &120987988
+=======
+  m_GameObject: {fileID: 1432286333}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.169999, y: -7.4100003, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 50931374}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1432286335
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 120987986}
+=======
+  m_GameObject: {fileID: 1432286333}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< HEAD
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &120987989
+=======
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.28}
+--- !u!212 &1432286336
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 120987986}
+=======
+  m_GameObject: {fileID: 1432286333}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -2196,6 +3720,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -37381,27 +38906,109 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &2111631328
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1001 &1443087195
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -34.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150693996824848, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+      propertyPath: m_Name
+      value: To Map 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114830112483618376, guid: 4f04166c0bfecb64b8a247c2b16a5221,
+        type: 2}
+      propertyPath: LevelToLoad
+      value: Map 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114830112483618376, guid: 4f04166c0bfecb64b8a247c2b16a5221,
+        type: 2}
+      propertyPath: exitPoint
+      value: From Map 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1670879859
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 2111631329}
   - component: {fileID: 2111631331}
   - component: {fileID: 2111631330}
   m_Layer: 0
   m_Name: Tree (24)
+=======
+  - component: {fileID: 1670879860}
+  - component: {fileID: 1670879862}
+  - component: {fileID: 1670879861}
+  m_Layer: 0
+  m_Name: boulder (2)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &2111631329
+=======
+--- !u!4 &1670879860
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2111631328}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.31, y: -3.63, z: 0}
@@ -37411,25 +39018,51 @@ Transform:
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2111631330
+=======
+  m_GameObject: {fileID: 1670879859}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 34.63, y: -0.30999994, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 50931374}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1670879861
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2111631328}
+=======
+  m_GameObject: {fileID: 1670879859}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< HEAD
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &2111631331
+=======
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.28}
+--- !u!212 &1670879862
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2111631328}
+=======
+  m_GameObject: {fileID: 1670879859}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -37453,6 +39086,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -37579,27 +39213,99 @@ Transform:
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2123027658
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1001 &1708891015
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 29.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1409934694301142, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+      propertyPath: m_Name
+      value: From Map 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114312403056931820, guid: 03a0c6e411629d346bc8524e03dbb8ae,
+        type: 2}
+      propertyPath: pointName
+      value: From Map 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1793832234
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 2123027659}
   - component: {fileID: 2123027661}
   - component: {fileID: 2123027660}
   m_Layer: 0
   m_Name: Tree (20)
+=======
+  - component: {fileID: 1793832235}
+  - component: {fileID: 1793832236}
+  m_Layer: 0
+  m_Name: gray rock (2)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &2123027659
+=======
+--- !u!4 &1793832235
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2123027658}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.08, y: -3.6600006, z: 0}
@@ -37623,11 +39329,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &2123027661
+=======
+  m_GameObject: {fileID: 1793832234}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 21.7, y: 4, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200257909}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1793832236
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2123027658}
+=======
+  m_GameObject: {fileID: 1793832234}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -37651,6 +39372,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -37658,22 +39380,40 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &2130464994
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
+  m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1799853398
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 2130464995}
   - component: {fileID: 2130464997}
   - component: {fileID: 2130464996}
   m_Layer: 0
   m_Name: Tree (14)
+=======
+  - component: {fileID: 1799853401}
+  - component: {fileID: 1799853400}
+  - component: {fileID: 1799853399}
+  m_Layer: 0
+  m_Name: pine tree from opengameart
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &2130464995
 Transform:
   m_ObjectHideFlags: 0
@@ -37688,11 +39428,18 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2130464996
+=======
+--- !u!61 &1799853399
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2130464994}
+=======
+  m_GameObject: {fileID: 1799853398}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -37700,13 +39447,22 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &2130464997
+=======
+  m_Size: {x: 0.4, y: 0.25}
+--- !u!212 &1799853400
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2130464994}
+=======
+  m_GameObject: {fileID: 1799853398}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -37736,28 +39492,57 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< HEAD
 --- !u!1 &2133879094
+=======
+--- !u!4 &1799853401
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1799853398}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 139.9, y: -72.2, z: 0}
+  m_LocalScale: {x: 22.22222, y: 28.57143, z: 1}
+  m_Children: []
+  m_Father: {fileID: 296020744}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1841218400
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 2133879095}
   - component: {fileID: 2133879097}
   - component: {fileID: 2133879096}
   m_Layer: 0
   m_Name: Tree (24)
+=======
+  - component: {fileID: 1841218401}
+  - component: {fileID: 1841218402}
+  m_Layer: 0
+  m_Name: gray rock
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &2133879095
+=======
+--- !u!4 &1841218401
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2133879094}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.31, y: -3.63, z: 0}
@@ -37781,11 +39566,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &2133879097
+=======
+  m_GameObject: {fileID: 1841218400}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 34.3, y: 4, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200257909}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1841218402
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2133879094}
+=======
+  m_GameObject: {fileID: 1841218400}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -37809,6 +39609,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -37856,27 +39657,49 @@ Transform:
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2138149042
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
+  m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1907800699
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 2138149043}
   - component: {fileID: 2138149045}
   - component: {fileID: 2138149044}
   m_Layer: 0
   m_Name: Tree (14)
+=======
+  - component: {fileID: 1907800700}
+  - component: {fileID: 1907800702}
+  - component: {fileID: 1907800701}
+  m_Layer: 0
+  m_Name: pine tree from opengameart (2)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &2138149043
+=======
+--- !u!4 &1907800700
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2138149042}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: -3.64, z: 0}
@@ -37886,11 +39709,26 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2138149044
+=======
+  m_GameObject: {fileID: 1907800699}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.5, y: 47.1, z: 0}
+  m_LocalScale: {x: 22.222218, y: 28.571434, z: 1}
+  m_Children: []
+  m_Father: {fileID: 296020744}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1907800701
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2138149042}
+=======
+  m_GameObject: {fileID: 1907800699}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -37898,13 +39736,22 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &2138149045
+=======
+  m_Size: {x: 0.4, y: 0.25}
+--- !u!212 &1907800702
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2138149042}
+=======
+  m_GameObject: {fileID: 1907800699}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -37929,33 +39776,53 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1092653689
+<<<<<<< HEAD
   m_SortingOrder: 1
+=======
+  m_SortingOrder: 0
+>>>>>>> origin/master
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< HEAD
 --- !u!1 &2139761379
+=======
+--- !u!1 &1924455767
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 2139761380}
   - component: {fileID: 2139761382}
   - component: {fileID: 2139761381}
   m_Layer: 0
   m_Name: Tree (15)
+=======
+  - component: {fileID: 1924455768}
+  - component: {fileID: 1924455769}
+  m_Layer: 0
+  m_Name: gray rock (13)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &2139761380
+=======
+--- !u!4 &1924455768
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2139761379}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.96, y: -3.6600006, z: 0}
@@ -37979,11 +39846,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &2139761382
+=======
+  m_GameObject: {fileID: 1924455767}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -21.5, y: 4, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200257909}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1924455769
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2139761379}
+=======
+  m_GameObject: {fileID: 1924455767}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -38007,6 +39889,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -38014,27 +39897,47 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &2140211701
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
+  m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &1928435903
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 2140211702}
   - component: {fileID: 2140211704}
   - component: {fileID: 2140211703}
   m_Layer: 0
   m_Name: Tree (19)
+=======
+  - component: {fileID: 1928435904}
+  m_Layer: 0
+  m_Name: User Interface
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &2140211702
+=======
+--- !u!4 &1928435904
+>>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2140211701}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.67, y: -3.64, z: 0}
@@ -38058,11 +39961,57 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &2140211704
+=======
+  m_GameObject: {fileID: 1928435903}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.301942, y: -4.334477, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1007653476}
+  - {fileID: 617742345}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1982835829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1982835830}
+  - component: {fileID: 1982835831}
+  m_Layer: 0
+  m_Name: gray rock (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1982835830
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1982835829}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.75, y: 4, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200257909}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1982835831
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2140211701}
+=======
+  m_GameObject: {fileID: 1982835829}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -38086,6 +40035,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -1092653689
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
@@ -38093,22 +40043,40 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &2147070290
+=======
+  m_SortingLayerID: -1184350945
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
+  m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1 &2088196352
+>>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 2147070291}
   - component: {fileID: 2147070293}
   - component: {fileID: 2147070292}
   m_Layer: 0
   m_Name: Tree (25)
+=======
+  - component: {fileID: 2088196355}
+  - component: {fileID: 2088196354}
+  - component: {fileID: 2088196353}
+  m_Layer: 0
+  m_Name: pine tree from opengameart (2)
+>>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &2147070291
 Transform:
   m_ObjectHideFlags: 0
@@ -38123,11 +40091,18 @@ Transform:
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2147070292
+=======
+--- !u!61 &2088196353
+>>>>>>> origin/master
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2147070290}
+=======
+  m_GameObject: {fileID: 2088196352}
+>>>>>>> origin/master
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -38135,13 +40110,22 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 0.5, y: 0.25}
 --- !u!212 &2147070293
+=======
+  m_Size: {x: 0.4, y: 0.25}
+--- !u!212 &2088196354
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2147070290}
+=======
+  m_GameObject: {fileID: 2088196352}
+>>>>>>> origin/master
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -38166,8 +40150,28 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1092653689
+<<<<<<< HEAD
   m_SortingOrder: 1
+=======
+  m_SortingOrder: 0
+>>>>>>> origin/master
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< HEAD
+=======
+--- !u!4 &2088196355
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2088196352}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 119.2, y: 33.2, z: 0}
+  m_LocalScale: {x: 22.22222, y: 28.57143, z: 1}
+  m_Children: []
+  m_Father: {fileID: 296020744}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> origin/master

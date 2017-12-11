@@ -18,11 +18,17 @@ public class SlimeTakeDamage : MonoBehaviour {
     private GoblinChase chasing;
     private Rigidbody2D rigid;
 
+<<<<<<< HEAD
     private SFXManager sfx;
     // Use this for initialization
     void Start()
     {
         sfx = FindObjectOfType<SFXManager>();
+=======
+    // Use this for initialization
+    void Start()
+    {
+>>>>>>> origin/master
         anim = GetComponent<Animator>();
         wasHit = false;
         rigid = GetComponent<Rigidbody2D>();
@@ -38,9 +44,16 @@ public class SlimeTakeDamage : MonoBehaviour {
         //if was hit by player's gun, damage and knockback are minimal
         if (col.gameObject.tag == "Player Bullet")
         {
+<<<<<<< HEAD
             PlayerWeaponProperties weapon = col.gameObject.GetComponent<PlayerWeaponProperties>();
 
             health.HurtEnemy(weapon.damage / 2);
+=======
+            knockback = 1;
+            PlayerWeaponProperties weapon = col.gameObject.GetComponent<PlayerWeaponProperties>();
+
+            health.HurtEnemy(weapon.damage / weapon.damage);
+>>>>>>> origin/master
             wasHit = true;
             Vector3 attackDirection = col.transform.position - transform.position;
             attackDirection = attackDirection.normalized;
@@ -55,19 +68,34 @@ public class SlimeTakeDamage : MonoBehaviour {
                 attackDirection.y = 0;
             }
 
+<<<<<<< HEAD
             force = new Vector2(attackDirection.x * (knockback * 4f), attackDirection.y * (knockback * 4f));
             anim.SetBool("Moving", false);
             anim.SetBool("Attacking", false);
             anim.SetBool("Damaged", true);
             sfx.SlimeDamaged.Play();
+=======
+            force = new Vector2(attackDirection.x, attackDirection.y);
+            anim.SetBool("Moving", false);
+            anim.SetBool("Attacking", false);
+            anim.SetBool("Damaged", true);
+            //stun?
+>>>>>>> origin/master
         }
 
         //if was hit by the player's sword, extra damage and full knockback
         if (col.gameObject.tag == "Player Weapon")
         {
+<<<<<<< HEAD
             PlayerWeaponProperties weapon = col.gameObject.GetComponent<PlayerWeaponProperties>();
 
             health.HurtEnemy(weapon.damage * 3f);
+=======
+            knockback = 3;
+            PlayerWeaponProperties weapon = col.gameObject.GetComponent<PlayerWeaponProperties>();
+
+            health.HurtEnemy(weapon.damage * 1.5f);
+>>>>>>> origin/master
             wasHit = true;
             Vector3 attackDirection = col.transform.position - transform.position;
             attackDirection = attackDirection.normalized;
@@ -88,7 +116,10 @@ public class SlimeTakeDamage : MonoBehaviour {
             anim.SetBool("Damaged", true);
             anim.SetFloat("Damaged X", attackDirection.x);
             anim.SetFloat("Damaged Y", attackDirection.y);
+<<<<<<< HEAD
             sfx.SlimeDamaged.Play();
+=======
+>>>>>>> origin/master
         }
     }
 
