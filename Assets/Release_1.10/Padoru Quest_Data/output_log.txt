@@ -1,0 +1,1118 @@
+Initialize engine version: 5.5.4p4 (e92bef0ab5a4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     1040 MB
+    Driver:   13.350.1002.0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\joshb_000\Documents\GitHub\CS113-2D-RPG\Assets\Release_1.0\Padoru Quest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\joshb_000\Documents\GitHub\CS113-2D-RPG\Assets\Release_1.0\Padoru Quest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\joshb_000\Documents\GitHub\CS113-2D-RPG\Assets\Release_1.0\Padoru Quest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\joshb_000\Documents\GitHub\CS113-2D-RPG\Assets\Release_1.0\Padoru Quest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\joshb_000\Documents\GitHub\CS113-2D-RPG\Assets\Release_1.0\Padoru Quest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\joshb_000\Documents\GitHub\CS113-2D-RPG\Assets\Release_1.0\Padoru Quest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\joshb_000\Documents\GitHub\CS113-2D-RPG\Assets\Release_1.0\Padoru Quest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\joshb_000\Documents\GitHub\CS113-2D-RPG\Assets\Release_1.0\Padoru Quest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\joshb_000\Documents\GitHub\CS113-2D-RPG\Assets\Release_1.0\Padoru Quest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\joshb_000\Documents\GitHub\CS113-2D-RPG\Assets\Release_1.0\Padoru Quest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.023 seconds
+Platform assembly: C:\Users\joshb_000\Documents\GitHub\CS113-2D-RPG\Assets\Release_1.0\Padoru Quest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\joshb_000\Documents\GitHub\CS113-2D-RPG\Assets\Release_1.0\Padoru Quest_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.515477 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.617094 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 394.
+Total: 0.203300 ms (FindLiveObjects: 0.019343 ms CreateObjectMapping: 0.015790 ms MarkObjects: 0.159482 ms  DeleteObjects: 0.008289 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.480420 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 462.
+Total: 0.332781 ms (FindLiveObjects: 0.044212 ms CreateObjectMapping: 0.016579 ms MarkObjects: 0.259751 ms  DeleteObjects: 0.011842 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.312648 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 745.
+Total: 0.276725 ms (FindLiveObjects: 0.028027 ms CreateObjectMapping: 0.026054 ms MarkObjects: 0.217906 ms  DeleteObjects: 0.004342 ms)
+
+Entered NPC range
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+You are speaking to Journal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered NPC range
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered NPC range
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'Grass (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (7)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (8)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (6)') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.513975 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1012.
+Total: 0.451208 ms (FindLiveObjects: 0.056450 ms CreateObjectMapping: 0.036712 ms MarkObjects: 0.343045 ms  DeleteObjects: 0.014606 ms)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (6)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (7)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (8)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.516738 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 875.
+Total: 0.456340 ms (FindLiveObjects: 0.061187 ms CreateObjectMapping: 0.052108 ms MarkObjects: 0.333176 ms  DeleteObjects: 0.009868 ms)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.450024 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 891.
+Total: 0.436602 ms (FindLiveObjects: 0.075004 ms CreateObjectMapping: 0.030791 ms MarkObjects: 0.322517 ms  DeleteObjects: 0.007895 ms)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.448445 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 0.680168 ms (FindLiveObjects: 0.137375 ms CreateObjectMapping: 0.047371 ms MarkObjects: 0.485552 ms  DeleteObjects: 0.009474 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.944974 ms
+
+Unloading 80 unused Assets to reduce memory usage. Loaded Objects now: 683.
+Total: 0.534502 ms (FindLiveObjects: 0.056450 ms CreateObjectMapping: 0.048950 ms MarkObjects: 0.341466 ms  DeleteObjects: 0.087241 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.623323 ms
+
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 588.
+Total: 0.673457 ms (FindLiveObjects: 0.062766 ms CreateObjectMapping: 0.039870 ms MarkObjects: 0.382520 ms  DeleteObjects: 0.187510 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.418838 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 630.
+Total: 0.604769 ms (FindLiveObjects: 0.099084 ms CreateObjectMapping: 0.021316 ms MarkObjects: 0.444892 ms  DeleteObjects: 0.026448 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.355677 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 847.
+Total: 0.373046 ms (FindLiveObjects: 0.052108 ms CreateObjectMapping: 0.040265 ms MarkObjects: 0.277120 ms  DeleteObjects: 0.003552 ms)
+
+Entered NPC range
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+You are speaking to Journal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'Grass (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (7)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (8)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (6)') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.291331 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1084.
+Total: 0.532529 ms (FindLiveObjects: 0.088820 ms CreateObjectMapping: 0.026448 ms MarkObjects: 0.402653 ms  DeleteObjects: 0.014211 ms)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (6)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (7)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (8)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.562058 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 947.
+Total: 0.557793 ms (FindLiveObjects: 0.052108 ms CreateObjectMapping: 0.037896 ms MarkObjects: 0.453182 ms  DeleteObjects: 0.013816 ms)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.522265 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 963.
+Total: 0.570031 ms (FindLiveObjects: 0.064740 ms CreateObjectMapping: 0.039870 ms MarkObjects: 0.455945 ms  DeleteObjects: 0.008684 ms)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.501737 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2774.
+Total: 0.771357 ms (FindLiveObjects: 0.136981 ms CreateObjectMapping: 0.052502 ms MarkObjects: 0.570820 ms  DeleteObjects: 0.010658 ms)
+
+1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (7)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (8)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (6)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.732517 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2288.
+Total: 1.001502 ms (FindLiveObjects: 0.176851 ms CreateObjectMapping: 0.063161 ms MarkObjects: 0.746093 ms  DeleteObjects: 0.015000 ms)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (6)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (7)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (8)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.641405 ms
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 1040.
+Total: 0.741751 ms (FindLiveObjects: 0.071451 ms CreateObjectMapping: 0.040660 ms MarkObjects: 0.498974 ms  DeleteObjects: 0.130270 ms)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (6)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (7)') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.535687 ms
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1001.
+Total: 0.628060 ms (FindLiveObjects: 0.066714 ms CreateObjectMapping: 0.043028 ms MarkObjects: 0.495816 ms  DeleteObjects: 0.021711 ms)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'm-018 (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'm-018 (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.531739 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1063.
+Total: 0.592927 ms (FindLiveObjects: 0.049344 ms CreateObjectMapping: 0.039870 ms MarkObjects: 0.468183 ms  DeleteObjects: 0.019343 ms)
+
+Entered NPC range
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+You are speaking to Desk
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'm-013 (15)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'm-013 (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.455551 ms
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1249.
+Total: 0.658851 ms (FindLiveObjects: 0.089610 ms CreateObjectMapping: 0.028422 ms MarkObjects: 0.512001 ms  DeleteObjects: 0.018158 ms)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'm-013 (14)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'm-013 (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.128614 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1270.
+Total: 0.641087 ms (FindLiveObjects: 0.094347 ms CreateObjectMapping: 0.027238 ms MarkObjects: 0.508843 ms  DeleteObjects: 0.010263 ms)
+
+The referenced script on this Behaviour (Game Object 'teleport_512') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'm-013 (14)') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.885048 ms
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1211.
+Total: 0.612665 ms (FindLiveObjects: 0.087636 ms CreateObjectMapping: 0.028027 ms MarkObjects: 0.479236 ms  DeleteObjects: 0.016974 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.194538 ms
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 728.
+Total: 0.558977 ms (FindLiveObjects: 0.041449 ms CreateObjectMapping: 0.046581 ms MarkObjects: 0.385678 ms  DeleteObjects: 0.084873 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.321728 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 722.
+Total: 0.535292 ms (FindLiveObjects: 0.067108 ms CreateObjectMapping: 0.039870 ms MarkObjects: 0.423575 ms  DeleteObjects: 0.004342 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 6c98 -> priority: 1 
