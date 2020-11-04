@@ -23,10 +23,7 @@ GameObject:
   - component: {fileID: 92225409528075598}
   - component: {fileID: 124206064206476822}
   - component: {fileID: 114797408173654758}
-<<<<<<< HEAD
   - component: {fileID: 81178914083872712}
-=======
->>>>>>> origin/master
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -41,11 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1975664466978078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: 1.0592978, y: -4.6239986, z: -10}
-=======
-  m_LocalPosition: {x: 0, y: 0, z: -10}
->>>>>>> origin/master
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -71,11 +64,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-<<<<<<< HEAD
   orthographic size: 7
-=======
-  orthographic size: 5
->>>>>>> origin/master
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -89,7 +78,6 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
-<<<<<<< HEAD
 --- !u!81 &81178914083872712
 AudioListener:
   m_ObjectHideFlags: 1
@@ -97,8 +85,6 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1975664466978078}
   m_Enabled: 1
-=======
->>>>>>> origin/master
 --- !u!92 &92225409528075598
 Behaviour:
   m_ObjectHideFlags: 1
@@ -119,10 +105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   followTarget: {fileID: 0}
   moveSpeed: 5
-<<<<<<< HEAD
   boundBox: {fileID: 0}
-=======
->>>>>>> origin/master
 --- !u!124 &124206064206476822
 Behaviour:
   m_ObjectHideFlags: 1

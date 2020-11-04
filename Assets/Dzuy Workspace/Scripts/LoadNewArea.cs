@@ -18,7 +18,7 @@ public class LoadNewArea : MonoBehaviour {
 
     void Start()
     {
-        player = FindObjectOfType<PlayerMove>();
+        //player = FindObjectOfType<PlayerMove>();
     }
 
     void OnGUI()
@@ -68,7 +68,7 @@ public class LoadNewArea : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            player.StartPoint = exitPoint;
+            other.GetComponent<PlayerMove>().StartPoint = exitPoint;
             StartCoroutine(ChangeLevel());
         }
     }        

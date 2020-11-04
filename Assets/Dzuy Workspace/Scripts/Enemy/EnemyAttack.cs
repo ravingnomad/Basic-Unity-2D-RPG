@@ -12,17 +12,11 @@ public class EnemyAttack : MonoBehaviour {
     private GoblinChase chasing;
     private Animator anim;
 
-<<<<<<< HEAD
     private SFXManager sfx;
 
 	// Use this for initialization
 	void Start () {
         sfx = FindObjectOfType<SFXManager>();
-=======
-
-	// Use this for initialization
-	void Start () {
->>>>>>> origin/master
         player = GameObject.FindWithTag("Player");
         HitBox.enabled = false;
         anim = GetComponent<Animator>();
@@ -51,23 +45,20 @@ public class EnemyAttack : MonoBehaviour {
                 normalized.y = 0;
                 
             }
-<<<<<<< HEAD
             if (gameObject.tag == "Goblin")
             {
                 int attackSound = Random.Range(1, 3);
                 if (attackSound == 1)
                 {
-                    sfx.GoblinAttack_1.Play();
+                    //sfx.GoblinAttack_1.Play();
                 }
 
                 if (attackSound == 2)
                 {
-                    sfx.GoblinAttack_2.Play();
+                    //sfx.GoblinAttack_2.Play();
                 }
             }
 
-=======
->>>>>>> origin/master
             anim.SetBool("Moving", false);
             anim.SetBool("Attacking", true);
             HitBox.enabled = true;
