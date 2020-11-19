@@ -9,12 +9,26 @@ public class DialogueManager : MonoBehaviour {
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
-
+    public static bool Exists;
     private Queue<string> sentences;
-	// Use this for initialization
+	
+
 	void Start () {
-        sentences = new Queue<string>();
+        if (!Exists)
+        {
+            Exists = true;
+            DontDestroyOnLoad(gameObject);
+            sentences = new Queue<string>();
+            animator = GameObject.FindGameObjectWithTag("Dialogue Box").GetComponent<Animator>();
+        }
+        else
+
+        {
+            Destroy(gameObject);
+        }
 	}
+
+
     public void StartDialogue(Dialogue dialogue)
     {
         animator.SetBool("IsOpen", true);
@@ -29,6 +43,8 @@ public class DialogueManager : MonoBehaviour {
         }
         DisplayNextSentence();
     }
+
+
     public void DisplayNextSentence()
     {
         if (sentences.Count == 0)

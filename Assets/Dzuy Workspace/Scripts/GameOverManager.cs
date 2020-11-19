@@ -40,11 +40,13 @@ public class GameOverManager : MonoBehaviour {
     {
         anim.SetBool("Decided", true);
         Destroy(GameObject.FindGameObjectWithTag("Player"));
+        Destroy(GameObject.FindGameObjectWithTag("MainCamera"));
+        
         music.Tracks[4].Stop();
-        MusicManager.Exists = false;
-        //UIController.UIExists = false;
-        Destroy(FindObjectOfType<DestroyManager>());
-        Destroy(music);
+        Destroy(GameObject.FindGameObjectWithTag("Dialogue Box Canvas"));
+        DialogueManager.Exists = false;
+        Destroy(FindObjectOfType<DialogueManager>().gameObject);
+        Destroy(FindObjectOfType<DestroyManager>().gameObject);
         SceneManager.LoadScene("Start Screen");
     }
 

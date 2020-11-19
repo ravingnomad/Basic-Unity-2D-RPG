@@ -12,6 +12,8 @@ TagManager:
   - Goblin Attack
   - Goblin
   - Game Over
+  - Dialogue Box
+  - Dialogue Box Canvas
   layers:
   - Default
   - TransparentFX

@@ -14,7 +14,7 @@ public class DestroyManager : MonoBehaviour {
         if (!Exists)
         {
             Exists = true;
-            DontDestroyOnLoad(transform.gameObject);
+            DontDestroyOnLoad(gameObject);
         }
 
         else
@@ -27,7 +27,6 @@ public class DestroyManager : MonoBehaviour {
     {
         foreach (string g in list)
         {
-
             Destroy(GameObject.Find(g));
         }
     }

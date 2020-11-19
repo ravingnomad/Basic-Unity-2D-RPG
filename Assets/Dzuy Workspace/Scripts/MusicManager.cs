@@ -5,11 +5,8 @@ using UnityEngine;
 public class MusicManager : MonoBehaviour {
 
     public static bool Exists;
-
     public AudioSource[] Tracks;
-
     public int currentTrack;
-
     public bool musicCanPlay;
 
 	// Use this for initialization
@@ -17,7 +14,7 @@ public class MusicManager : MonoBehaviour {
         if (!Exists)
         {
             Exists = true;
-            DontDestroyOnLoad(transform.gameObject);
+            DontDestroyOnLoad(gameObject);
         }
 
         else

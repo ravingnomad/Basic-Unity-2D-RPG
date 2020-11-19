@@ -10,7 +10,7 @@ public class MusicSwitcher : MonoBehaviour {
 
     public bool switchOnStart;
 
-	// Use this for initialization
+
 	void Start () {
         musicManager = FindObjectOfType<MusicManager>();
         if (switchOnStart == true && musicManager.Tracks[newTrack].isPlaying == false)
@@ -30,9 +30,4 @@ public class MusicSwitcher : MonoBehaviour {
             gameObject.SetActive(false);
         }
     }
-
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

@@ -17,7 +17,8 @@ public class UIController : MonoBehaviour {
             DontDestroyOnLoad(transform.gameObject);
         }
 
-        else {
+        else
+        {
             Destroy(gameObject);
         }
         health = GameObject.FindWithTag("Player").GetComponent<PlayerHealth>();
