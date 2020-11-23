@@ -51,7 +51,7 @@ public class GoblinTakeDamage : MonoBehaviour {
             {
                 sfx.GoblinDamaged_2.Play();
             }
-            Debug.Log(damageSound);
+            
             health.HurtEnemy(weapon.damage);
             
             wasHit = true;

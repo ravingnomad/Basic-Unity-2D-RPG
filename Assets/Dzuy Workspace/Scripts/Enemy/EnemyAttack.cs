@@ -34,13 +34,13 @@ public class EnemyAttack : MonoBehaviour {
             Vector3 direction = player.transform.position - transform.position;
             Vector3 normalized = direction.normalized;
 
-            if (Mathf.Abs(normalized.x) <= .6)
+            if (Mathf.Abs(normalized.x) <= .5)
             {
                 normalized.x = 0;
                 
             }
 
-            if (Mathf.Abs(normalized.y) <= .6)
+            if (Mathf.Abs(normalized.y) <= .5)
             {
                 normalized.y = 0;
                 
@@ -50,12 +50,12 @@ public class EnemyAttack : MonoBehaviour {
                 int attackSound = Random.Range(1, 3);
                 if (attackSound == 1)
                 {
-                    //sfx.GoblinAttack_1.Play();
+                    sfx.GoblinAttack_1.Play();
                 }
 
                 if (attackSound == 2)
                 {
-                    //sfx.GoblinAttack_2.Play();
+                    sfx.GoblinAttack_2.Play();
                 }
             }
 

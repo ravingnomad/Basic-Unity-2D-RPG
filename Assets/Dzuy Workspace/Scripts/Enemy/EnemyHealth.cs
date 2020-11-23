@@ -12,7 +12,6 @@ public class EnemyHealth : MonoBehaviour {
 
     private Animator anim;
     private GoblinChase attack;
-    private DestroyEnemies destroy;
     private BoxCollider2D collider;
 
     private SFXManager sfx;

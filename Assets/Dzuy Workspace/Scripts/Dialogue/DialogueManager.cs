@@ -70,6 +70,5 @@ public class DialogueManager : MonoBehaviour {
     {
         animator.SetBool("IsOpen", false);
         sentences.Clear();
-        Debug.Log("End of conversation.");
     }
 }

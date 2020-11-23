@@ -59,7 +59,6 @@ public class GoblinChase : MonoBehaviour {
         }
 
 
-        //if not aggroed, keep measuring distance between enemy and player
         else
         {
             if (Vector3.Distance(player.transform.position, transform.position) <= aggroDistance)
