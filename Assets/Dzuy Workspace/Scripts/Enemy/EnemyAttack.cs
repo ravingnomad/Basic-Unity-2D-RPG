@@ -5,74 +5,99 @@ using UnityEngine;
 public class EnemyAttack : MonoBehaviour {
 
     public GameObject player;
-    public float attackDistance;
-    public Collider2D HitBox;
+    public float horizontalAttackDistance;
+    public float verticalAttackDistance;
+    public Collider2D attackHitBox;
+    public Rigidbody2D enemyBody;
+    public GoblinChase goblinChasing;
+    public Animator animator;
+    public SFXManager sfx;
 
-    private Rigidbody2D body;
-    private GoblinChase chasing;
-    private Animator anim;
 
-    private SFXManager sfx;
-
-	// Use this for initialization
 	void Start () {
         sfx = FindObjectOfType<SFXManager>();
         player = GameObject.FindWithTag("Player");
-        HitBox.enabled = false;
-        anim = GetComponent<Animator>();
-        body = GetComponent<Rigidbody2D>();
-        chasing = GetComponent<GoblinChase>();
+        attackHitBox = transform.Find("Goblin Hit Box").GetComponent<Collider2D>();
+        attackHitBox.enabled = false;
+        animator = GetComponent<Animator>();
+        enemyBody = GetComponent<Rigidbody2D>();
+        goblinChasing = GetComponent<GoblinChase>();
+
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
-
-        if (Vector3.Distance(player.transform.position, transform.position) <= attackDistance)
+        float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
+        Vector3 directionOfPlayer = (player.transform.position - transform.position).normalized;
+        Debug.Log("Player direction: " + directionOfPlayer);
+        if (canAttackHorizontal(distanceToPlayer, directionOfPlayer) || canAttackVertical(distanceToPlayer, directionOfPlayer))
         {
-            body.velocity = Vector2.zero;
-            chasing.enabled = false;
-            Vector3 direction = player.transform.position - transform.position;
-            Vector3 normalized = direction.normalized;
-
-            if (Mathf.Abs(normalized.x) <= .5)
-            {
-                normalized.x = 0;
-                
-            }
-
-            if (Mathf.Abs(normalized.y) <= .5)
-            {
-                normalized.y = 0;
-                
-            }
-            if (gameObject.tag == "Goblin")
-            {
-                int attackSound = Random.Range(1, 3);
-                if (attackSound == 1)
-                {
-                    sfx.GoblinAttack_1.Play();
-                }
-
-                if (attackSound == 2)
-                {
-                    sfx.GoblinAttack_2.Play();
-                }
-            }
-
-            anim.SetBool("Moving", false);
-            anim.SetBool("Attacking", true);
-            HitBox.enabled = true;
-            anim.SetFloat("Move X", normalized.x);
-            anim.SetFloat("Move Y", normalized.y);   
+            attackPlayer();
         }
 
         else
         {
-            chasing.enabled = true;
-            anim.SetBool("Moving", true);
-            HitBox.enabled = false;
-            anim.SetBool("Attacking", false);
+            if (this.tag == "Goblin")
+            {
+                goblinChasing.enabled = true;
+            }   
+            animator.SetBool("Moving", true);
+            attackHitBox.enabled = false;
+            animator.SetBool("Attacking", false);
+        }
+    }
+
+
+    private bool canAttackVertical(float distanceToPlayer, Vector3 directionOfPlayer)
+    {
+        return distanceToPlayer <= verticalAttackDistance && (directionOfPlayer.y >= .6 || directionOfPlayer.y <= -.6);
+    }
+
+
+    private bool canAttackHorizontal(float distanceToPlayer, Vector3 directionOfPlayer)
+    {
+        return distanceToPlayer <= verticalAttackDistance && (directionOfPlayer.x >= .6 || directionOfPlayer.x <= -.6);
+    }
+
+
+    private void attackPlayer()
+    {
+        enemyBody.velocity = Vector2.zero;
+        Vector3 direction = player.transform.position - transform.position;
+        Vector3 normalized = direction.normalized;
+
+        if (Mathf.Abs(normalized.x) <= .6)
+        {
+            normalized.x = 0;
         }
 
+        if (Mathf.Abs(normalized.y) <= .6)
+        {
+            normalized.y = 0;                
+        }
+
+        if (this.tag == "Goblin")
+        {
+            goblinChasing.enabled = false;
+            int attackSound = Random.Range(1, 3);
+            if (attackSound == 1)
+            {
+                sfx.GoblinAttack_1.Play();
+            }
+  
+            if (attackSound == 2)
+            {
+                sfx.GoblinAttack_2.Play();
+            }
+        }
+
+        animator.SetBool("Moving", false);
+        animator.SetBool("Attacking", true);
+        
+        animator.SetFloat("Move X", normalized.x);
+        animator.SetFloat("Move Y", normalized.y);
+        attackHitBox.enabled = true;
     }
+
+
 }

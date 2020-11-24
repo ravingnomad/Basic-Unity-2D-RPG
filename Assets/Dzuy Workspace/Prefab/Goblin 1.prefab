@@ -58,8 +58,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1262090213537454}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.7, y: 4.2448087, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.0584679, y: -1.1388595, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children:
   - {fileID: 4724599288345056}
@@ -206,8 +206,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  attackDistance: 1.25
-  HitBox: {fileID: 61917618710091624}
+  horizontalAttackDistance: 1.25
+  verticalAttackDistance: 0
+  attackHitBox: {fileID: 0}
+  enemyBody: {fileID: 0}
+  goblinChasing: {fileID: 0}
+  animator: {fileID: 0}
+  sfx: {fileID: 0}
 --- !u!114 &114735178547097158
 MonoBehaviour:
   m_ObjectHideFlags: 1
