@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour {
     public Texture2D fadeoutTexture; //is white screen
     public float fadeSpeed = 0.0f;
 
+    public bool invincible;
     public GameObject playerCamera;
     private bool faded;
     private int drawDepth = -1000;
@@ -27,25 +28,19 @@ public class PlayerHealth : MonoBehaviour {
 
     void Update () {
 
-        if (CurrentHealth <= 0 && faded == false)
+        if (CurrentHealth <= 0 && faded == false && !invincible)
         {
             dead = true;
             sfx.playerDeadGrunt.Play();
             sfx.playerDeadMusic.Play();
             StartCoroutine(DeathFade());
-            
-            //Destroy(gameObject);
             PlayerMove.Exists = false;
             PlayerCamera.Exists = false;
             UIController.UIExists = false;
             DestroyManager.Exists = false;
-            //Destroy(FindObjectOfType<UIController>());
             Destroy(FindObjectOfType<PlayerCamera>());
-            //FindObjectOfType<PlayerCamera>().gameObject.SetActive(false);
             SceneManager.LoadScene("Game Over");
-            //Destroy(playerCamera);
             faded = true;
-
         }
 	}
 

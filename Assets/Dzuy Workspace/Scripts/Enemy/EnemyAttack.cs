@@ -13,26 +13,29 @@ public class EnemyAttack : MonoBehaviour {
     public Animator animator;
     public SFXManager sfx;
 
+    public bool canAttack;
+
 
 	void Start () {
+        canAttack = true;
         sfx = FindObjectOfType<SFXManager>();
         player = GameObject.FindWithTag("Player");
-        attackHitBox = transform.Find("Goblin Hit Box").GetComponent<Collider2D>();
-        attackHitBox.enabled = false;
+        //attackHitBox = transform.Find("Goblin Hit Box").GetComponent<Collider2D>();
+        //attackHitBox.enabled = false;
         animator = GetComponent<Animator>();
         enemyBody = GetComponent<Rigidbody2D>();
         goblinChasing = GetComponent<GoblinChase>();
-
 	}
 	
 
 	void Update () {
         float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
         Vector3 directionOfPlayer = (player.transform.position - transform.position).normalized;
-        Debug.Log("Player direction: " + directionOfPlayer);
-        if (canAttackHorizontal(distanceToPlayer, directionOfPlayer) || canAttackVertical(distanceToPlayer, directionOfPlayer))
+        if (canAttack && (canAttackHorizontal(distanceToPlayer, directionOfPlayer) || canAttackVertical(distanceToPlayer, directionOfPlayer)))
         {
+            canAttack = false;
             attackPlayer();
+            StartCoroutine(pauseAttack());
         }
 
         else
@@ -42,9 +45,16 @@ public class EnemyAttack : MonoBehaviour {
                 goblinChasing.enabled = true;
             }   
             animator.SetBool("Moving", true);
-            attackHitBox.enabled = false;
+            //attackHitBox.enabled = false;
             animator.SetBool("Attacking", false);
         }
+    }
+
+
+    IEnumerator pauseAttack()
+    {
+        yield return new WaitForSeconds(3);
+        canAttack = true;
     }
 
 
@@ -56,7 +66,7 @@ public class EnemyAttack : MonoBehaviour {
 
     private bool canAttackHorizontal(float distanceToPlayer, Vector3 directionOfPlayer)
     {
-        return distanceToPlayer <= verticalAttackDistance && (directionOfPlayer.x >= .6 || directionOfPlayer.x <= -.6);
+        return distanceToPlayer <= horizontalAttackDistance && (directionOfPlayer.x >= .6 || directionOfPlayer.x <= -.6);
     }
 
 
@@ -93,10 +103,8 @@ public class EnemyAttack : MonoBehaviour {
 
         animator.SetBool("Moving", false);
         animator.SetBool("Attacking", true);
-        
         animator.SetFloat("Move X", normalized.x);
         animator.SetFloat("Move Y", normalized.y);
-        attackHitBox.enabled = true;
     }
 
 
