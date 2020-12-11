@@ -47,12 +47,10 @@ public class GoblinChase : MonoBehaviour {
             {
                 aggroed = false;
                 enemyMoving = false;
-                enemyMoving = false;
                 enemyMovement.enabled = true;
                 anim.SetBool("Moving", false);
                 anim.SetFloat("Last Move X", normalized.x);
                 anim.SetFloat("Last Move Y", normalized.y);
-
                 enemyBody.velocity = Vector2.zero;
                
             }
