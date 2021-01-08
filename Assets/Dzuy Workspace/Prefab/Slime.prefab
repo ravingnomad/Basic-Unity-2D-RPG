@@ -24,10 +24,10 @@ GameObject:
   - component: {fileID: 61805516704627924}
   - component: {fileID: 50116775389361212}
   - component: {fileID: 114711352823144794}
-  - component: {fileID: 114532190572109200}
   - component: {fileID: 114992703232400658}
   - component: {fileID: 114737846230553048}
   - component: {fileID: 114902571853282980}
+  - component: {fileID: 114971163378186576}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Slime
@@ -144,26 +144,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114532190572109200
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1253343901080456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c56df851625a47499318b19927267b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  horizontalAttackDistance: 3
-  verticalAttackDistance: 3
-  attackHitBox: {fileID: 0}
-  enemyBody: {fileID: 0}
-  goblinChasing: {fileID: 0}
-  animator: {fileID: 0}
-  sfx: {fileID: 0}
-  canAttack: 0
 --- !u!114 &114588989844931532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -224,6 +204,29 @@ MonoBehaviour:
   knockbackCounter: 0
   force: {x: 0, y: 0}
   wasHit: 0
+--- !u!114 &114971163378186576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253343901080456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cae798a61a02774e9a3d6622d27a2b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  horizontalAttackDistance: 3
+  verticalAttackDistance: 3
+  goblinChasing: {fileID: 0}
+  animator: {fileID: 0}
+  attackDirection: {x: 0, y: 0}
+  attackHitBox: {fileID: 0}
+  enemyBody: {fileID: 0}
+  movement: {fileID: 0}
+  sfx: {fileID: 0}
+  slimeAbleToAttack: 0
+  slimeCanMove: 0
 --- !u!114 &114992703232400658
 MonoBehaviour:
   m_ObjectHideFlags: 1

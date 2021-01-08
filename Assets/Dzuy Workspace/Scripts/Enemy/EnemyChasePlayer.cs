@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GoblinChase : MonoBehaviour {
+public class EnemyChasePlayer : MonoBehaviour {
 
     public float aggroDistance;
     public GameObject player;

@@ -15,7 +15,7 @@ public class SlimeTakeDamage : MonoBehaviour {
     private EnemyHealth health;
     private EnemyAttack attack;
     private EnemyMovement moving;
-    private GoblinChase chasing;
+    private EnemyChasePlayer chasing;
     private Rigidbody2D rigid;
 
     private SFXManager sfx;
@@ -28,7 +28,7 @@ public class SlimeTakeDamage : MonoBehaviour {
         rigid = GetComponent<Rigidbody2D>();
         moving = GetComponent<EnemyMovement>();
         attack = GetComponent<EnemyAttack>();
-        chasing = GetComponent<GoblinChase>();
+        chasing = GetComponent<EnemyChasePlayer>();
         health = GetComponent<EnemyHealth>();
     }
 

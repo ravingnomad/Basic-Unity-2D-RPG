@@ -2,20 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SlimeAttack : EnemyAttack
+public class GoblinAttack : EnemyAttack
 {
     public Collider2D attackHitBox;
     public Rigidbody2D enemyBody;
     public EnemyMovement movement;
     public SFXManager sfx;
-    public bool slimeAbleToAttack;
-    public bool slimeCanMove;
 
 
     void Start()
     {
-        slimeAbleToAttack = true;
-        slimeCanMove = true;
+        sfx = FindObjectOfType<SFXManager>();
         player = GameObject.FindWithTag("Player");
         animator = GetComponent<Animator>();
         enemyBody = GetComponent<Rigidbody2D>();
@@ -28,39 +25,39 @@ public class SlimeAttack : EnemyAttack
     {
         float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
         Vector3 directionOfPlayer = (player.transform.position - transform.position).normalized;
-        if (slimeAbleToAttack && canAttackPlayer(distanceToPlayer, directionOfPlayer))
+        if (canAttackPlayer(distanceToPlayer, directionOfPlayer))
         {
-            slimeAbleToAttack = false;
-            slimeAttack();
-            StartCoroutine(pauseAttack());
+            goblinAttack();
         }
-
         else
         {
-            if (slimeCanMove)
-                animator.SetBool("Moving", true);
+            animator.SetBool("Moving", true);
             animator.SetBool("Attacking", false);
         }
     }
 
 
-    IEnumerator pauseAttack()
+    private void playGoblinAttackSFX()
     {
-        yield return new WaitForSeconds(3);
-        slimeAbleToAttack = true;
-        enemyBody.constraints &= ~RigidbodyConstraints2D.FreezePosition;
-        enemyChasing.enabled = true;
-        movement.enabled = true;
-        slimeCanMove = true;
+        int attackSound = Random.Range(1, 3);
+        if (attackSound == 1)
+        {
+            sfx.GoblinAttack_1.Play();
+        }
+
+        if (attackSound == 2)
+        {
+            sfx.GoblinAttack_2.Play();
+        }
     }
 
 
-    private void slimeAttack()
+    private void goblinAttack()
     {
+        playGoblinAttackSFX();
         movement.enabled = false;
-        enemyBody.constraints = RigidbodyConstraints2D.FreezePosition | RigidbodyConstraints2D.FreezeRotation;
+        enemyBody.velocity = Vector2.zero;
         attackPlayer();
-        slimeCanMove = false;
+        enemyChasing.enabled = true;
     }
-
 }

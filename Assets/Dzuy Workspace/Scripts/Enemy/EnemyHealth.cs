@@ -11,7 +11,7 @@ public class EnemyHealth : MonoBehaviour {
     public Collider2D hitBox;
 
     private Animator anim;
-    private GoblinChase attack;
+    private EnemyChasePlayer attack;
     private BoxCollider2D collider;
 
     private SFXManager sfx;
@@ -22,7 +22,7 @@ public class EnemyHealth : MonoBehaviour {
         collider = GetComponent<BoxCollider2D>();
         CurrentHealth = MaxHealth;
         anim = GetComponent<Animator>();
-        attack = GetComponent<GoblinChase>();
+        attack = GetComponent<EnemyChasePlayer>();
 	}
 	
 	// Update is called once per frame

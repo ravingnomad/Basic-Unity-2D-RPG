@@ -270,7 +270,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &447682787
 Prefab:
@@ -566,7 +566,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1364794174
 Prefab:
@@ -610,6 +610,75 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 440f013fc48672a4884f01c1068f5070, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1723823968
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4508308127253248, guid: c9e3e39e197ebb84c803ae50876c2c92, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 16.62054
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508308127253248, guid: c9e3e39e197ebb84c803ae50876c2c92, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.653593
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508308127253248, guid: c9e3e39e197ebb84c803ae50876c2c92, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508308127253248, guid: c9e3e39e197ebb84c803ae50876c2c92, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508308127253248, guid: c9e3e39e197ebb84c803ae50876c2c92, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508308127253248, guid: c9e3e39e197ebb84c803ae50876c2c92, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508308127253248, guid: c9e3e39e197ebb84c803ae50876c2c92, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508308127253248, guid: c9e3e39e197ebb84c803ae50876c2c92, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114438875963504566, guid: c9e3e39e197ebb84c803ae50876c2c92, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: c9e3e39e197ebb84c803ae50876c2c92, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1723823969 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1262090213537454, guid: c9e3e39e197ebb84c803ae50876c2c92,
+    type: 2}
+  m_PrefabInternal: {fileID: 1723823968}
+--- !u!114 &1723823970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1723823969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3812dc12302bcfb49ab21bd38be48be2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  horizontalAttackDistance: 0
+  verticalAttackDistance: 0
+  attackHitBox: {fileID: 0}
+  enemyBody: {fileID: 0}
+  goblinChasing: {fileID: 0}
+  movement: {fileID: 0}
+  animator: {fileID: 0}
+  sfx: {fileID: 0}
+  attackDirection: {x: 0, y: 0}
 --- !u!1001 &1857073750
 Prefab:
   m_ObjectHideFlags: 0
@@ -649,35 +718,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114532190572109200, guid: 63d3c8717dc002e4f9fc82120344dd87, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 63d3c8717dc002e4f9fc82120344dd87, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &2106425145 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1253343901080456, guid: 63d3c8717dc002e4f9fc82120344dd87,
-    type: 2}
-  m_PrefabInternal: {fileID: 1857073750}
---- !u!114 &2106425149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2106425145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cae798a61a02774e9a3d6622d27a2b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  horizontalAttackDistance: 3
-  verticalAttackDistance: 3
-  attackHitBox: {fileID: 0}
-  enemyBody: {fileID: 0}
-  goblinChasing: {fileID: 0}
-  movement: {fileID: 0}
-  animator: {fileID: 0}
-  sfx: {fileID: 0}
-  canAttack: 0
-  attackDirection: {x: 0, y: 0}
-  canMove: 0
