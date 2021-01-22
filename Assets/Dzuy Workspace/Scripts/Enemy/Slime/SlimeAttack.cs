@@ -6,7 +6,7 @@ public class SlimeAttack : EnemyAttack
 {
     public Collider2D attackHitBox;
     public Rigidbody2D enemyBody;
-    public EnemyMovement movement;
+    public EnemyMovement enemyMovementScript;
     public SFXManager sfx;
     public bool slimeAbleToAttack;
     public bool slimeCanMove;
@@ -20,7 +20,7 @@ public class SlimeAttack : EnemyAttack
         animator = GetComponent<Animator>();
         enemyBody = GetComponent<Rigidbody2D>();
         enemyChasing = GetComponent<EnemyChasePlayer>();
-        movement = GetComponent<EnemyMovement>();
+        enemyMovementScript = GetComponent<EnemyMovement>();
     }
 
 
@@ -50,14 +50,14 @@ public class SlimeAttack : EnemyAttack
         slimeAbleToAttack = true;
         enemyBody.constraints &= ~RigidbodyConstraints2D.FreezePosition;
         enemyChasing.enabled = true;
-        movement.enabled = true;
+        enemyMovementScript.enabled = true;
         slimeCanMove = true;
     }
 
 
     private void slimeAttack()
     {
-        movement.enabled = false;
+        enemyMovementScript.enabled = false;
         enemyBody.constraints = RigidbodyConstraints2D.FreezePosition | RigidbodyConstraints2D.FreezeRotation;
         attackPlayer();
         slimeCanMove = false;

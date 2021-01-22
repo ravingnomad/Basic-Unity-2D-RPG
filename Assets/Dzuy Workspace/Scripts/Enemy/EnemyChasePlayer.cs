@@ -9,62 +9,65 @@ public class EnemyChasePlayer : MonoBehaviour {
     public int moveSpeed;
     public float chaseTimer;
     public bool aggroed;
-    public EnemyMovement enemyMovement;
+    public EnemyMovement enemyMovementScript;
 
-    public bool wasHit; //if enemy was hit by the player, keep chasing them; otherwise if not hit and out of aggro range, then stop
+    public bool wasHit;
     private Animator anim;
     private bool enemyMoving;
     private Vector2 lastMove;
     private Rigidbody2D enemyBody;
     
-	// Use this for initialization
-	void Start () {
+
+	void Start ()
+    {
         player = GameObject.FindWithTag("Player");
-        enemyMovement = GetComponent<EnemyMovement>();
+        enemyMovementScript = GetComponent<EnemyMovement>();
         enemyBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         aggroed = false;
         lastMove = new Vector2(0, -1);
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-        //if enemy is aggroed, keep chasing player
+
+	void Update ()
+    {
         if (aggroed == true)
         {
-            enemyMoving = true;
-            Vector3 direction = player.transform.position - transform.position;
-            Vector3 normalized = direction.normalized;
-            lastMove = new Vector2(normalized.x, normalized.y);
-            enemyBody.velocity = new Vector2(normalized.x * moveSpeed, normalized.y * moveSpeed);
-
-            anim.SetFloat("Move X", normalized.x);
-            anim.SetFloat("Move Y", normalized.y);
-            anim.SetBool("Moving", enemyMoving);
-
-            if (Vector3.Distance(player.transform.position, transform.position) > aggroDistance && wasHit == false)
-            {
-                aggroed = false;
-                enemyMoving = false;
-                enemyMovement.enabled = true;
-                anim.SetBool("Moving", false);
-                anim.SetFloat("Last Move X", normalized.x);
-                anim.SetFloat("Last Move Y", normalized.y);
-                enemyBody.velocity = Vector2.zero;
-               
-            }
+            chasePlayer();
         }
-
-
         else
         {
             if (Vector3.Distance(player.transform.position, transform.position) <= aggroDistance)
             {
-                enemyMovement.enabled = false;
+                enemyMovementScript.enabled = false;
                 aggroed = true;
             }
         }
-
 	}
+
+
+    private void chasePlayer()
+    {
+        enemyMoving = true;
+        Vector3 direction = player.transform.position - transform.position;
+        Vector3 normalized = direction.normalized;
+        lastMove = new Vector2(normalized.x, normalized.y);
+        enemyBody.velocity = new Vector2(normalized.x * moveSpeed, normalized.y * moveSpeed);
+
+        anim.SetFloat("Move X", normalized.x);
+        anim.SetFloat("Move Y", normalized.y);
+        anim.SetBool("Moving", enemyMoving);
+
+        if (Vector3.Distance(player.transform.position, transform.position) > aggroDistance && wasHit == false)
+        {
+            aggroed = false;
+            enemyMoving = false;
+            enemyMovementScript.enabled = true;
+            anim.SetBool("Moving", false);
+            anim.SetFloat("Last Move X", normalized.x);
+            anim.SetFloat("Last Move Y", normalized.y);
+            enemyBody.velocity = Vector2.zero;
+
+        }
+    }
 }
