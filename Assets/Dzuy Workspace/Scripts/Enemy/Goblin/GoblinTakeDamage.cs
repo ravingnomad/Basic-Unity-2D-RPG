@@ -6,11 +6,7 @@ public class GoblinTakeDamage : MonoBehaviour {
 
     public float knockbackForce;
     public float knockbackTime;
-    public float knockbackCounter;
-    //public Vector2 force;
-    public bool wasHit;
 
-    private BoxCollider2D collider;
     private Animator anim;
     private EnemyHealth enemyHealthScript;
     private EnemyAttack enemyAttackScript;
@@ -24,13 +20,11 @@ public class GoblinTakeDamage : MonoBehaviour {
     {
         sfx = FindObjectOfType<SFXManager>();
         anim = GetComponent<Animator>();
-        wasHit = false;
         enemyRigidBody = GetComponent<Rigidbody2D>();
         enemyMovementScript = GetComponent<EnemyMovement>();
         enemyAttackScript = GetComponent<EnemyAttack>();
         chasePlayerScript = GetComponent<EnemyChasePlayer>();
         enemyHealthScript = GetComponent<EnemyHealth>();
-        knockbackCounter = knockbackTime;
     }
 
 
@@ -62,14 +56,6 @@ public class GoblinTakeDamage : MonoBehaviour {
     {
         Vector3 attackDirection = playerAttack.transform.position - transform.position;
         attackDirection = attackDirection.normalized;
-        /*if (Mathf.Abs(attackDirection.x) < .5)
-        {
-            attackDirection.x = 0;
-        }
-        if (Mathf.Abs(attackDirection.y) < .5)
-        {
-            attackDirection.y = 0;
-        }*/
         return attackDirection;
     }
 
@@ -92,9 +78,7 @@ public class GoblinTakeDamage : MonoBehaviour {
     private void applyKnockbackForce(Vector3 attackDirection)
     {
         Vector2 force = new Vector2(attackDirection.x * knockbackForce, attackDirection.y * knockbackForce);
-        //enemyRigidBody.velocity = new Vector2(-force.x, -force.y);
         enemyRigidBody.velocity = Vector2.zero;
-        //enemyRigidBody.velocity = new Vector2(-force.x, -force.y);
         enemyRigidBody.AddForce(-force, ForceMode2D.Impulse);
         enemyMovementScript.enabled = false;
         enemyAttackScript.enabled = false;

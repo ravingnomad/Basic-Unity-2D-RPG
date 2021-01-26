@@ -36,7 +36,6 @@ public class EnemyHealth : MonoBehaviour {
     public void HurtEnemy(float damage)
     {
         CurrentHealth -= damage;
-        //chasePlayerScript.hitByPlayer = true;
     }
 
 
@@ -61,8 +60,8 @@ public class EnemyHealth : MonoBehaviour {
         }
         freezeRigidbody();
         anim.Stop();
-        disableEnemyScripts();
         collider.enabled = false;
+        disableEnemyScripts();
     }
 
 
@@ -85,7 +84,6 @@ public class EnemyHealth : MonoBehaviour {
         chasePlayerScript.enabled = false;
         GetComponent<EnemyAttack>().enabled = false;
         GetComponent<EnemyMovement>().enabled = false;
-        GetComponent<SlimeAttack>().enabled = false;
     }
 
 }

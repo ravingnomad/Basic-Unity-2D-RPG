@@ -52,15 +52,14 @@ public class EnemyChasePlayer : MonoBehaviour {
     private void chasePlayer()
     {
         enemyMoving = true;
+        enemyMovementScript.enabled = false;
         Vector3 playerDirection = player.transform.position - transform.position;
         Vector3 normalized = playerDirection.normalized;
         lastMove = new Vector2(normalized.x, normalized.y);
         enemyBody.velocity = new Vector2(normalized.x * moveSpeed, normalized.y * moveSpeed);
-
         anim.SetFloat("Move X", normalized.x);
         anim.SetFloat("Move Y", normalized.y);
         anim.SetBool("Moving", enemyMoving);
-
         if (playerInAggroDistance() == false && hitByPlayer == false)
         {
             turnOffEnemyAggro();
@@ -77,5 +76,6 @@ public class EnemyChasePlayer : MonoBehaviour {
         anim.SetFloat("Last Move X", lastMove.x);
         anim.SetFloat("Last Move Y", lastMove.y);
         enemyBody.velocity = Vector2.zero;
+        enemyMovementScript.enabled = true;
     }
 }
