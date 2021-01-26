@@ -20,7 +20,7 @@ public class EnemyMovement : MonoBehaviour {
 
     private SFXManager sfx;
 
-    // Use this for initialization
+
     void Start () {
         sfx = FindObjectOfType<SFXManager>();
         anim = GetComponent<Animator>();

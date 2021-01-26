@@ -36,7 +36,7 @@ public class EnemyHealth : MonoBehaviour {
     public void HurtEnemy(float damage)
     {
         CurrentHealth -= damage;
-        chasePlayerScript.hitByPlayer = true;
+        //chasePlayerScript.hitByPlayer = true;
     }
 
 

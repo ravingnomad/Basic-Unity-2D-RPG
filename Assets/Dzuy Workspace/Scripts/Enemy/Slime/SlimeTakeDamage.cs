@@ -15,11 +15,11 @@ public class SlimeTakeDamage : MonoBehaviour {
     private EnemyHealth health;
     private EnemyAttack attack;
     private EnemyMovement moving;
-    private EnemyChasePlayer chasing;
+    private EnemyChasePlayer chasePlayerScript;
     private Rigidbody2D rigid;
-
     private SFXManager sfx;
-    // Use this for initialization
+
+
     void Start()
     {
         sfx = FindObjectOfType<SFXManager>();
@@ -28,7 +28,7 @@ public class SlimeTakeDamage : MonoBehaviour {
         rigid = GetComponent<Rigidbody2D>();
         moving = GetComponent<EnemyMovement>();
         attack = GetComponent<EnemyAttack>();
-        chasing = GetComponent<EnemyChasePlayer>();
+        chasePlayerScript = GetComponent<EnemyChasePlayer>();
         health = GetComponent<EnemyHealth>();
     }
 
@@ -37,6 +37,7 @@ public class SlimeTakeDamage : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player Bullet")
         {
+            chasePlayerScript.hitByPlayer = true;
             PlayerWeaponProperties weapon = col.gameObject.GetComponent<PlayerWeaponProperties>();
             health.HurtEnemy(weapon.damage / 2);
             wasHit = true;
@@ -63,6 +64,7 @@ public class SlimeTakeDamage : MonoBehaviour {
 
         if (col.gameObject.tag == "Player Weapon")
         {
+            chasePlayerScript.hitByPlayer = true;
             PlayerWeaponProperties weapon = col.gameObject.GetComponent<PlayerWeaponProperties>();
 
             health.HurtEnemy(weapon.damage * 3f);
@@ -97,13 +99,13 @@ public class SlimeTakeDamage : MonoBehaviour {
         {
             moving.enabled = false;
             attack.enabled = false;
-            chasing.enabled = false;
+            chasePlayerScript.enabled = false;
             knockbackCounter -= Time.deltaTime;
             if (knockbackCounter <= 0)
             {
                 moving.enabled = true;
                 attack.enabled = true;
-                chasing.enabled = true;
+                chasePlayerScript.enabled = true;
                 knockbackCounter = knockbackTime;
                 wasHit = false;
                 anim.SetBool("Damaged", false);
