@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class SlimeAttack : EnemyAttack
 {
-    public Collider2D attackHitBox;
-    public Rigidbody2D enemyBody;
-    public EnemyMovement enemyMovementScript;
-    public SFXManager sfx;
-    public bool slimeAbleToAttack;
-    public bool slimeCanMove;
+    private Rigidbody2D enemyBody;
+    private EnemyMovement enemyMovementScript;
+    private SFXManager sfx;
+    private bool slimeAbleToAttack;
+    private bool slimeCanMove;
+    private EnemyHealth slimeHealth;
 
 
     void Start()
@@ -21,6 +21,7 @@ public class SlimeAttack : EnemyAttack
         enemyBody = GetComponent<Rigidbody2D>();
         enemyChasing = GetComponent<EnemyChasePlayer>();
         enemyMovementScript = GetComponent<EnemyMovement>();
+        slimeHealth = GetComponent<EnemyHealth>();
     }
 
 
@@ -34,7 +35,6 @@ public class SlimeAttack : EnemyAttack
             slimeAttack();
             StartCoroutine(pauseAttack());
         }
-
         else
         {
             if (slimeCanMove)
@@ -49,9 +49,18 @@ public class SlimeAttack : EnemyAttack
         yield return new WaitForSeconds(3);
         slimeAbleToAttack = true;
         enemyBody.constraints &= ~RigidbodyConstraints2D.FreezePosition;
-        enemyChasing.enabled = true;
-        enemyMovementScript.enabled = true;
-        slimeCanMove = true;
+        if (slimeIsDead() == false)
+        {
+            enemyChasing.enabled = true;
+            enemyMovementScript.enabled = true;
+            slimeCanMove = true;
+        }
+    }
+
+
+    private bool slimeIsDead()
+    {
+        return slimeHealth.isDead();   
     }
 
 

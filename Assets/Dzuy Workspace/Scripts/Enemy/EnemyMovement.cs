@@ -16,7 +16,7 @@ public class EnemyMovement : MonoBehaviour {
     public bool isMoving;
     private Vector2 lastMove;
 
-    private bool ableToPlay; //only play sfx when on camera
+    private bool playSfxOnScreen; //only play sfx when on camera
 
     private SFXManager sfx;
 
@@ -60,21 +60,18 @@ public class EnemyMovement : MonoBehaviour {
                     anim.SetFloat("Move X", 0);
                     anim.SetFloat("Move Y", 1);
                     break;
-
                 case 1:
                     enemyBody.velocity = new Vector2(0, -(moveSpeed));
                     lastMove = new Vector2(0, -1);
                     anim.SetFloat("Move X", 0);
                     anim.SetFloat("Move Y", -1);
                     break;
-
                 case 2:
                     enemyBody.velocity = new Vector2(moveSpeed, 0);
                     lastMove = new Vector2(1, 0);
                     anim.SetFloat("Move X", 1);
                     anim.SetFloat("Move Y", 0);
                     break;
-
                 case 3:
                     enemyBody.velocity = new Vector2( -(moveSpeed), 0);
                     lastMove = new Vector2(-1, 0);
@@ -82,9 +79,7 @@ public class EnemyMovement : MonoBehaviour {
                     anim.SetFloat("Move Y", 0);
                     break;
             }
-
-            //move for as long as this is greater than 0; once at zero, reset the waitCounter
-            if (gameObject.tag == "Slime" && sfx.SlimeMove.isPlaying == false && ableToPlay == true)
+            if (gameObject.tag == "Slime" && sfx.SlimeMove.isPlaying == false && playSfxOnScreen == true)
             {
                 sfx.SlimeMove.Play();
             }
@@ -98,6 +93,7 @@ public class EnemyMovement : MonoBehaviour {
         }
 	}
 
+
     //stop moving and reset waitCounter when enemy bumps into anything
     void OnCollisionEnter2D(Collision2D coll)
     {
@@ -105,20 +101,21 @@ public class EnemyMovement : MonoBehaviour {
         waitCounter = waitTime;
     }
 
-    //on collision, stop, wait, and turn around 
+ 
     public void ChooseDirection()
     {
         walkDirection = Random.Range(0, 4); //0 = up, 1 = down, 2 = right, 3 = left
-
     }
 
-    void OnBecameInvisible()
+
+    private void OnBecameInvisible()
     {
-        ableToPlay = false;
+        playSfxOnScreen = false;
     }
 
-    void OnBecameVisible()
+
+    private void OnBecameVisible()
     {
-        ableToPlay = true;
+        playSfxOnScreen = true;
     }
 }

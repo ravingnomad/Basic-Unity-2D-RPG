@@ -7,43 +7,44 @@ public class EnemyHealth : MonoBehaviour {
 
     public float CurrentHealth;
     public float MaxHealth;
-    public bool dead;
-    public Collider2D hitBox;
 
     private Animator anim;
-    private EnemyChasePlayer attack;
+    private EnemyChasePlayer chasePlayer;
     private BoxCollider2D collider;
-
     private SFXManager sfx;
 
-    // Use this for initialization
-    void Start () {
+
+    void Start ()
+    {
         sfx = FindObjectOfType<SFXManager>();
         collider = GetComponent<BoxCollider2D>();
         CurrentHealth = MaxHealth;
         anim = GetComponent<Animator>();
-        attack = GetComponent<EnemyChasePlayer>();
-	}
+        chasePlayer = GetComponent<EnemyChasePlayer>();
+    }
 	
-	// Update is called once per frame
-	void Update () {
 
+	void Update ()
+    {
         if (CurrentHealth <= 0)
         {
             anim.SetBool("Dead", true);            
         }
     }
 
+
     public void HurtEnemy(float damage)
     {
         CurrentHealth -= damage;
-        attack.wasHit = true;
+        chasePlayer.wasHit = true;
     }
+
 
     public void SetMaxHealth()
     {
         CurrentHealth = MaxHealth;
     }
+
 
     public void Death()
     {
@@ -58,18 +59,33 @@ public class EnemyHealth : MonoBehaviour {
             GetComponent<SlimeTakeDamage>().enabled = false;
             sfx.SlimeDeath.Play();
         }
+        freezeRigidbody();
+        anim.Stop();
+        disableEnemyScripts();
+        collider.enabled = false;
+    }
+
+
+    public bool isDead()
+    {
+        return CurrentHealth <= 0;
+    }
+
+
+    private void freezeRigidbody()
+    {
         Rigidbody2D rigid = GetComponent<Rigidbody2D>();
         rigid.velocity = Vector2.zero;
         rigid.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
-        anim.Stop();
+    }
+
+
+    private void disableEnemyScripts()
+    {
+        chasePlayer.enabled = false;
         GetComponent<EnemyAttack>().enabled = false;
         GetComponent<EnemyMovement>().enabled = false;
-        attack.enabled = false;
-        hitBox.enabled = false;
-        collider.enabled = false;
- 
-
-        //FindObjectOfType<DestroyManager>().AddToList(this.name);
+        GetComponent<SlimeAttack>().enabled = false;
     }
 
 }

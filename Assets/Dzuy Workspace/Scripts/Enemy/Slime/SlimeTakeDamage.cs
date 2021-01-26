@@ -32,14 +32,12 @@ public class SlimeTakeDamage : MonoBehaviour {
         health = GetComponent<EnemyHealth>();
     }
 
-    //used for enemy to take damage
+    
     void OnTriggerEnter2D(Collider2D col)
     {
-        //if was hit by player's gun, damage and knockback are minimal
         if (col.gameObject.tag == "Player Bullet")
         {
             PlayerWeaponProperties weapon = col.gameObject.GetComponent<PlayerWeaponProperties>();
-
             health.HurtEnemy(weapon.damage / 2);
             wasHit = true;
             Vector3 attackDirection = col.transform.position - transform.position;
@@ -62,7 +60,7 @@ public class SlimeTakeDamage : MonoBehaviour {
             sfx.SlimeDamaged.Play();
         }
 
-        //if was hit by the player's sword, extra damage and full knockback
+
         if (col.gameObject.tag == "Player Weapon")
         {
             PlayerWeaponProperties weapon = col.gameObject.GetComponent<PlayerWeaponProperties>();
@@ -92,7 +90,7 @@ public class SlimeTakeDamage : MonoBehaviour {
         }
     }
 
-    // used for the knockback
+
     void Update()
     {
         if (wasHit == true)
