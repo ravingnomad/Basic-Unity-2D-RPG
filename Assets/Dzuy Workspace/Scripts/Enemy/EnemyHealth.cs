@@ -9,7 +9,7 @@ public class EnemyHealth : MonoBehaviour {
     public float MaxHealth;
 
     private Animator anim;
-    private EnemyChasePlayer chasePlayer;
+    private EnemyChasePlayer chasePlayerScript;
     private BoxCollider2D collider;
     private SFXManager sfx;
 
@@ -20,7 +20,7 @@ public class EnemyHealth : MonoBehaviour {
         collider = GetComponent<BoxCollider2D>();
         CurrentHealth = MaxHealth;
         anim = GetComponent<Animator>();
-        chasePlayer = GetComponent<EnemyChasePlayer>();
+        chasePlayerScript = GetComponent<EnemyChasePlayer>();
     }
 	
 
@@ -36,7 +36,7 @@ public class EnemyHealth : MonoBehaviour {
     public void HurtEnemy(float damage)
     {
         CurrentHealth -= damage;
-        chasePlayer.wasHit = true;
+        chasePlayerScript.hitByPlayer = true;
     }
 
 
@@ -82,7 +82,7 @@ public class EnemyHealth : MonoBehaviour {
 
     private void disableEnemyScripts()
     {
-        chasePlayer.enabled = false;
+        chasePlayerScript.enabled = false;
         GetComponent<EnemyAttack>().enabled = false;
         GetComponent<EnemyMovement>().enabled = false;
         GetComponent<SlimeAttack>().enabled = false;

@@ -10,8 +10,8 @@ public class EnemyChasePlayer : MonoBehaviour {
     public float chaseTimer;
     public bool aggroed;
     public EnemyMovement enemyMovementScript;
+    public bool hitByPlayer;
 
-    public bool wasHit;
     private Animator anim;
     private bool enemyMoving;
     private Vector2 lastMove;
@@ -35,22 +35,25 @@ public class EnemyChasePlayer : MonoBehaviour {
         {
             chasePlayer();
         }
-        else
+        else if (playerInAggroDistance() || hitByPlayer)
         {
-            if (Vector3.Distance(player.transform.position, transform.position) <= aggroDistance)
-            {
-                enemyMovementScript.enabled = false;
-                aggroed = true;
-            }
+            enemyMovementScript.enabled = false;
+            aggroed = true;
         }
 	}
+
+
+    private bool playerInAggroDistance()
+    {
+        return Vector3.Distance(player.transform.position, transform.position) <= aggroDistance;
+    }
 
 
     private void chasePlayer()
     {
         enemyMoving = true;
-        Vector3 direction = player.transform.position - transform.position;
-        Vector3 normalized = direction.normalized;
+        Vector3 playerDirection = player.transform.position - transform.position;
+        Vector3 normalized = playerDirection.normalized;
         lastMove = new Vector2(normalized.x, normalized.y);
         enemyBody.velocity = new Vector2(normalized.x * moveSpeed, normalized.y * moveSpeed);
 
@@ -58,16 +61,21 @@ public class EnemyChasePlayer : MonoBehaviour {
         anim.SetFloat("Move Y", normalized.y);
         anim.SetBool("Moving", enemyMoving);
 
-        if (Vector3.Distance(player.transform.position, transform.position) > aggroDistance && wasHit == false)
+        if (playerInAggroDistance() == false && hitByPlayer == false)
         {
-            aggroed = false;
-            enemyMoving = false;
-            enemyMovementScript.enabled = true;
-            anim.SetBool("Moving", false);
-            anim.SetFloat("Last Move X", normalized.x);
-            anim.SetFloat("Last Move Y", normalized.y);
-            enemyBody.velocity = Vector2.zero;
-
+            turnOffEnemyAggro();
         }
+    }
+
+
+    private void turnOffEnemyAggro()
+    {
+        aggroed = false;
+        enemyMoving = false;
+        enemyMovementScript.enabled = true;
+        anim.SetBool("Moving", false);
+        anim.SetFloat("Last Move X", lastMove.x);
+        anim.SetFloat("Last Move Y", lastMove.y);
+        enemyBody.velocity = Vector2.zero;
     }
 }
