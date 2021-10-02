@@ -25,7 +25,7 @@ public class GameOverManager : MonoBehaviour {
         if (Application.isEditor)
         {
             anim.SetBool("Decided", true);
-            UnityEditor.EditorApplication.isPlaying = false;
+            //UnityEditor.EditorApplication.isPlaying = false;
         }
 
         else

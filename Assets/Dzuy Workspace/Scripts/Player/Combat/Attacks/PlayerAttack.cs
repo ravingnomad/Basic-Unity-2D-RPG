@@ -32,9 +32,9 @@ public class PlayerAttack : MonoBehaviour {
         anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerRigid = player.GetComponent<Rigidbody2D>();
-
         attackTrigger.enabled = false;
         weaponSprite.enabled = false;
+        hasSword = false;
 	}
 
 

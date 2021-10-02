@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerShoot : MonoBehaviour {
 
     private Animator anim;
-    public bool isMoving; //if character is/not moving, change to appropraite animation
+    public bool isMoving; //if character is not moving, change to appropraite animation
     public float shootTime; //how long until next shot is fired
     public float shootTimeCounter;
     public bool hasGun; //can only shoot if player has gun
@@ -24,6 +24,7 @@ public class PlayerShoot : MonoBehaviour {
         playerRigid = player.GetComponent<Rigidbody2D>();
         spawner = player.GetComponentInChildren<SpawnBullets>();
         spawner.isFiring = false;
+        hasGun = false;
     }
 	
 	// Update is called once per frame
