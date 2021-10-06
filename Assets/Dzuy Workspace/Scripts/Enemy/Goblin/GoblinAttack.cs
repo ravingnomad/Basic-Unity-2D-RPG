@@ -8,6 +8,9 @@ public class GoblinAttack : EnemyAttack
     public Rigidbody2D enemyBody;
     public EnemyMovement enemyMovementScript;
     public SFXManager sfx;
+    public float attackAnimLengthSec;
+    public float waitForNextAttack;
+    public bool sfxPlayed;
 
 
     void Start()
@@ -18,6 +21,8 @@ public class GoblinAttack : EnemyAttack
         enemyBody = GetComponent<Rigidbody2D>();
         enemyChasing = GetComponent<EnemyChasePlayer>();
         enemyMovementScript = GetComponent<EnemyMovement>();
+        sfxPlayed = false;
+        waitForNextAttack = 0.0f;
     }
 
 
@@ -27,10 +32,20 @@ public class GoblinAttack : EnemyAttack
         Vector3 directionOfPlayer = (player.transform.position - transform.position).normalized;
         if (canAttackPlayer(distanceToPlayer, directionOfPlayer))
         {
-            goblinAttack();
+            
+            if (waitForNextAttack > 0.0f)
+            {
+                waitForNextAttack -= Time.deltaTime;
+            }
+            else if (waitForNextAttack <= 0.0f)
+            {
+                sfxPlayed = false;
+                goblinAttack();
+            }
         }
         else
         {
+            //waitForNextAttack = 0.0f;
             animator.SetBool("Moving", true);
             animator.SetBool("Attacking", false);
         }
@@ -54,10 +69,17 @@ public class GoblinAttack : EnemyAttack
 
     private void goblinAttack()
     {
-        playGoblinAttackSFX();
-        enemyMovementScript.enabled = false;
         enemyBody.velocity = Vector2.zero;
+        enemyMovementScript.enabled = false;
         attackPlayer();
+        if (sfxPlayed == false)
+        {
+            playGoblinAttackSFX();
+            sfxPlayed = true;
+            waitForNextAttack = attackAnimLengthSec;
+        }
         enemyChasing.enabled = true;
+        
+        
     }
 }

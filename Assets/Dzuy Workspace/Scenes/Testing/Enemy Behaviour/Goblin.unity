@@ -511,6 +511,11 @@ Prefab:
       propertyPath: knockbackForce
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114200495340639348, guid: c9e3e39e197ebb84c803ae50876c2c92,
+        type: 2}
+      propertyPath: attackAnimLengthSec
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c9e3e39e197ebb84c803ae50876c2c92, type: 2}
   m_IsPrefabParent: 0
