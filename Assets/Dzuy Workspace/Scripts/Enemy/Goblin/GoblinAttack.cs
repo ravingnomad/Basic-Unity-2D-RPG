@@ -30,19 +30,21 @@ public class GoblinAttack : EnemyAttack
     {
         float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
         Vector3 directionOfPlayer = (player.transform.position - transform.position).normalized;
-        if (canAttackPlayer(distanceToPlayer, directionOfPlayer))
+        if (waitForNextAttack <= 0.0f)
         {
-            if (waitForNextAttack > 0.0f)
-            {
-                enemyBody.velocity = Vector2.zero;
-                enemyMovementScript.enabled = false;
-                waitForNextAttack -= Time.deltaTime;
-            }
-            else if (waitForNextAttack <= 0.0f)
-            {
-                sfxPlayed = false;
+            if (canAttackPlayer(distanceToPlayer, directionOfPlayer))
                 goblinAttack();
-            }
+            enemyMovementScript.enabled = true;
+            enemyChasing.enabled = true;
+        }
+        else if (waitForNextAttack > 0.0f)
+        {
+            enemyBody.velocity = Vector2.zero;
+            enemyMovementScript.enabled = false;
+            enemyChasing.enabled = false;
+            waitForNextAttack -= Time.deltaTime;
+            animator.SetBool("Attacking", false);
+            //animator.SetBool("Moving", false);
         }
         else
         {
@@ -69,11 +71,8 @@ public class GoblinAttack : EnemyAttack
 
     private void goblinAttack()
     {
-        enemyBody.velocity = Vector2.zero;
-        enemyMovementScript.enabled = false;
         attackPlayer();
         playGoblinAttackSFX();
-        enemyChasing.enabled = true;
         waitForNextAttack = attackAnimLengthSec;
     }
 }

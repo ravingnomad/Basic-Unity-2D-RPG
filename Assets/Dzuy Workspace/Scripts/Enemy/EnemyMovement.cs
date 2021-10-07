@@ -36,10 +36,9 @@ public class EnemyMovement : MonoBehaviour {
 
         if (isMoving == false)
         {
-            moveCounter = Random.Range(1, 4); ;
-            anim.SetBool("Moving", false);
-            anim.SetFloat("Last Move X", lastMove.x);
-            anim.SetFloat("Last Move Y", lastMove.y);
+            moveCounter = Random.Range(1, 4);
+            freezeAnimationMovement();
+
             waitCounter -= Time.deltaTime;
 
             if (waitCounter <= 0)
@@ -92,6 +91,13 @@ public class EnemyMovement : MonoBehaviour {
             }
         }
 	}
+
+    protected void freezeAnimationMovement()
+    {
+        anim.SetBool("Moving", false);
+        anim.SetFloat("Last Move X", lastMove.x);
+        anim.SetFloat("Last Move Y", lastMove.y);
+    }
 
 
     //stop moving and reset waitCounter when enemy bumps into anything
