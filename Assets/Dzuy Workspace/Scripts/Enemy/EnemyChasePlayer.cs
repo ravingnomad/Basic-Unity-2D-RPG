@@ -68,9 +68,6 @@ public class EnemyChasePlayer : MonoBehaviour {
     private void turnOffEnemyAggro()
     {
         aggroed = false;
-        //for when enemy is chasing the player and need them to stop chasing
-        if (enemyMoving == true)
-            freezeAnimationMovement();
         enemyMoving = false;
         enemyMovementScript.enabled = true;
     }

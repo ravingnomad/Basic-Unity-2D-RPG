@@ -40,6 +40,7 @@ public class GoblinAttack : EnemyAttack
         else if (waitForNextAttack > 0.0f)
         {
             animator.SetBool("Attacking", false);
+            enemyMovementScript.freezeAnimationMovement();
             enemyMovementScript.enabled = false;
             enemyChasing.freezeAnimationMovement();
             enemyChasing.enabled = false;
@@ -47,7 +48,6 @@ public class GoblinAttack : EnemyAttack
         }
         else
         {
-            //waitForNextAttack = 0.0f;
             animator.SetBool("Moving", true);
             animator.SetBool("Attacking", false);
         }

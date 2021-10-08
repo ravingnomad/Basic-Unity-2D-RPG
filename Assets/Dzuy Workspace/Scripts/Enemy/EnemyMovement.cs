@@ -89,6 +89,7 @@ public class EnemyMovement : MonoBehaviour {
 
     public void freezeAnimationMovement()
     {
+        isMoving = false;
         enemyBody.velocity = Vector2.zero;
         anim.SetBool("Moving", false);
         anim.SetFloat("Last Move X", lastMove.x);
