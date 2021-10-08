@@ -19,7 +19,7 @@ public class PlayerDamaged : MonoBehaviour {
     private SFXManager sfx;
     private bool wasGoblin; //these two tells script which enemy attacked player and which SFX to use
     private bool wasSlime;
-	// Use this for initialization
+	
 	void Start () {
         health = GetComponent<PlayerHealth>();
         sfx = FindObjectOfType<SFXManager>();
@@ -30,7 +30,6 @@ public class PlayerDamaged : MonoBehaviour {
         attack = GetComponent<PlayerAttack>();
         knockbackCounter = knockbackTime;
 	}
-
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -65,9 +64,8 @@ public class PlayerDamaged : MonoBehaviour {
         }
     }
 
-	// Update is called once per frame
+	
 	void Update () {
-
         if (wasHit == true)
         {
             moving.enabled = false;
