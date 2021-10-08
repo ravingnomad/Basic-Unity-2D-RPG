@@ -4,65 +4,57 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour {
 
-    private Animator anim;
-    public bool isMoving; //if character is not moving, change to appropraite animation
-    public float shootTime; //how long until next shot is fired
-    public float shootTimeCounter;
-    public bool hasGun; //can only shoot if player has gun
-    private SpawnBullets spawner;
-    private Rigidbody2D playerRigid;
+    private Animator animator;
+    private SpawnBullets bulletSpawner;
+    private Rigidbody2D playerRigidBody;
     private Vector2 faceDirection;
     private GameObject player;
+    private PlayerMove playerMovementScript;
+    private SFXManager sfxManager;
 
-    private SFXManager sfx;
+    public float shootWaitTime;
+    public float shootWaitTimeCountdown;
+    public bool hasGun;
 
-    // Use this for initialization
+    
     void Start () {
-        anim = GetComponent<Animator>();
-        sfx = FindObjectOfType<SFXManager>();
+        shootWaitTime = .15f;
+        sfxManager = FindObjectOfType<SFXManager>();
         player = GameObject.FindGameObjectWithTag("Player");
-        playerRigid = player.GetComponent<Rigidbody2D>();
-        spawner = player.GetComponentInChildren<SpawnBullets>();
-        spawner.isFiring = false;
+        playerRigidBody = player.GetComponent<Rigidbody2D>();
+        animator = player.GetComponent<Animator>();
+        bulletSpawner = player.GetComponentInChildren<SpawnBullets>();
+        playerMovementScript = player.GetComponent<PlayerMove>();
+        bulletSpawner.isFiring = false;
         hasGun = false;
     }
 	
-	// Update is called once per frame
-	void Update () {
 
+	void Update () {
         if (Input.GetKeyDown(KeyCode.Period) && hasGun == true)
         {
-            faceDirection = player.GetComponent<PlayerMove>().GetLastMove();
-            //isMoving = player.GetComponent<PlayerMove>().moving();
-            shootTimeCounter = shootTime;
-            
-
-            anim.SetBool("Shooting", true);
-            //anim.SetBool("Player Moving", isMoving);
-            anim.SetFloat("Last Move X", faceDirection.x);
-            anim.SetFloat("Last Move Y", faceDirection.y);
-            sfx.playerGunAttack.Play();
-            spawner.isFiring = true;
+            faceDirection = playerMovementScript.GetLastMove();
+            shootWaitTimeCountdown = shootWaitTime;
+            animator.SetBool("Shooting", true);
+            animator.SetFloat("Last Move X", faceDirection.x);
+            animator.SetFloat("Last Move Y", faceDirection.y);
+            sfxManager.playerGunAttack.Play();
+            bulletSpawner.isFiring = true;
         }
 
-
-        //don't want player to move while attacking
-        //so disable PlayerMove script while attacking
-        if (shootTimeCounter > 0)
+        if (shootWaitTimeCountdown > 0)
         {
-            shootTimeCounter -= Time.deltaTime;
-            player.GetComponent<PlayerMove>().enabled = false;
-            playerRigid.velocity = Vector2.zero;
+            shootWaitTimeCountdown -= Time.deltaTime;
+            playerMovementScript.enabled = false;
+            playerRigidBody.velocity = Vector2.zero;
         }
 
-        if (shootTimeCounter <= 0)
+        if (shootWaitTimeCountdown <= 0)
         {
-           
-            //attackTrigger.enabled = false;
-            anim.SetBool("Shooting", false);
-            player.GetComponent<PlayerMove>().enabled = true;
-            spawner.isFiring = false;
-            spawner.firedOnce = false;
+            animator.SetBool("Shooting", false);
+            playerMovementScript.enabled = true;
+            bulletSpawner.isFiring = false;
+            bulletSpawner.firedOnce = false;
         }
     }
 }

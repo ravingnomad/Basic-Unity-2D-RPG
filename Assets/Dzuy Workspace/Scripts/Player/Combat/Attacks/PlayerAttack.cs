@@ -4,82 +4,69 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour {
 
-    private bool Attacking;
+    private bool playerAttacking;
+    private GameObject player;
+    private Animator animator;
+    private Rigidbody2D playerRigidbody;
+    private SFXManager sfxManager;
+    private PlayerMove playerMovementScript;
 
     public bool hasSword;
-    //attackTime is how long until attack is done
-    //set Attacking to false
-    //attackTimeCounter is the countdown
     public float attackTime;
+    public float attackTimeCountdown;
     public Collider2D attackTrigger;
     public SpriteRenderer weaponSprite;
 
-    private float attackTimeCounter;
-    private GameObject player;
-    private Animator anim;
-    private Rigidbody2D playerRigid;
 
-    private SFXManager sfx;
-    //used to communicate with other scripts on whether the player is attacking or not
-    public bool isAttacking()
-    {
-        return Attacking;
-    }
-
-	// Use this for initialization
 	void Start () {
-        sfx = FindObjectOfType<SFXManager>();
-        anim = GetComponent<Animator>();
+        sfxManager = FindObjectOfType<SFXManager>();
+        animator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
-        playerRigid = player.GetComponent<Rigidbody2D>();
+        playerRigidbody = player.GetComponent<Rigidbody2D>();
+        playerMovementScript = player.GetComponent<PlayerMove>();
         attackTrigger.enabled = false;
         weaponSprite.enabled = false;
         hasSword = false;
 	}
 
 
-	// Update is called once per frame
 	void Update () {
         if (hasSword == true && Input.GetKeyDown(KeyCode.Comma))
         {
             Vector2 faceDirection = player.GetComponent<PlayerMove>().GetLastMove();
-
-            //if player is just starting, set the attack direction to down (because the default sprite is looking down)
             if (faceDirection == Vector2.zero)
             {
                 faceDirection = new Vector2(0, -1);
             }
-
-            attackTimeCounter = attackTime;
-            Attacking = true;
+            attackTimeCountdown = attackTime;
+            playerAttacking = true;
             attackTrigger.enabled = true;
             weaponSprite.enabled = true;
-            
-
-            //animates movement based on direction facing
-            anim.SetBool("Attacking", true);
-            anim.SetFloat("Last Move X", faceDirection.x);
-            anim.SetFloat("Last Move Y", faceDirection.y);
-            sfx.playerSwordAttack.Play();
+            animator.SetBool("Attacking", true);
+            animator.SetFloat("Last Move X", faceDirection.x);
+            animator.SetFloat("Last Move Y", faceDirection.y);
+            sfxManager.playerSwordAttack.Play();
         }
 
-        //countdown to know when to end attack animation
-        //don't want player to move while attacking
-        //so disable PlayerMove script while attacking
-        if (attackTimeCounter > 0)
+        if (attackTimeCountdown > 0)
         {
-            attackTimeCounter -= Time.deltaTime;
-            player.GetComponent<PlayerMove>().enabled = false;
-            playerRigid.velocity = Vector2.zero;
+            attackTimeCountdown -= Time.deltaTime;
+            playerMovementScript.enabled = false;
+            playerRigidbody.velocity = Vector2.zero;
         }
 
-        if (attackTimeCounter <= 0)
+        if (attackTimeCountdown <= 0)
         {
             weaponSprite.enabled = false;
             attackTrigger.enabled = false;
-            Attacking = false;
-            anim.SetBool("Attacking", false);
-            player.GetComponent<PlayerMove>().enabled = true;
+            playerAttacking = false;
+            animator.SetBool("Attacking", false);
+            playerMovementScript.enabled = true;
         }
 	}
+
+    public bool isAttacking()
+    {
+        return playerAttacking;
+    }
 }
