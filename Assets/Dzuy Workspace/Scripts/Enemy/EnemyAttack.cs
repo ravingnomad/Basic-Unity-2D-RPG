@@ -32,7 +32,7 @@ public class EnemyAttack : MonoBehaviour {
 
     protected void attackPlayer()
     {
-        //enemyChasing.enabled = false;
+        enemyChasing.enabled = false;
         
         if (attackDirection == Vector2.zero)
         {

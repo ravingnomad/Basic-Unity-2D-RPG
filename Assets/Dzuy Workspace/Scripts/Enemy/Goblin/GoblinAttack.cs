@@ -39,12 +39,11 @@ public class GoblinAttack : EnemyAttack
         }
         else if (waitForNextAttack > 0.0f)
         {
-            enemyBody.velocity = Vector2.zero;
+            animator.SetBool("Attacking", false);
             enemyMovementScript.enabled = false;
+            enemyChasing.freezeAnimationMovement();
             enemyChasing.enabled = false;
             waitForNextAttack -= Time.deltaTime;
-            animator.SetBool("Attacking", false);
-            //animator.SetBool("Moving", false);
         }
         else
         {

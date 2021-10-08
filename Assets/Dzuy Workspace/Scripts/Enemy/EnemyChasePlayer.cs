@@ -31,16 +31,18 @@ public class EnemyChasePlayer : MonoBehaviour {
 
 	void Update ()
     {
-        if (aggroed == true)
-        {
-            chasePlayer();
-        }
-        else if (playerInAggroDistance() || hitByPlayer)
+        if (playerInAggroDistance() || hitByPlayer)
         {
             enemyMovementScript.enabled = false;
+            chasePlayer();
             aggroed = true;
         }
-	}
+
+        else if (playerInAggroDistance() == false && hitByPlayer == false)
+        {
+            turnOffEnemyAggro();
+        }
+    }
 
 
     private bool playerInAggroDistance()
@@ -54,28 +56,31 @@ public class EnemyChasePlayer : MonoBehaviour {
         enemyMoving = true;
         enemyMovementScript.enabled = false;
         Vector3 playerDirection = player.transform.position - transform.position;
-        Vector3 normalized = playerDirection.normalized;
-        lastMove = new Vector2(normalized.x, normalized.y);
-        enemyBody.velocity = new Vector2(normalized.x * moveSpeed, normalized.y * moveSpeed);
-        anim.SetFloat("Move X", normalized.x);
-        anim.SetFloat("Move Y", normalized.y);
+        Vector3 normalizedPlayerDirection = playerDirection.normalized;
+        lastMove = new Vector2(normalizedPlayerDirection.x, normalizedPlayerDirection.y);
+        enemyBody.velocity = new Vector2(normalizedPlayerDirection.x * moveSpeed, normalizedPlayerDirection.y * moveSpeed);
+        anim.SetFloat("Move X", lastMove.x);
+        anim.SetFloat("Move Y", lastMove.y);
         anim.SetBool("Moving", enemyMoving);
-        if (playerInAggroDistance() == false && hitByPlayer == false)
-        {
-            turnOffEnemyAggro();
-        }
     }
 
 
     private void turnOffEnemyAggro()
     {
         aggroed = false;
+        //for when enemy is chasing the player and need them to stop chasing
+        if (enemyMoving == true)
+            freezeAnimationMovement();
         enemyMoving = false;
         enemyMovementScript.enabled = true;
+    }
+
+
+    public void freezeAnimationMovement()
+    {
+        enemyBody.velocity = Vector2.zero;
         anim.SetBool("Moving", false);
         anim.SetFloat("Last Move X", lastMove.x);
         anim.SetFloat("Last Move Y", lastMove.y);
-        enemyBody.velocity = Vector2.zero;
-        enemyMovementScript.enabled = true;
     }
 }
