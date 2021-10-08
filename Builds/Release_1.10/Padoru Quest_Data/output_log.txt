@@ -1,0 +1,161 @@
+Initialize engine version: 5.5.4p4 (e92bef0ab5a4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   27.21.14.6230
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.10\Padoru Quest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.10\Padoru Quest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.10\Padoru Quest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.10\Padoru Quest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.10\Padoru Quest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.10\Padoru Quest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.10\Padoru Quest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.10\Padoru Quest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.10\Padoru Quest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.10\Padoru Quest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.210 seconds
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.10\Padoru Quest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.10\Padoru Quest_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.015100 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.115300 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 394.
+Total: 0.183700 ms (FindLiveObjects: 0.016400 ms CreateObjectMapping: 0.016300 ms MarkObjects: 0.142000 ms  DeleteObjects: 0.008700 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.245900 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 462.
+Total: 0.174800 ms (FindLiveObjects: 0.019300 ms CreateObjectMapping: 0.009600 ms MarkObjects: 0.136500 ms  DeleteObjects: 0.008800 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.314800 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 745.
+Total: 0.378200 ms (FindLiveObjects: 0.052200 ms CreateObjectMapping: 0.039300 ms MarkObjects: 0.280100 ms  DeleteObjects: 0.005800 ms)
+
+Entered NPC range
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+You are speaking to Journal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered NPC range
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered NPC range
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered NPC range
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered NPC range
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered NPC range
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered NPC range
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+End of conversation.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'Grass (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (7)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (8)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (6)') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.739400 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1012.
+Total: 0.601500 ms (FindLiveObjects: 0.067700 ms CreateObjectMapping: 0.047200 ms MarkObjects: 0.464100 ms  DeleteObjects: 0.021400 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.421600 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 831.
+Total: 0.390400 ms (FindLiveObjects: 0.052300 ms CreateObjectMapping: 0.030900 ms MarkObjects: 0.294200 ms  DeleteObjects: 0.012100 ms)
+
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 3034 -> priority: 1 
+  Thread -> id: 1198 -> priority: 1 
+  Thread -> id: 2d5c -> priority: 1 

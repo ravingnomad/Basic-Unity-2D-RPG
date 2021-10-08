@@ -1,0 +1,269 @@
+Initialize engine version: 5.5.4f1 (8ffd0efd98b1)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   27.21.14.6230
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.20\Padoru Quest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.20\Padoru Quest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.20\Padoru Quest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.20\Padoru Quest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.20\Padoru Quest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.20\Padoru Quest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.20\Padoru Quest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.20\Padoru Quest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.20\Padoru Quest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.20\Padoru Quest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.205 seconds
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.20\Padoru Quest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Dzuy\Documents\GitHub\CS113-2D-RPG\Builds\Release_1.20\Padoru Quest_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.871400 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.282400 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 391.
+Total: 0.235600 ms (FindLiveObjects: 0.027800 ms CreateObjectMapping: 0.016400 ms MarkObjects: 0.167900 ms  DeleteObjects: 0.023300 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.403000 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 0.231300 ms (FindLiveObjects: 0.023500 ms CreateObjectMapping: 0.014400 ms MarkObjects: 0.180000 ms  DeleteObjects: 0.012400 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.378100 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 734.
+Total: 0.418300 ms (FindLiveObjects: 0.060800 ms CreateObjectMapping: 0.038100 ms MarkObjects: 0.312300 ms  DeleteObjects: 0.006100 ms)
+
+You are speaking to Journal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+You are speaking to Journal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'Grass (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (7)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (8)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (6)') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.365700 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1040.
+Total: 0.387200 ms (FindLiveObjects: 0.040200 ms CreateObjectMapping: 0.030800 ms MarkObjects: 0.302700 ms  DeleteObjects: 0.012800 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.568000 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 820.
+Total: 0.533000 ms (FindLiveObjects: 0.044100 ms CreateObjectMapping: 0.043000 ms MarkObjects: 0.428800 ms  DeleteObjects: 0.016600 ms)
+
+The referenced script on this Behaviour (Game Object 'Grass (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (7)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (8)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass (6)') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.404800 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1040.
+Total: 0.525800 ms (FindLiveObjects: 0.059300 ms CreateObjectMapping: 0.043500 ms MarkObjects: 0.407000 ms  DeleteObjects: 0.015300 ms)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (6)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (7)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (8)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.719400 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 874.
+Total: 0.645800 ms (FindLiveObjects: 0.063300 ms CreateObjectMapping: 0.060000 ms MarkObjects: 0.501500 ms  DeleteObjects: 0.020300 ms)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (2)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (1)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (4)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (5)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart (3)') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.284500 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 892.
+Total: 0.427200 ms (FindLiveObjects: 0.052200 ms CreateObjectMapping: 0.029100 ms MarkObjects: 0.335800 ms  DeleteObjects: 0.009300 ms)
+
+You are speaking to Healing Lake
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'grass from opengameart') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 2') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Grass') is missing!
+ 
+(Filename:  Line: 1755)
+
+The referenced script on this Behaviour (Game Object 'Start Point 1') is missing!
+ 
+(Filename:  Line: 1755)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.241800 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2653.
+Total: 0.394900 ms (FindLiveObjects: 0.097600 ms CreateObjectMapping: 0.028300 ms MarkObjects: 0.262300 ms  DeleteObjects: 0.005900 ms)
+
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 2780 -> priority: 1 
+  Thread -> id: 2404 -> priority: 1 
+  Thread -> id: 214c -> priority: 1 
