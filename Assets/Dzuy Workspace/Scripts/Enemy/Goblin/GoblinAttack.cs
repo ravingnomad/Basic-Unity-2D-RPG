@@ -48,6 +48,7 @@ public class GoblinAttack : EnemyAttack
         }
         else
         {
+            //waitForNextAttack = 0.0f;
             animator.SetBool("Moving", true);
             animator.SetBool("Attacking", false);
         }
