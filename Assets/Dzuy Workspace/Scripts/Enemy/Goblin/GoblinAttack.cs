@@ -4,24 +4,22 @@ using UnityEngine;
 
 public class GoblinAttack : EnemyAttack
 {
-    public Collider2D attackHitBox;
-    public Rigidbody2D enemyBody;
-    public EnemyMovement enemyMovementScript;
-    public SFXManager sfx;
+    private EnemyMovement enemyMovementScript;
+    private SFXManager sfxManager;
+
     public float attackAnimLengthSec;
     public float waitForNextAttack;
-    public bool sfxPlayed;
 
 
     void Start()
     {
-        sfx = FindObjectOfType<SFXManager>();
+        //These three are inherited from parent
         player = GameObject.FindWithTag("Player");
         animator = GetComponent<Animator>();
-        enemyBody = GetComponent<Rigidbody2D>();
-        enemyChasing = GetComponent<EnemyChasePlayer>();
+        enemyChaseScript = GetComponent<EnemyChasePlayer>();
+
+        sfxManager = FindObjectOfType<SFXManager>();
         enemyMovementScript = GetComponent<EnemyMovement>();
-        sfxPlayed = false;
         waitForNextAttack = 0.0f;
     }
 
@@ -35,15 +33,15 @@ public class GoblinAttack : EnemyAttack
             if (canAttackPlayer(distanceToPlayer, directionOfPlayer))
                 goblinAttack();
             enemyMovementScript.enabled = true;
-            enemyChasing.enabled = true;
+            enemyChaseScript.enabled = true;
         }
         else if (waitForNextAttack > 0.0f)
         {
             animator.SetBool("Attacking", false);
             enemyMovementScript.freezeAnimationMovement();
             enemyMovementScript.enabled = false;
-            enemyChasing.freezeAnimationMovement();
-            enemyChasing.enabled = false;
+            enemyChaseScript.freezeAnimationMovement();
+            enemyChaseScript.enabled = false;
             waitForNextAttack -= Time.deltaTime;
         }
         else
@@ -53,26 +51,24 @@ public class GoblinAttack : EnemyAttack
         }
     }
 
+    private void goblinAttack()
+    {
+        attackPlayer();
+        playGoblinAttackSFX();
+        waitForNextAttack = attackAnimLengthSec;
+    }
 
     private void playGoblinAttackSFX()
     {
         int attackSound = Random.Range(1, 3);
         if (attackSound == 1)
         {
-            sfx.GoblinAttack_1.Play();
+            sfxManager.GoblinAttack_1.Play();
         }
 
         if (attackSound == 2)
         {
-            sfx.GoblinAttack_2.Play();
+            sfxManager.GoblinAttack_2.Play();
         }
-    }
-
-
-    private void goblinAttack()
-    {
-        attackPlayer();
-        playGoblinAttackSFX();
-        waitForNextAttack = attackAnimLengthSec;
     }
 }

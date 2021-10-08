@@ -14,12 +14,14 @@ public class SlimeAttack : EnemyAttack
 
     void Start()
     {
-        slimeAbleToAttack = true;
-        slimeCanMove = true;
+        //These three are inherited from parent
         player = GameObject.FindWithTag("Player");
         animator = GetComponent<Animator>();
+        enemyChaseScript = GetComponent<EnemyChasePlayer>();
+
+        slimeAbleToAttack = true;
+        slimeCanMove = true;
         enemyBody = GetComponent<Rigidbody2D>();
-        enemyChasing = GetComponent<EnemyChasePlayer>();
         enemyMovementScript = GetComponent<EnemyMovement>();
         slimeHealth = GetComponent<EnemyHealth>();
     }
@@ -51,7 +53,7 @@ public class SlimeAttack : EnemyAttack
         enemyBody.constraints &= ~RigidbodyConstraints2D.FreezePosition;
         if (slimeIsDead() == false)
         {
-            enemyChasing.enabled = true;
+            enemyChaseScript.enabled = true;
             enemyMovementScript.enabled = true;
             slimeCanMove = true;
         }

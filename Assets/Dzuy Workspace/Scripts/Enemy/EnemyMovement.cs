@@ -7,15 +7,13 @@ public class EnemyMovement : MonoBehaviour {
     public int moveSpeed = 3;
     public float waitTime;
     public float moveTime;
+    public bool isMoving;
 
     private int walkDirection;
     private Rigidbody2D enemyBody;
     private Animator anim;
-    public bool isMoving;
     private Vector2 lastMove;
-
     private bool playSfxOnScreen; //only play sfx when on camera
-
     private SFXManager sfx; //mainly for slime SFX when moving
 
 

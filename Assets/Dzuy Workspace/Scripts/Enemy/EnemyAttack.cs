@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour {
 
-    public GameObject player;
+    protected GameObject player;
+    protected EnemyChasePlayer enemyChaseScript;
+    protected Animator animator;
+
     public float horizontalAttackDistance;
     public float verticalAttackDistance;
-    public EnemyChasePlayer enemyChasing;
-    public Animator animator;
     public Vector2 attackDirection;
+
 
 
     protected bool canAttackPlayer(float distanceToPlayer, Vector3 directionOfPlayer)
@@ -32,8 +34,7 @@ public class EnemyAttack : MonoBehaviour {
 
     protected void attackPlayer()
     {
-        enemyChasing.enabled = false;
-        
+        enemyChaseScript.enabled = false;
         if (attackDirection == Vector2.zero)
         {
             attackDirection = player.transform.position - transform.position;
