@@ -6,7 +6,6 @@ public class HealingLake : MonoBehaviour {
 
     public Dialogue dialogue;
     public bool in_range = false;
-    //public PlayerMove player;
     public PlayerHealth health;
     public bool entered;
 
@@ -23,7 +22,6 @@ public class HealingLake : MonoBehaviour {
         {
             health = FindObjectOfType<PlayerHealth>();
             health.CurrentHealth = health.MaxHealth;
-            //player = FindObjectOfType<PlayerMove>();
             in_range = true;
             entered = true;
             sfx.healing.Play();
@@ -31,7 +29,6 @@ public class HealingLake : MonoBehaviour {
     }
     private void Update()
     {
-
         if (in_range == true && entered == true)
         {
             Animator animator = FindObjectOfType<DialogueManager>().animator;
@@ -54,14 +51,8 @@ public class HealingLake : MonoBehaviour {
             }
         }
     }
-    void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            
-            
-        }
-    }
+
+
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")

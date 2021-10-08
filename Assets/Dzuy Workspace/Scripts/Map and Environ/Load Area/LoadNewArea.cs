@@ -16,11 +16,6 @@ public class LoadNewArea : MonoBehaviour {
     public string LevelToLoad;
     private PlayerMove player;
 
-    void Start()
-    {
-        //player = FindObjectOfType<PlayerMove>();
-    }
-
     void OnGUI()
     {
         alpha += fadeDir * fadeSpeed * Time.deltaTime;

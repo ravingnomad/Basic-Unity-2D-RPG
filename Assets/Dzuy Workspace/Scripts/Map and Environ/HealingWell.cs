@@ -27,7 +27,6 @@ public class HealingWell : MonoBehaviour {
 
     private void Update()
     {
-
         if (in_range == true && Input.inputString == "e")
         {
             Animator animator = FindObjectOfType<DialogueManager>().animator;
