@@ -14,18 +14,18 @@ public class EnemyChasePlayer : MonoBehaviour {
 
     private Animator anim;
     private bool enemyMoving;
-    private Vector2 lastMove;
-    private Rigidbody2D enemyBody;
+    private Vector2 lastMoveDirection;
+    private Rigidbody2D enemyRigidBody;
     
 
 	void Start ()
     {
         player = GameObject.FindWithTag("Player");
         enemyMovementScript = GetComponent<EnemyMovement>();
-        enemyBody = GetComponent<Rigidbody2D>();
+        enemyRigidBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         aggroed = false;
-        lastMove = new Vector2(0, -1);
+        lastMoveDirection = new Vector2(0, -1);
     }
 
 
@@ -57,10 +57,10 @@ public class EnemyChasePlayer : MonoBehaviour {
         enemyMovementScript.enabled = false;
         Vector3 playerDirection = player.transform.position - transform.position;
         Vector3 normalizedPlayerDirection = playerDirection.normalized;
-        lastMove = new Vector2(normalizedPlayerDirection.x, normalizedPlayerDirection.y);
-        enemyBody.velocity = new Vector2(normalizedPlayerDirection.x * moveSpeed, normalizedPlayerDirection.y * moveSpeed);
-        anim.SetFloat("Move X", lastMove.x);
-        anim.SetFloat("Move Y", lastMove.y);
+        lastMoveDirection = new Vector2(normalizedPlayerDirection.x, normalizedPlayerDirection.y);
+        enemyRigidBody.velocity = new Vector2(lastMoveDirection.x * moveSpeed, lastMoveDirection.y * moveSpeed);
+        anim.SetFloat("Move X", lastMoveDirection.x);
+        anim.SetFloat("Move Y", lastMoveDirection.y);
         anim.SetBool("Moving", enemyMoving);
     }
 
@@ -75,9 +75,9 @@ public class EnemyChasePlayer : MonoBehaviour {
 
     public void freezeAnimationMovement()
     {
-        enemyBody.velocity = Vector2.zero;
+        enemyRigidBody.velocity = Vector2.zero;
         anim.SetBool("Moving", false);
-        anim.SetFloat("Last Move X", lastMove.x);
-        anim.SetFloat("Last Move Y", lastMove.y);
+        anim.SetFloat("Last Move X", lastMoveDirection.x);
+        anim.SetFloat("Last Move Y", lastMoveDirection.y);
     }
 }
