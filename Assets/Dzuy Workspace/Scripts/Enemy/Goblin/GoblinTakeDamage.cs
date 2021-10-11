@@ -38,8 +38,15 @@ public class GoblinTakeDamage : MonoBehaviour {
             enemyHealthScript.HurtEnemy(weapon.damage);
             Vector3 attackDirection = getDirectionWasAttacked(col);
             applyKnockbackForce(attackDirection);
-            playDamageAnimations();
-            StartCoroutine(knockbackTimer());
+            if (enemyHealthScript.isDead())
+                anim.SetBool("Dead", true);
+            else
+            {
+                playDamageAnimations();
+                StartCoroutine(knockbackTimer());
+            }
+
+
         }
     }
 

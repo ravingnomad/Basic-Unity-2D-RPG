@@ -12,9 +12,9 @@ public class SlimeTakeDamage : MonoBehaviour {
     public bool wasHit;
 
     private Animator anim;
-    private EnemyHealth health;
-    private EnemyAttack attack;
-    private EnemyMovement moving;
+    private EnemyHealth enemyHealthScript;
+    private EnemyAttack enemyAttackScript;
+    private EnemyMovement enemyMovementScript;
     private EnemyChasePlayer chasePlayerScript;
     private Rigidbody2D rigid;
     private SFXManager sfx;
@@ -26,10 +26,10 @@ public class SlimeTakeDamage : MonoBehaviour {
         anim = GetComponent<Animator>();
         wasHit = false;
         rigid = GetComponent<Rigidbody2D>();
-        moving = GetComponent<EnemyMovement>();
-        attack = GetComponent<EnemyAttack>();
+        enemyMovementScript = GetComponent<EnemyMovement>();
+        enemyAttackScript = GetComponent<EnemyAttack>();
         chasePlayerScript = GetComponent<EnemyChasePlayer>();
-        health = GetComponent<EnemyHealth>();
+        enemyHealthScript = GetComponent<EnemyHealth>();
     }
 
     
@@ -39,7 +39,7 @@ public class SlimeTakeDamage : MonoBehaviour {
         {
             chasePlayerScript.hitByPlayer = true;
             PlayerWeaponProperties weapon = col.gameObject.GetComponent<PlayerWeaponProperties>();
-            health.HurtEnemy(weapon.damage / 2);
+            enemyHealthScript.HurtEnemy(weapon.damage / 2);
             wasHit = true;
             Vector3 attackDirection = col.transform.position - transform.position;
             attackDirection = attackDirection.normalized;
@@ -67,7 +67,7 @@ public class SlimeTakeDamage : MonoBehaviour {
             chasePlayerScript.hitByPlayer = true;
             PlayerWeaponProperties weapon = col.gameObject.GetComponent<PlayerWeaponProperties>();
 
-            health.HurtEnemy(weapon.damage * 3f);
+            enemyHealthScript.HurtEnemy(weapon.damage * 3f);
             wasHit = true;
             Vector3 attackDirection = col.transform.position - transform.position;
             attackDirection = attackDirection.normalized;
@@ -90,6 +90,9 @@ public class SlimeTakeDamage : MonoBehaviour {
             anim.SetFloat("Damaged Y", attackDirection.y);
             sfx.SlimeDamaged.Play();
         }
+
+        if (enemyHealthScript.isDead())
+            anim.SetBool("Dead", true);
     }
 
 
@@ -97,14 +100,14 @@ public class SlimeTakeDamage : MonoBehaviour {
     {
         if (wasHit == true)
         {
-            moving.enabled = false;
-            attack.enabled = false;
+            enemyMovementScript.enabled = false;
+            enemyAttackScript.enabled = false;
             chasePlayerScript.enabled = false;
             knockbackCounter -= Time.deltaTime;
             if (knockbackCounter <= 0)
             {
-                moving.enabled = true;
-                attack.enabled = true;
+                enemyMovementScript.enabled = true;
+                enemyAttackScript.enabled = true;
                 chasePlayerScript.enabled = true;
                 knockbackCounter = knockbackTime;
                 wasHit = false;

@@ -24,14 +24,6 @@ public class EnemyHealth : MonoBehaviour {
     }
 	
 
-	void Update ()
-    {
-        if (CurrentHealth <= 0)
-        {
-            anim.SetBool("Dead", true);            
-        }
-    }
-
 
     public void HurtEnemy(float damage)
     {
@@ -59,9 +51,9 @@ public class EnemyHealth : MonoBehaviour {
             sfx.SlimeDeath.Play();
         }
         freezeRigidbody();
-        anim.Stop();
         collider.enabled = false;
         disableEnemyScripts();
+        anim.Stop();
     }
 
 
@@ -81,9 +73,14 @@ public class EnemyHealth : MonoBehaviour {
 
     private void disableEnemyScripts()
     {
-        chasePlayerScript.enabled = false;
-        GetComponent<EnemyAttack>().enabled = false;
-        GetComponent<EnemyMovement>().enabled = false;
+        EnemyAttack enemyAttackScript = GetComponent<EnemyAttack>();
+        EnemyMovement enemyMovementScript = GetComponent<EnemyMovement>();
+        while (enemyAttackScript.enabled && enemyMovementScript.enabled && chasePlayerScript.enabled)
+        {
+            enemyAttackScript.enabled = false;
+            enemyMovementScript.enabled = false;
+            chasePlayerScript.enabled = false;
+        }
     }
 
 }

@@ -4,4 +4,40 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Company Logo.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Credits.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Explanation.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Game Over.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Map 1.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Map 2.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Map 3.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Map 4.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Map 5.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Map 6.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Map 7.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Space 0.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Space 1.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Space 2.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Space 3.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Space 4.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Space END.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/Start Screen.unity

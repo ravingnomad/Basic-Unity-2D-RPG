@@ -157,9 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   waitTime: 0
-  waitCounter: 0
   moveTime: 0
-  moveCounter: 0
   isMoving: 0
 --- !u!114 &114200495340639348
 MonoBehaviour:
@@ -172,16 +170,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3812dc12302bcfb49ab21bd38be48be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   horizontalAttackDistance: 1
   verticalAttackDistance: 1.8
-  goblinChasing: {fileID: 0}
-  animator: {fileID: 0}
   attackDirection: {x: 0, y: 0}
-  attackHitBox: {fileID: 0}
-  enemyBody: {fileID: 0}
-  movement: {fileID: 0}
-  sfx: {fileID: 0}
+  attackAnimLengthSec: 1
+  waitForNextAttack: 0
 --- !u!114 &114238098848275354
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -195,8 +188,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentHealth: 0
   MaxHealth: 50
-  dead: 0
-  hitBox: {fileID: 61917618710091624}
 --- !u!114 &114336751613540594
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -208,13 +199,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1b52024abe6b14c9fb4e56c1882bb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aggroDistance: 8
+  aggroDistance: 5
   player: {fileID: 0}
   moveSpeed: 3
   chaseTimer: 0
   aggroed: 1
-  enemyMovement: {fileID: 0}
-  wasHit: 0
+  enemyMovementScript: {fileID: 0}
+  hitByPlayer: 0
 --- !u!114 &114735178547097158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -238,11 +229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0458d2551b433f042b5a50045d9abc66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockback: 4
-  knockbackTime: 0.27
-  knockbackCounter: 0
-  force: {x: 0, y: 0}
-  wasHit: 1
+  knockbackForce: 6
+  knockbackTime: 0.17
 --- !u!212 &212568491461413036
 SpriteRenderer:
   m_ObjectHideFlags: 1
