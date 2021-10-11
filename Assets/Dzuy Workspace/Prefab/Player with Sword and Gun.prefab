@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 114697551632450482}
   - component: {fileID: 114620145691864046}
   - component: {fileID: 114984343186651582}
+  - component: {fileID: 114836114112522658}
   m_Layer: 0
   m_Name: Player with Sword and Gun
   m_TagString: Player
@@ -119,7 +120,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1797105893092308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.24, y: 1.15, z: 0}
+  m_LocalPosition: {x: -11.85, y: 6.77, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children:
   - {fileID: 4464983767572448}
@@ -309,6 +310,17 @@ MonoBehaviour:
   shootWaitTime: 0
   shootWaitTimeCountdown: 0
   hasGun: 1
+--- !u!114 &114836114112522658
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1797105893092308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114984343186651582
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -369,7 +381,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 265762861
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2469bb26ba5e2734e9b6ea9999e88bb7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

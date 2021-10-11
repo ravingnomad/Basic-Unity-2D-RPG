@@ -952,7 +952,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 50931373}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.2119417, y: -0.3555231, z: 0}
+  m_LocalPosition: {x: -1.8799992, y: -1.5100002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 493291896}
@@ -964,8 +964,8 @@ Transform:
   - {fileID: 791977263}
   - {fileID: 1432286334}
   - {fileID: 839824810}
-  m_Father: {fileID: 1213017841}
-  m_RootOrder: 0
+  m_Father: {fileID: 398666232}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &58359901
 GameObject:
@@ -1895,6 +1895,7 @@ GameObject:
   - component: {fileID: 102408841}
   - component: {fileID: 102408840}
   - component: {fileID: 102408839}
+  - component: {fileID: 102408842}
   m_Layer: 0
   m_Name: pine tree from opengameart (4)
   m_TagString: Untagged
@@ -1945,7 +1946,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1964,6 +1965,17 @@ Transform:
   m_Father: {fileID: 296020744}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &102408842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 102408838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &109733951
 GameObject:
   m_ObjectHideFlags: 0
@@ -3997,6 +4009,38 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &240728802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 240728803}
+  m_Layer: 0
+  m_Name: Player Layer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &240728803
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 240728802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0300007, y: -3.1799998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2100963757}
+  - {fileID: 1407057773}
+  - {fileID: 1557205470}
+  - {fileID: 296020744}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &241250601
 GameObject:
   m_ObjectHideFlags: 0
@@ -4478,7 +4522,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 296020743}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6719418, y: 4.5344768, z: 0}
+  m_LocalPosition: {x: 2.6600008, y: 3.3799996, z: 0}
   m_LocalScale: {x: 0.18, y: 0.14, z: 1}
   m_Children:
   - {fileID: 1799853401}
@@ -4491,8 +4535,8 @@ Transform:
   - {fileID: 1907800700}
   - {fileID: 983229086}
   - {fileID: 432596430}
-  m_Father: {fileID: 1213017841}
-  m_RootOrder: 1
+  m_Father: {fileID: 240728803}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &314411222
 GameObject:
@@ -5916,6 +5960,36 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &398666231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 398666232}
+  m_Layer: 0
+  m_Name: Environment Layer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &398666232
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 398666231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0300007, y: -3.1799998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2106360793}
+  - {fileID: 50931374}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &401210877
 GameObject:
   m_ObjectHideFlags: 0
@@ -6637,6 +6711,7 @@ GameObject:
   - component: {fileID: 432596430}
   - component: {fileID: 432596432}
   - component: {fileID: 432596431}
+  - component: {fileID: 432596433}
   m_Layer: 0
   m_Name: pine tree from opengameart (4)
   m_TagString: Untagged
@@ -6700,12 +6775,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &432596433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 432596429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &434049885
 GameObject:
   m_ObjectHideFlags: 0
@@ -7190,6 +7276,7 @@ GameObject:
   - component: {fileID: 457976716}
   - component: {fileID: 457976718}
   - component: {fileID: 457976717}
+  - component: {fileID: 457976719}
   m_Layer: 0
   m_Name: pine tree from opengameart
   m_TagString: Untagged
@@ -7253,12 +7340,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &457976719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457976715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &462045379
 GameObject:
   m_ObjectHideFlags: 0
@@ -7965,6 +8063,7 @@ GameObject:
   - component: {fileID: 493291896}
   - component: {fileID: 493291898}
   - component: {fileID: 493291897}
+  - component: {fileID: 493291899}
   m_Layer: 0
   m_Name: boulder
   m_TagString: Untagged
@@ -8034,6 +8133,17 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &493291899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 493291895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &502679034
 GameObject:
   m_ObjectHideFlags: 0
@@ -8554,7 +8664,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -9977,6 +10087,7 @@ GameObject:
   - component: {fileID: 619958458}
   - component: {fileID: 619958460}
   - component: {fileID: 619958459}
+  - component: {fileID: 619958461}
   m_Layer: 0
   m_Name: boulder
   m_TagString: Untagged
@@ -10046,6 +10157,17 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &619958461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 619958457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &625503007
 GameObject:
   m_ObjectHideFlags: 0
@@ -10998,6 +11120,7 @@ GameObject:
   - component: {fileID: 686721327}
   - component: {fileID: 686721326}
   - component: {fileID: 686721325}
+  - component: {fileID: 686721328}
   m_Layer: 0
   m_Name: pine tree from opengameart (3)
   m_TagString: Untagged
@@ -11048,7 +11171,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11067,6 +11190,17 @@ Transform:
   m_Father: {fileID: 296020744}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &686721328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 686721324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &693080701
 GameObject:
   m_ObjectHideFlags: 0
@@ -11709,6 +11843,7 @@ GameObject:
   - component: {fileID: 723148392}
   - component: {fileID: 723148393}
   - component: {fileID: 723148394}
+  - component: {fileID: 723148395}
   m_Layer: 0
   m_Name: mountain_landscape_7
   m_TagString: Untagged
@@ -11758,7 +11893,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300014, guid: 442b68a5a3c430240aaa4dc66ab268f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11778,6 +11913,17 @@ BoxCollider2D:
   m_Offset: {x: -0.03157711, y: -0.88416195}
   serializedVersion: 2
   m_Size: {x: 1.370421, y: 1.1632957}
+--- !u!114 &723148395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723148391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &723478040
 GameObject:
   m_ObjectHideFlags: 0
@@ -12879,6 +13025,7 @@ GameObject:
   - component: {fileID: 791977263}
   - component: {fileID: 791977265}
   - component: {fileID: 791977264}
+  - component: {fileID: 791977266}
   m_Layer: 0
   m_Name: boulder (1)
   m_TagString: Untagged
@@ -12948,6 +13095,17 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &791977266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 791977262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &797738028
 GameObject:
   m_ObjectHideFlags: 0
@@ -13511,6 +13669,7 @@ GameObject:
   - component: {fileID: 839824810}
   - component: {fileID: 839824812}
   - component: {fileID: 839824811}
+  - component: {fileID: 839824813}
   m_Layer: 0
   m_Name: boulder (3)
   m_TagString: Untagged
@@ -13580,6 +13739,17 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &839824813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 839824809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &842761195
 GameObject:
   m_ObjectHideFlags: 0
@@ -15188,16 +15358,6 @@ Prefab:
       propertyPath: m_Name
       value: Goblin 1 (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 114238098848275354, guid: c9e3e39e197ebb84c803ae50876c2c92,
-        type: 2}
-      propertyPath: MaxHealth
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 212568491461413036, guid: c9e3e39e197ebb84c803ae50876c2c92,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: -1937604997
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c9e3e39e197ebb84c803ae50876c2c92, type: 2}
   m_IsPrefabParent: 0
@@ -16005,7 +16165,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 935118587}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.492262, y: 8.177795, z: -0.10546875}
+  m_LocalPosition: {x: 0.8396807, y: 7.0233183, z: -0.10546875}
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_Children:
   - {fileID: 530940236}
@@ -16017,7 +16177,7 @@ Transform:
   - {fileID: 759010852}
   - {fileID: 1028562951}
   - {fileID: 130396950}
-  m_Father: {fileID: 1065146229}
+  m_Father: {fileID: 2031723891}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &935118589
@@ -16137,6 +16297,7 @@ GameObject:
   - component: {fileID: 937495894}
   - component: {fileID: 937495895}
   - component: {fileID: 937495896}
+  - component: {fileID: 937495897}
   m_Layer: 0
   m_Name: mountain_landscape_9
   m_TagString: Untagged
@@ -16186,7 +16347,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300018, guid: 442b68a5a3c430240aaa4dc66ab268f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -16239,6 +16400,17 @@ BoxCollider2D:
   m_Offset: {x: 0.00000059604645, y: -1.0260305}
   serializedVersion: 2
   m_Size: {x: 3.3493214, y: 2.3813252}
+--- !u!114 &937495897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 937495891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &940153136
 GameObject:
   m_ObjectHideFlags: 0
@@ -16407,6 +16579,7 @@ GameObject:
   - component: {fileID: 941235780}
   - component: {fileID: 941235779}
   - component: {fileID: 941235778}
+  - component: {fileID: 941235781}
   m_Layer: 0
   m_Name: pine tree from opengameart (1)
   m_TagString: Untagged
@@ -16457,7 +16630,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -16476,6 +16649,17 @@ Transform:
   m_Father: {fileID: 296020744}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &941235781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 941235777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &948856708
 GameObject:
   m_ObjectHideFlags: 0
@@ -16851,6 +17035,7 @@ GameObject:
   - component: {fileID: 983229086}
   - component: {fileID: 983229088}
   - component: {fileID: 983229087}
+  - component: {fileID: 983229089}
   m_Layer: 0
   m_Name: pine tree from opengameart (3)
   m_TagString: Untagged
@@ -16914,12 +17099,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &983229089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 983229085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &988739343
 GameObject:
   m_ObjectHideFlags: 0
@@ -18100,37 +18296,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &1065146228
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1065146229}
-  m_Layer: 0
-  m_Name: Ground Layer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1065146229
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1065146228}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.301942, y: -4.334477, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 935118588}
-  - {fileID: 1200257909}
-  - {fileID: 1782756716}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1076196172
 GameObject:
   m_ObjectHideFlags: 0
@@ -18648,6 +18813,7 @@ GameObject:
   - component: {fileID: 1103656801}
   - component: {fileID: 1103656803}
   - component: {fileID: 1103656802}
+  - component: {fileID: 1103656804}
   m_Layer: 0
   m_Name: boulder (1)
   m_TagString: Untagged
@@ -18717,6 +18883,17 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1103656804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103656800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1105654293
 GameObject:
   m_ObjectHideFlags: 0
@@ -18912,7 +19089,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1409934694301142, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
       propertyPath: m_Name
@@ -19869,6 +20046,7 @@ GameObject:
   - component: {fileID: 1173637238}
   - component: {fileID: 1173637240}
   - component: {fileID: 1173637239}
+  - component: {fileID: 1173637241}
   m_Layer: 0
   m_Name: pine tree from opengameart (1)
   m_TagString: Untagged
@@ -19932,12 +20110,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1173637241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1173637237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1182123261
 GameObject:
   m_ObjectHideFlags: 0
@@ -20039,7 +20228,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1200257908}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.2119417, y: -0.3555231, z: 0}
+  m_LocalPosition: {x: -1.8799992, y: -1.5100002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1841218401}
@@ -20061,8 +20250,8 @@ Transform:
   - {fileID: 531344293}
   - {fileID: 1716242339}
   - {fileID: 9585656}
-  m_Father: {fileID: 1065146229}
-  m_RootOrder: 1
+  m_Father: {fileID: 2031723891}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1201888935
 GameObject:
@@ -20602,39 +20791,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &1213017840
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1213017841}
-  m_Layer: 0
-  m_Name: Environment Layer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1213017841
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1213017840}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.301942, y: -4.334477, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 50931374}
-  - {fileID: 296020744}
-  - {fileID: 1557205470}
-  - {fileID: 1407057773}
-  - {fileID: 2106360793}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1214840478
 GameObject:
   m_ObjectHideFlags: 0
@@ -21514,6 +21670,7 @@ GameObject:
   - component: {fileID: 1251893147}
   - component: {fileID: 1251893149}
   - component: {fileID: 1251893148}
+  - component: {fileID: 1251893150}
   m_Layer: 0
   m_Name: boulder
   m_TagString: Untagged
@@ -21583,6 +21740,17 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1251893150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1251893146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1252543252
 GameObject:
   m_ObjectHideFlags: 0
@@ -22219,6 +22387,7 @@ GameObject:
   - component: {fileID: 1286540881}
   - component: {fileID: 1286540883}
   - component: {fileID: 1286540882}
+  - component: {fileID: 1286540884}
   m_Layer: 0
   m_Name: boulder (2)
   m_TagString: Untagged
@@ -22288,6 +22457,17 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1286540884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1286540880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1294582680
 GameObject:
   m_ObjectHideFlags: 0
@@ -24655,8 +24835,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1407057772}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.3319426, y: -1.1544771, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 723148392}
@@ -24664,8 +24844,8 @@ Transform:
   - {fileID: 1692425213}
   - {fileID: 1685715785}
   - {fileID: 937495892}
-  m_Father: {fileID: 1213017841}
-  m_RootOrder: 3
+  m_Father: {fileID: 240728803}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1410025740
 GameObject:
@@ -24914,6 +25094,7 @@ GameObject:
   - component: {fileID: 1432286334}
   - component: {fileID: 1432286336}
   - component: {fileID: 1432286335}
+  - component: {fileID: 1432286337}
   m_Layer: 0
   m_Name: boulder (2)
   m_TagString: Untagged
@@ -24983,6 +25164,17 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1432286337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1432286333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1439534932
 GameObject:
   m_ObjectHideFlags: 0
@@ -25178,7 +25370,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -27250,6 +27442,7 @@ GameObject:
   - component: {fileID: 1540643239}
   - component: {fileID: 1540643240}
   - component: {fileID: 1540643241}
+  - component: {fileID: 1540643242}
   m_Layer: 0
   m_Name: mountain_landscape_7 (1)
   m_TagString: Untagged
@@ -27299,7 +27492,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300014, guid: 442b68a5a3c430240aaa4dc66ab268f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -27319,6 +27512,17 @@ BoxCollider2D:
   m_Offset: {x: -0.110519886, y: -1.0104685}
   serializedVersion: 2
   m_Size: {x: 1.59146, y: 1.0369823}
+--- !u!114 &1540643242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1540643238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1557205469
 GameObject:
   m_ObjectHideFlags: 0
@@ -27331,6 +27535,7 @@ GameObject:
   - component: {fileID: 1557205471}
   - component: {fileID: 1557205473}
   - component: {fileID: 1557205474}
+  - component: {fileID: 1557205475}
   m_Layer: 0
   m_Name: Medieval_Building_06 (1)
   m_TagString: Untagged
@@ -27345,10 +27550,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1557205469}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.787738, y: 18.377796, z: 0}
+  m_LocalPosition: {x: 12.11968, y: 17.22332, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1213017841}
+  m_Father: {fileID: 240728803}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1557205471
@@ -27404,7 +27609,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c53837590ccef604190fa23b0cf4c0c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -27444,6 +27649,17 @@ BoxCollider2D:
   m_Offset: {x: -0.55108166, y: -0.9446926}
   serializedVersion: 2
   m_Size: {x: 8.995609, y: 6.77291}
+--- !u!114 &1557205475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1557205469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1557620368
 GameObject:
   m_ObjectHideFlags: 0
@@ -28249,7 +28465,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4350708307745248, guid: 9168a0e8253b5404e8c41b467c36e33a, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4350708307745248, guid: 9168a0e8253b5404e8c41b467c36e33a, type: 2}
       propertyPath: m_LocalScale.y
@@ -29193,6 +29409,7 @@ GameObject:
   - component: {fileID: 1670879860}
   - component: {fileID: 1670879862}
   - component: {fileID: 1670879861}
+  - component: {fileID: 1670879863}
   m_Layer: 0
   m_Name: boulder (2)
   m_TagString: Untagged
@@ -29262,6 +29479,17 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1670879863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1670879859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1679157686
 Prefab:
   m_ObjectHideFlags: 0
@@ -29407,6 +29635,7 @@ GameObject:
   - component: {fileID: 1685715785}
   - component: {fileID: 1685715786}
   - component: {fileID: 1685715787}
+  - component: {fileID: 1685715788}
   m_Layer: 0
   m_Name: mountain_landscape_7 (3)
   m_TagString: Untagged
@@ -29456,7 +29685,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300014, guid: 442b68a5a3c430240aaa4dc66ab268f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -29476,6 +29705,17 @@ BoxCollider2D:
   m_Offset: {x: 0.031576872, y: -0.99466896}
   serializedVersion: 2
   m_Size: {x: 1.37042, y: 1.0685401}
+--- !u!114 &1685715788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1685715784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1692425212
 GameObject:
   m_ObjectHideFlags: 0
@@ -29486,6 +29726,7 @@ GameObject:
   - component: {fileID: 1692425213}
   - component: {fileID: 1692425214}
   - component: {fileID: 1692425215}
+  - component: {fileID: 1692425216}
   m_Layer: 0
   m_Name: mountain_landscape_7 (2)
   m_TagString: Untagged
@@ -29535,7 +29776,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300014, guid: 442b68a5a3c430240aaa4dc66ab268f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -29555,6 +29796,17 @@ BoxCollider2D:
   m_Offset: {x: -0.11052036, y: -0.93151665}
   serializedVersion: 2
   m_Size: {x: 1.5914587, y: 1.1317058}
+--- !u!114 &1692425216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1692425212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1693901332
 GameObject:
   m_ObjectHideFlags: 0
@@ -29750,7 +30002,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1409934694301142, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
       propertyPath: m_Name
@@ -31178,7 +31430,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1782756715}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 5.3319426, y: -1.1544771, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 842761196}
@@ -31189,8 +31441,8 @@ Transform:
   - {fileID: 473678948}
   - {fileID: 147245294}
   - {fileID: 988739344}
-  m_Father: {fileID: 1065146229}
-  m_RootOrder: 2
+  m_Father: {fileID: 2031723891}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1787679310
 GameObject:
@@ -31819,6 +32071,7 @@ GameObject:
   - component: {fileID: 1799853401}
   - component: {fileID: 1799853400}
   - component: {fileID: 1799853399}
+  - component: {fileID: 1799853402}
   m_Layer: 0
   m_Name: pine tree from opengameart
   m_TagString: Untagged
@@ -31869,7 +32122,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -31888,6 +32141,17 @@ Transform:
   m_Father: {fileID: 296020744}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1799853402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1799853398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1803199398
 GameObject:
   m_ObjectHideFlags: 0
@@ -33606,6 +33870,7 @@ GameObject:
   - component: {fileID: 1907800700}
   - component: {fileID: 1907800702}
   - component: {fileID: 1907800701}
+  - component: {fileID: 1907800703}
   m_Layer: 0
   m_Name: pine tree from opengameart (2)
   m_TagString: Untagged
@@ -33669,12 +33934,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1907800703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1907800699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1910714129
 GameObject:
   m_ObjectHideFlags: 0
@@ -34049,7 +34325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1928435904}
   m_Layer: 0
-  m_Name: User Interface
+  m_Name: Player Start Points
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34068,7 +34344,7 @@ Transform:
   - {fileID: 1007653476}
   - {fileID: 617742345}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1935290312
 GameObject:
@@ -35210,6 +35486,37 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &2031723890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2031723891}
+  m_Layer: 0
+  m_Name: Ground Layer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2031723891
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031723890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0300007, y: -3.1799998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 935118588}
+  - {fileID: 1782756716}
+  - {fileID: 1200257909}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2032634108
 GameObject:
   m_ObjectHideFlags: 0
@@ -36311,6 +36618,7 @@ GameObject:
   - component: {fileID: 2088196355}
   - component: {fileID: 2088196354}
   - component: {fileID: 2088196353}
+  - component: {fileID: 2088196356}
   m_Layer: 0
   m_Name: pine tree from opengameart (2)
   m_TagString: Untagged
@@ -36361,7 +36669,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 058d12d9de1eb8546a52710c332ce188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -36380,6 +36688,17 @@ Transform:
   m_Father: {fileID: 296020744}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2088196356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2088196352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2093418322
 GameObject:
   m_ObjectHideFlags: 0
@@ -36559,8 +36878,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2100963756}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.0346, y: -4.3448086, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.0046, y: -1.1648088, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 908672647}
@@ -36569,8 +36888,8 @@ Transform:
   - {fileID: 1679157687}
   - {fileID: 1576497071}
   - {fileID: 1623994530}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 240728803}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2101778021
 GameObject:
@@ -36673,13 +36992,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2106360792}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6719418, y: 4.5344768, z: 0}
+  m_LocalPosition: {x: 2.6600008, y: 3.3799996, z: 0}
   m_LocalScale: {x: 0.18, y: 0.14, z: 1}
   m_Children:
   - {fileID: 566136448}
   - {fileID: 1102399760}
-  m_Father: {fileID: 1213017841}
-  m_RootOrder: 4
+  m_Father: {fileID: 398666232}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2107997600
 GameObject:

@@ -113,8 +113,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 4944672}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.79, y: -3.91, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalPosition: {x: -8.088032, y: -4.8600197, z: 0}
+  m_LocalScale: {x: 12.000048, y: 12.000048, z: 1}
   m_Children:
   - {fileID: 988655780}
   - {fileID: 1747947777}
@@ -132,8 +132,37 @@ Transform:
   - {fileID: 952649831}
   - {fileID: 484832778}
   - {fileID: 1909321593}
-  m_Father: {fileID: 1727228464}
+  m_Father: {fileID: 709254996}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &83796356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 83796357}
+  m_Layer: 0
+  m_Name: Environment Layer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &83796357
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 83796356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 501, y: 369, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1366020257}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &161444894
 GameObject:
@@ -145,6 +174,7 @@ GameObject:
   - component: {fileID: 161444895}
   - component: {fileID: 161444897}
   - component: {fileID: 161444896}
+  - component: {fileID: 161444898}
   m_Layer: 8
   m_Name: gray rock
   m_TagString: Untagged
@@ -209,12 +239,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 0.41911763, g: 0.42219937, b: 0.42219937, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &161444898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 161444894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &170765242
 Prefab:
   m_ObjectHideFlags: 0
@@ -252,7 +293,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4758616359364550, guid: 03a0c6e411629d346bc8524e03dbb8ae, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114312403056931820, guid: 03a0c6e411629d346bc8524e03dbb8ae,
         type: 2}
@@ -280,6 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 322116568}
   - component: {fileID: 322116569}
+  - component: {fileID: 322116570}
   m_Layer: 0
   m_Name: gray rock (3)
   m_TagString: Untagged
@@ -329,12 +371,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &322116570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 322116567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &454292780
 Prefab:
   m_ObjectHideFlags: 0
@@ -372,7 +425,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4350708307745248, guid: 9168a0e8253b5404e8c41b467c36e33a, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4350708307745248, guid: 9168a0e8253b5404e8c41b467c36e33a, type: 2}
       propertyPath: m_LocalScale.y
@@ -395,6 +448,7 @@ GameObject:
   - component: {fileID: 460797835}
   - component: {fileID: 460797837}
   - component: {fileID: 460797836}
+  - component: {fileID: 460797838}
   m_Layer: 0
   m_Name: gray rock (5)
   m_TagString: Untagged
@@ -459,12 +513,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &460797838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 460797834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &484832777
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,6 +540,7 @@ GameObject:
   - component: {fileID: 484832778}
   - component: {fileID: 484832780}
   - component: {fileID: 484832779}
+  - component: {fileID: 484832781}
   m_Layer: 0
   m_Name: gray rock (14)
   m_TagString: Untagged
@@ -539,12 +605,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &484832781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 484832777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &594510977
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,6 +631,7 @@ GameObject:
   m_Component:
   - component: {fileID: 594510978}
   - component: {fileID: 594510979}
+  - component: {fileID: 594510980}
   m_Layer: 0
   m_Name: stal
   m_TagString: Untagged
@@ -603,12 +681,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: be90da82eb3c60d48a69a9032d757596, type: 3}
   m_Color: {r: 0.28676468, g: 0.23826772, b: 0.23826772, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &594510980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 594510977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &679593454
 Prefab:
   m_ObjectHideFlags: 0
@@ -646,7 +735,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4728914305751632, guid: 8c0118e9fce393340be5378200391f30, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114797408173654758, guid: 8c0118e9fce393340be5378200391f30,
         type: 2}
@@ -672,9 +761,43 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 20042558227533712, guid: 8c0118e9fce393340be5378200391f30,
+        type: 2}
+      propertyPath: orthographic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c0118e9fce393340be5378200391f30, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &709254995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 709254996}
+  m_Layer: 0
+  m_Name: Ground Layer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &709254996
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 709254995}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.950001, y: 4.05, z: 0}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 1}
+  m_Children:
+  - {fileID: 4944673}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &831256970
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,14 +820,14 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 831256970}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.79, y: -3.8500001, z: 0}
+  m_LocalPosition: {x: -519.69, y: -368.94, z: 10}
   m_LocalScale: {x: 20, y: 20, z: 1}
   m_Children:
   - {fileID: 161444895}
   - {fileID: 1587593154}
   - {fileID: 1242791955}
-  m_Father: {fileID: 1988582689}
-  m_RootOrder: 2
+  m_Father: {fileID: 1145228061}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &880702918
 GameObject:
@@ -715,6 +838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 880702919}
   - component: {fileID: 880702920}
+  - component: {fileID: 880702921}
   m_Layer: 0
   m_Name: gray rock (9)
   m_TagString: Untagged
@@ -764,12 +888,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &880702921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 880702918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &902007744
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +915,7 @@ GameObject:
   - component: {fileID: 902007745}
   - component: {fileID: 902007747}
   - component: {fileID: 902007746}
+  - component: {fileID: 902007748}
   m_Layer: 0
   m_Name: Column (2)
   m_TagString: Untagged
@@ -843,12 +979,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 6cc4343dfc7c7b54b8426e65f6495610, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &902007748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 902007744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &952649830
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,6 +1006,7 @@ GameObject:
   - component: {fileID: 952649831}
   - component: {fileID: 952649833}
   - component: {fileID: 952649832}
+  - component: {fileID: 952649834}
   m_Layer: 0
   m_Name: gray rock (13)
   m_TagString: Untagged
@@ -923,12 +1071,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &952649834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 952649830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &969716973
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,6 +1098,7 @@ GameObject:
   - component: {fileID: 969716974}
   - component: {fileID: 969716976}
   - component: {fileID: 969716975}
+  - component: {fileID: 969716977}
   m_Layer: 0
   m_Name: Column (3)
   m_TagString: Untagged
@@ -1002,12 +1162,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 6cc4343dfc7c7b54b8426e65f6495610, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &969716977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 969716973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &988655779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,6 +1189,7 @@ GameObject:
   - component: {fileID: 988655780}
   - component: {fileID: 988655782}
   - component: {fileID: 988655781}
+  - component: {fileID: 988655783}
   m_Layer: 0
   m_Name: gray rock
   m_TagString: Untagged
@@ -1082,12 +1254,54 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &988655783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 988655779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1145228060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1145228061}
+  m_Layer: 0
+  m_Name: Player Layer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145228061
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1145228060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 501, y: 369, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1962483639}
+  - {fileID: 831256971}
+  - {fileID: 1295615735}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1184621619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,7 +1329,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1184621621
 MonoBehaviour:
@@ -1139,6 +1353,7 @@ GameObject:
   - component: {fileID: 1242791955}
   - component: {fileID: 1242791957}
   - component: {fileID: 1242791956}
+  - component: {fileID: 1242791958}
   m_Layer: 0
   m_Name: gray rock (2)
   m_TagString: Untagged
@@ -1170,7 +1385,7 @@ EdgeCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.12}
+  m_Offset: {x: 0, y: -0.06}
   m_Points:
   - {x: -0.16, y: 0}
   - {x: 0.16, y: 0}
@@ -1203,12 +1418,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1684456509
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 0.41911763, g: 0.42219937, b: 0.42219937, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1242791958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1242791954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1246110885
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,6 +1444,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1246110886}
   - component: {fileID: 1246110887}
+  - component: {fileID: 1246110888}
   m_Layer: 0
   m_Name: gray rock (2)
   m_TagString: Untagged
@@ -1267,12 +1494,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1246110888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1246110885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1295615734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1295,15 +1533,15 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1295615734}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.79, y: -3.91, z: 0}
+  m_LocalPosition: {x: -519.69, y: -369, z: 10}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children:
   - {fileID: 1965916631}
   - {fileID: 1948432275}
   - {fileID: 902007745}
   - {fileID: 969716974}
-  m_Father: {fileID: 1988582689}
-  m_RootOrder: 3
+  m_Father: {fileID: 1145228061}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1318031113
 GameObject:
@@ -1314,6 +1552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1318031114}
   - component: {fileID: 1318031115}
+  - component: {fileID: 1318031116}
   m_Layer: 0
   m_Name: gray rock (10)
   m_TagString: Untagged
@@ -1363,12 +1602,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1318031116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1318031113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1366020256
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,11 +1645,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1366020256}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3699999, y: -5.7999997, z: 0}
+  m_LocalPosition: {x: -513.27, y: -370.89, z: 10}
   m_LocalScale: {x: 8, y: 6, z: 1}
   m_Children: []
-  m_Father: {fileID: 1988582689}
-  m_RootOrder: 1
+  m_Father: {fileID: 83796357}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1366020258
 BoxCollider2D:
@@ -1494,6 +1744,7 @@ GameObject:
   - component: {fileID: 1374710811}
   - component: {fileID: 1374710813}
   - component: {fileID: 1374710812}
+  - component: {fileID: 1374710814}
   m_Layer: 0
   m_Name: gray rock (4)
   m_TagString: Untagged
@@ -1558,12 +1809,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1374710814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1374710810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1447121108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,13 +1851,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1447121108}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05, y: 0.14, z: 0}
+  m_LocalPosition: {x: -11.950001, y: 4.05, z: 0}
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 1}
   m_Children:
   - {fileID: 594510978}
   - {fileID: 1451810195}
   - {fileID: 1500715634}
-  m_Father: {fileID: 1988582689}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1447121110
@@ -1640,9 +1902,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.05613327, y: -0.6174774}
+  m_Offset: {x: -0.006811551, y: -0.5681571}
   serializedVersion: 2
-  m_Size: {x: 3.1330948, y: 2.6840286}
+  m_Size: {x: 3.3796983, y: 2.2401414}
 --- !u!1 &1451810194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,6 +1914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1451810195}
   - component: {fileID: 1451810196}
+  - component: {fileID: 1451810197}
   m_Layer: 9
   m_Name: Openbook
   m_TagString: Untagged
@@ -1707,6 +1970,17 @@ SpriteRenderer:
   m_Color: {r: 0.6691177, g: 0.07379974, b: 0.07379974, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1451810197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1451810194}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1477538435 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1797105893092308, guid: a33ab84be9c93194289025cee1059d21,
@@ -1721,6 +1995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1478643180}
   - component: {fileID: 1478643181}
+  - component: {fileID: 1478643182}
   m_Layer: 0
   m_Name: gray rock (8)
   m_TagString: Untagged
@@ -1770,12 +2045,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1478643182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1478643179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1500715632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1786,6 +2072,7 @@ GameObject:
   - component: {fileID: 1500715634}
   - component: {fileID: 1500715633}
   - component: {fileID: 1500715635}
+  - component: {fileID: 1500715636}
   m_Layer: 0
   m_Name: Sword 1-1
   m_TagString: Untagged
@@ -1852,6 +2139,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4935661d4afe5a04ca43f9c0e59fabcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1500715636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1500715632}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1549842821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,6 +2159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1549842822}
   - component: {fileID: 1549842823}
+  - component: {fileID: 1549842824}
   m_Layer: 0
   m_Name: gray rock (6)
   m_TagString: Untagged
@@ -1910,12 +2209,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1549842824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1549842821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1587593153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,6 +2236,7 @@ GameObject:
   - component: {fileID: 1587593154}
   - component: {fileID: 1587593156}
   - component: {fileID: 1587593155}
+  - component: {fileID: 1587593157}
   m_Layer: 0
   m_Name: gray rock (1)
   m_TagString: Untagged
@@ -1957,7 +2268,7 @@ EdgeCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.12}
+  m_Offset: {x: 0, y: -0.06}
   m_Points:
   - {x: -0.16, y: 0}
   - {x: 0.16, y: 0}
@@ -1990,12 +2301,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 0.41911763, g: 0.42219937, b: 0.42219937, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1587593157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1587593153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1673653804
 GameObject:
   m_ObjectHideFlags: 0
@@ -2006,6 +2328,7 @@ GameObject:
   - component: {fileID: 1673653805}
   - component: {fileID: 1673653807}
   - component: {fileID: 1673653806}
+  - component: {fileID: 1673653808}
   m_Layer: 0
   m_Name: gray rock (12)
   m_TagString: Untagged
@@ -2070,41 +2393,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &1727228463
-GameObject:
+--- !u!114 &1673653808
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1727228464}
-  m_Layer: 0
-  m_Name: Default Layer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1727228464
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1727228463}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.900001, y: 3.91, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4944673}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 1673653804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1747947776
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,6 +2419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1747947777}
   - component: {fileID: 1747947778}
+  - component: {fileID: 1747947779}
   m_Layer: 0
   m_Name: gray rock (1)
   m_TagString: Untagged
@@ -2163,12 +2469,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1747947779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1747947776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1782159354
 Prefab:
   m_ObjectHideFlags: 0
@@ -2206,7 +2523,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4809495396543720, guid: 4f04166c0bfecb64b8a247c2b16a5221, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114830112483618376, guid: 4f04166c0bfecb64b8a247c2b16a5221,
         type: 2}
@@ -2234,6 +2551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1856345248}
   - component: {fileID: 1856345249}
+  - component: {fileID: 1856345250}
   m_Layer: 0
   m_Name: gray rock (7)
   m_TagString: Untagged
@@ -2283,12 +2601,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1856345250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1856345247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1909321592
 GameObject:
   m_ObjectHideFlags: 0
@@ -2300,6 +2629,7 @@ GameObject:
   - component: {fileID: 1909321595}
   - component: {fileID: 1909321594}
   - component: {fileID: 1909321597}
+  - component: {fileID: 1909321596}
   m_Layer: 0
   m_Name: gray rock (15)
   m_TagString: Untagged
@@ -2367,12 +2697,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1909321596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1909321592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &1909321597
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2397,6 +2738,7 @@ GameObject:
   - component: {fileID: 1948432275}
   - component: {fileID: 1948432277}
   - component: {fileID: 1948432276}
+  - component: {fileID: 1948432278}
   m_Layer: 0
   m_Name: Column (1)
   m_TagString: Untagged
@@ -2460,42 +2802,53 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 6cc4343dfc7c7b54b8426e65f6495610, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1948432278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1948432274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1962483638
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1145228061}
     m_Modifications:
     - target: {fileID: 4688293380748734, guid: a33ab84be9c93194289025cee1059d21, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -11.85
+      value: -512.85
       objectReference: {fileID: 0}
     - target: {fileID: 4688293380748734, guid: a33ab84be9c93194289025cee1059d21, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 6.77
+      value: -362.23
       objectReference: {fileID: 0}
     - target: {fileID: 4688293380748734, guid: a33ab84be9c93194289025cee1059d21, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4688293380748734, guid: a33ab84be9c93194289025cee1059d21, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4688293380748734, guid: a33ab84be9c93194289025cee1059d21, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4688293380748734, guid: a33ab84be9c93194289025cee1059d21, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4688293380748734, guid: a33ab84be9c93194289025cee1059d21, type: 2}
       propertyPath: m_LocalRotation.w
@@ -2503,16 +2856,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4688293380748734, guid: a33ab84be9c93194289025cee1059d21, type: 2}
       propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 212621179857347030, guid: a33ab84be9c93194289025cee1059d21,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: -1937604997
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a33ab84be9c93194289025cee1059d21, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1962483639 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4688293380748734, guid: a33ab84be9c93194289025cee1059d21,
+    type: 2}
+  m_PrefabInternal: {fileID: 1962483638}
 --- !u!1 &1965916630
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,6 +2876,7 @@ GameObject:
   - component: {fileID: 1965916631}
   - component: {fileID: 1965916633}
   - component: {fileID: 1965916632}
+  - component: {fileID: 1965916634}
   m_Layer: 0
   m_Name: Column
   m_TagString: Untagged
@@ -2586,44 +2940,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 6cc4343dfc7c7b54b8426e65f6495610, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &1988582688
-GameObject:
+--- !u!114 &1965916634
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1988582689}
-  m_Layer: 0
-  m_Name: Environment Layer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1988582689
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1988582688}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.900001, y: 3.91, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1447121109}
-  - {fileID: 1366020257}
-  - {fileID: 831256971}
-  - {fileID: 1295615735}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 1965916630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2039289148
 Prefab:
   m_ObjectHideFlags: 0
@@ -2669,7 +3002,7 @@ Prefab:
     - target: {fileID: 224534767017788652, guid: b230acc5a8c1a4e4ebfb73843a74c313,
         type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224534767017788652, guid: b230acc5a8c1a4e4ebfb73843a74c313,
         type: 2}
@@ -2791,7 +3124,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4709298801557844, guid: 08fa70631684e0a4ca7be99e8ee7fb8c, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08fa70631684e0a4ca7be99e8ee7fb8c, type: 2}
@@ -2805,6 +3138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2112449284}
   - component: {fileID: 2112449285}
+  - component: {fileID: 2112449286}
   m_Layer: 0
   m_Name: gray rock (11)
   m_TagString: Untagged
@@ -2854,9 +3188,20 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2072454663
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: daaedf02b34a98748b6813cdbaeba37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &2112449286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2112449283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

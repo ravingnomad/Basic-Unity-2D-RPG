@@ -14,6 +14,7 @@ TagManager:
   - Game Over
   - Dialogue Box
   - Dialogue Box Canvas
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -62,4 +63,7 @@ TagManager:
     locked: 0
   - name: Environment
     uniqueID: 2506669115
+    locked: 0
+  - name: Spaceship
+    uniqueID: 1255369853
     locked: 0
