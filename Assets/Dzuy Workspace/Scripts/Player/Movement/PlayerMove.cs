@@ -21,7 +21,7 @@ public class PlayerMove : MonoBehaviour {
         if (!Exists)
         {
            Exists = true;
-            DontDestroyOnLoad(transform.gameObject);
+           DontDestroyOnLoad(transform.gameObject);
        }
 
         else

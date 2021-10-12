@@ -19,8 +19,6 @@ public class PlayerCamera : MonoBehaviour {
     public static bool Exists;
 	// Use this for initialization
 	void Start () {
-        //DontDestroyOnLoad(transform.gameObject);
-
         if (!Exists)
         {
             Exists = true;
@@ -40,7 +38,7 @@ public class PlayerCamera : MonoBehaviour {
         halfWidth = halfHeight * (Screen.width / Screen.height);
     }
 	
-	// Update is called once per frame
+	
 	void Update () {
         targetPosition = new Vector3(followTarget.transform.position.x, followTarget.transform.position.y, transform.position.z);
         transform.position = Vector3.Lerp(transform.position, targetPosition, moveSpeed);
@@ -61,7 +59,6 @@ public class PlayerCamera : MonoBehaviour {
     public void SetBounds(BoxCollider2D newBounds)
     {
         boundBox = newBounds;
-
         minBounds = boundBox.bounds.min;
         maxBounds = boundBox.bounds.max;
     }
