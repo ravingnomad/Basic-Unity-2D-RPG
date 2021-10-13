@@ -435,6 +435,31 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 24.9
       objectReference: {fileID: 0}
+    - target: {fileID: 114832506959838840, guid: 9168a0e8253b5404e8c41b467c36e33a,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61909168437557090, guid: 9168a0e8253b5404e8c41b467c36e33a,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: 0.009824569
+      objectReference: {fileID: 0}
+    - target: {fileID: 61909168437557090, guid: 9168a0e8253b5404e8c41b467c36e33a,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.1891816
+      objectReference: {fileID: 0}
+    - target: {fileID: 61909168437557090, guid: 9168a0e8253b5404e8c41b467c36e33a,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0.047454394
+      objectReference: {fileID: 0}
+    - target: {fileID: 61909168437557090, guid: 9168a0e8253b5404e8c41b467c36e33a,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.9157914
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9168a0e8253b5404e8c41b467c36e33a, type: 2}
   m_IsPrefabParent: 0
@@ -765,6 +790,11 @@ Prefab:
         type: 2}
       propertyPath: orthographic
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20042558227533712, guid: 8c0118e9fce393340be5378200391f30,
+        type: 2}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c0118e9fce393340be5378200391f30, type: 2}

@@ -15,6 +15,8 @@ public class PlayerCamera : MonoBehaviour {
     private Camera theCamera;
     private float halfHeight;
     private float halfWidth;
+    private float clampedX;
+    private float clampedY;
 
     public static bool Exists;
 	// Use this for initialization
@@ -29,37 +31,33 @@ public class PlayerCamera : MonoBehaviour {
         {
             Destroy(gameObject);
         }
-        //boundBox = GameObject.FindGameObjectWithTag("Camera Bounds").GetComponent<BoxCollider2D>();
-        //minBounds = boundBox.bounds.min;
-        //maxBounds = boundBox.bounds.max;
 
         theCamera = GetComponent<Camera>();
         halfHeight = theCamera.orthographicSize;
-        halfWidth = halfHeight * (Screen.width / Screen.height);
+        halfWidth = halfHeight * ((float)Screen.width / (float)Screen.height);
+        clampedX = 0f;
+        clampedY = 0f;
     }
 	
 	
 	void Update () {
-        targetPosition = new Vector3(followTarget.transform.position.x, followTarget.transform.position.y, transform.position.z);
-        transform.position = Vector3.Lerp(transform.position, targetPosition, moveSpeed);
-
         if (boundBox == null)
         {
             boundBox = GameObject.FindGameObjectWithTag("Camera Bounds").GetComponent<BoxCollider2D>();
             minBounds = boundBox.bounds.min;
             maxBounds = boundBox.bounds.max;
         }
-        float clampedX = Mathf.Clamp(transform.position.x, minBounds.x + halfWidth, maxBounds.x - halfWidth);
-        float clampedY = Mathf.Clamp(transform.position.y, minBounds.y + halfHeight, maxBounds.y - halfHeight);
-
-        transform.position = new Vector3(clampedX, clampedY, transform.position.z);
+        targetPosition = new Vector3(followTarget.transform.position.x, followTarget.transform.position.y, transform.position.z);
+        clampedX = Mathf.Clamp(targetPosition.x, minBounds.x + halfWidth, maxBounds.x - halfWidth);
+        clampedY = Mathf.Clamp(targetPosition.y, minBounds.y + halfHeight, maxBounds.y - halfHeight);
+        targetPosition = new Vector3(clampedX, clampedY, targetPosition.z);
+        transform.position = Vector3.Lerp(transform.position, targetPosition, moveSpeed);
     }
 
     //sets new bounds for new scene
     public void SetBounds(BoxCollider2D newBounds)
     {
         boundBox = newBounds;
-
         minBounds = boundBox.bounds.min;
         maxBounds = boundBox.bounds.max;
     }
