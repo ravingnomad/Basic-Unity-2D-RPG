@@ -151,8 +151,6 @@ GameObject:
   m_Component:
   - component: {fileID: 119320971}
   - component: {fileID: 119320974}
-  - component: {fileID: 119320973}
-  - component: {fileID: 119320972}
   m_Layer: 0
   m_Name: grass from opengameart (7)
   m_TagString: Untagged
@@ -173,32 +171,6 @@ Transform:
   m_Father: {fileID: 1809024555}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &119320972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 119320970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &119320973
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 119320970}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: 2.1804771, y: -1.7817698}
-  - {x: 2.1713362, y: -1.1937687}
 --- !u!212 &119320974
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -668,8 +640,6 @@ GameObject:
   m_Component:
   - component: {fileID: 364823666}
   - component: {fileID: 364823669}
-  - component: {fileID: 364823668}
-  - component: {fileID: 364823667}
   m_Layer: 0
   m_Name: grass from opengameart (8)
   m_TagString: Untagged
@@ -690,32 +660,6 @@ Transform:
   m_Father: {fileID: 1809024555}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &364823667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 364823665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &364823668
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 364823665}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: 2.1804771, y: -1.7817698}
-  - {x: 2.1713362, y: -1.1937687}
 --- !u!212 &364823669
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1276,8 +1220,6 @@ GameObject:
   m_Component:
   - component: {fileID: 571979046}
   - component: {fileID: 571979049}
-  - component: {fileID: 571979048}
-  - component: {fileID: 571979047}
   m_Layer: 0
   m_Name: grass from opengameart (6)
   m_TagString: Untagged
@@ -1298,32 +1240,6 @@ Transform:
   m_Father: {fileID: 1809024555}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &571979047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 571979045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &571979048
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 571979045}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: 2.1804771, y: -1.7817698}
-  - {x: 2.1713362, y: -1.1937687}
 --- !u!212 &571979049
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1611,8 +1527,6 @@ GameObject:
   m_Component:
   - component: {fileID: 859272045}
   - component: {fileID: 859272048}
-  - component: {fileID: 859272047}
-  - component: {fileID: 859272046}
   m_Layer: 0
   m_Name: grass from opengameart (4)
   m_TagString: Untagged
@@ -1633,32 +1547,6 @@ Transform:
   m_Father: {fileID: 1809024555}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &859272046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 859272044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &859272047
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 859272044}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: 2.1804771, y: -1.7817698}
-  - {x: 2.1713362, y: -1.1937687}
 --- !u!212 &859272048
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2171,7 +2059,7 @@ Transform:
   m_Children:
   - {fileID: 384557057}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1045108544
 GameObject:
@@ -2517,7 +2405,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4709298801557844, guid: 08fa70631684e0a4ca7be99e8ee7fb8c, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114133934223932128, guid: 08fa70631684e0a4ca7be99e8ee7fb8c,
         type: 2}
@@ -2600,8 +2488,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1323576802}
   - component: {fileID: 1323576805}
-  - component: {fileID: 1323576804}
-  - component: {fileID: 1323576803}
   m_Layer: 0
   m_Name: grass from opengameart (2)
   m_TagString: Untagged
@@ -2622,32 +2508,6 @@ Transform:
   m_Father: {fileID: 1809024555}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1323576803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1323576801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &1323576804
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1323576801}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: 2.1804771, y: -1.7817698}
-  - {x: 2.1713362, y: -1.1937687}
 --- !u!212 &1323576805
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2756,8 +2616,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1347008601}
   - component: {fileID: 1347008604}
-  - component: {fileID: 1347008603}
-  - component: {fileID: 1347008602}
   m_Layer: 0
   m_Name: grass from opengameart (5)
   m_TagString: Untagged
@@ -2778,32 +2636,6 @@ Transform:
   m_Father: {fileID: 1809024555}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1347008602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1347008600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &1347008603
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1347008600}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: 2.1804771, y: -1.7817698}
-  - {x: 2.1713362, y: -1.1937687}
 --- !u!212 &1347008604
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2848,8 +2680,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1371866210}
   - component: {fileID: 1371866213}
-  - component: {fileID: 1371866212}
-  - component: {fileID: 1371866211}
   m_Layer: 0
   m_Name: grass from opengameart (3)
   m_TagString: Untagged
@@ -2870,32 +2700,6 @@ Transform:
   m_Father: {fileID: 1809024555}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1371866211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1371866209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &1371866212
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1371866209}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: 2.1804771, y: -1.7817698}
-  - {x: 2.1713362, y: -1.1937687}
 --- !u!212 &1371866213
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3022,7 +2826,7 @@ Transform:
   m_Children:
   - {fileID: 1648593751}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1408419613
 GameObject:
@@ -3033,8 +2837,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1408419614}
   - component: {fileID: 1408419617}
-  - component: {fileID: 1408419616}
-  - component: {fileID: 1408419615}
   m_Layer: 0
   m_Name: grass from opengameart (1)
   m_TagString: Untagged
@@ -3055,32 +2857,6 @@ Transform:
   m_Father: {fileID: 1809024555}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1408419615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1408419613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &1408419616
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1408419613}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: 2.1804771, y: -1.7817698}
-  - {x: 2.1713362, y: -1.1937687}
 --- !u!212 &1408419617
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3304,7 +3080,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4350708307745248, guid: 9168a0e8253b5404e8c41b467c36e33a, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4350708307745248, guid: 9168a0e8253b5404e8c41b467c36e33a, type: 2}
       propertyPath: m_LocalScale.y
@@ -3386,8 +3162,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1608753267}
   - component: {fileID: 1608753268}
-  - component: {fileID: 1608753269}
-  - component: {fileID: 1608753270}
   m_Layer: 0
   m_Name: grass from opengameart
   m_TagString: Untagged
@@ -3443,32 +3217,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!68 &1608753269
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1608753266}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: 2.1804771, y: -1.7817698}
-  - {x: 2.1713362, y: -1.1937687}
---- !u!114 &1608753270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1608753266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1644374369
 Prefab:
   m_ObjectHideFlags: 0
@@ -3554,46 +3302,6 @@ Transform:
   - {fileID: 869989129}
   - {fileID: 435823020}
   m_Father: {fileID: 1397475505}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1714787069
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1714787071}
-  - component: {fileID: 1714787070}
-  m_Layer: 0
-  m_Name: Start Point 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1714787070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1714787069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 083d7a6dcb7e0d1498309efcd33d52ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1714787071
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1714787069}
-  m_LocalRotation: {x: -0.008562875, y: -0.02655274, z: -0.30680132, w: 0.95136464}
-  m_LocalPosition: {x: 16.47, y: -11.86, z: 12.27}
-  m_LocalScale: {x: 3, y: 4, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1864106099}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1785372684
@@ -3711,8 +3419,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1809024555}
-  - component: {fileID: 1809024556}
-  - component: {fileID: 1809024557}
   m_Layer: 0
   m_Name: Grass
   m_TagString: Untagged
@@ -3742,32 +3448,6 @@ Transform:
   m_Father: {fileID: 1920476200}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &1809024556
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1809024554}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 2.1}
-  m_Points:
-  - {x: -4.251086, y: -0.037762642}
-  - {x: -4.232499, y: -4.2816286}
---- !u!114 &1809024557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1809024554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1834802163
 Prefab:
   m_ObjectHideFlags: 0
@@ -3884,36 +3564,6 @@ SpriteRenderer:
   m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &1864106098
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1864106099}
-  m_Layer: 0
-  m_Name: Player Start Points
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1864106099
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1864106098}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.301942, y: -4.334477, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1714787071}
-  - {fileID: 2121709789}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1895855514
 GameObject:
   m_ObjectHideFlags: 0
@@ -4070,7 +3720,7 @@ Transform:
   - {fileID: 1809024555}
   - {fileID: 34638950}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2064713865
 GameObject:
@@ -4200,43 +3850,3 @@ SpriteRenderer:
   m_Color: {r: 0.86764705, g: 0.8431913, b: 0.5741782, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &2121709788
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2121709789}
-  - component: {fileID: 2121709790}
-  m_Layer: 0
-  m_Name: Start Point 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2121709789
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2121709788}
-  m_LocalRotation: {x: -0.008562875, y: -0.02655274, z: -0.30680132, w: 0.95136464}
-  m_LocalPosition: {x: -3.5, y: 27.3, z: 10}
-  m_LocalScale: {x: 3, y: 4, z: 0.9999999}
-  m_Children: []
-  m_Father: {fileID: 1864106099}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2121709790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2121709788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 083d7a6dcb7e0d1498309efcd33d52ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

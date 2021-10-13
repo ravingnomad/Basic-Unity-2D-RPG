@@ -293,8 +293,6 @@ GameObject:
   - component: {fileID: 81044099}
   - component: {fileID: 81044101}
   - component: {fileID: 81044100}
-  - component: {fileID: 81044102}
-  - component: {fileID: 81044103}
   m_Layer: 0
   m_Name: boulder (3)
   m_TagString: Untagged
@@ -358,34 +356,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1937604997
+  m_SortingLayerID: -456559429
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &81044102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 81044098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &81044103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 81044098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &123668548
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,7 +628,6 @@ GameObject:
   - component: {fileID: 190145339}
   - component: {fileID: 190145341}
   - component: {fileID: 190145340}
-  - component: {fileID: 190145342}
   m_Layer: 0
   m_Name: boulder (8)
   m_TagString: Untagged
@@ -722,17 +697,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &190145342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 190145338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &215410837
 Prefab:
   m_ObjectHideFlags: 0
@@ -1076,7 +1040,7 @@ Transform:
   - {fileID: 577360447}
   - {fileID: 464593897}
   m_Father: {fileID: 1989121449}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &410582925
 GameObject:
@@ -1087,8 +1051,6 @@ GameObject:
   m_Component:
   - component: {fileID: 410582926}
   - component: {fileID: 410582929}
-  - component: {fileID: 410582928}
-  - component: {fileID: 410582927}
   m_Layer: 0
   m_Name: Grass (4)
   m_TagString: Untagged
@@ -1109,32 +1071,6 @@ Transform:
   m_Father: {fileID: 1006861769}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!114 &410582927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 410582925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &410582928
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 410582925}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -2.1}
-  m_Points:
-  - {x: -2.145, y: 0}
-  - {x: 2.145, y: 0}
 --- !u!212 &410582929
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1322,8 +1258,6 @@ GameObject:
   m_Component:
   - component: {fileID: 462159237}
   - component: {fileID: 462159240}
-  - component: {fileID: 462159239}
-  - component: {fileID: 462159238}
   m_Layer: 0
   m_Name: Grass (2)
   m_TagString: Untagged
@@ -1344,32 +1278,6 @@ Transform:
   m_Father: {fileID: 1006861769}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!114 &462159238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 462159236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &462159239
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 462159236}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -2.1}
-  m_Points:
-  - {x: -2.145, y: 0}
-  - {x: 2.145, y: 0}
 --- !u!212 &462159240
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2383,8 +2291,6 @@ GameObject:
   m_Component:
   - component: {fileID: 793099383}
   - component: {fileID: 793099386}
-  - component: {fileID: 793099385}
-  - component: {fileID: 793099384}
   m_Layer: 0
   m_Name: Grass (1)
   m_TagString: Untagged
@@ -2405,32 +2311,6 @@ Transform:
   m_Father: {fileID: 1006861769}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &793099384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 793099382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &793099385
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 793099382}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -2.1}
-  m_Points:
-  - {x: -2.145, y: 0}
-  - {x: 2.145, y: 0}
 --- !u!212 &793099386
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2707,8 +2587,6 @@ GameObject:
   m_Component:
   - component: {fileID: 856615614}
   - component: {fileID: 856615617}
-  - component: {fileID: 856615616}
-  - component: {fileID: 856615615}
   m_Layer: 0
   m_Name: Grass (3)
   m_TagString: Untagged
@@ -2729,32 +2607,6 @@ Transform:
   m_Father: {fileID: 1006861769}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!114 &856615615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 856615613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &856615616
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 856615613}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -2.1}
-  m_Points:
-  - {x: -2.145, y: 0}
-  - {x: 2.145, y: 0}
 --- !u!212 &856615617
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3066,8 +2918,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1006828517}
   - component: {fileID: 1006828520}
-  - component: {fileID: 1006828519}
-  - component: {fileID: 1006828518}
   m_Layer: 0
   m_Name: Grass (7)
   m_TagString: Untagged
@@ -3088,32 +2938,6 @@ Transform:
   m_Father: {fileID: 1006861769}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1006828518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1006828516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &1006828519
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1006828516}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -2.1}
-  m_Points:
-  - {x: -2.145, y: 0}
-  - {x: 2.145, y: 0}
 --- !u!212 &1006828520
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3551,7 +3375,6 @@ GameObject:
   - component: {fileID: 1149210581}
   - component: {fileID: 1149210583}
   - component: {fileID: 1149210582}
-  - component: {fileID: 1149210584}
   m_Layer: 0
   m_Name: boulder (7)
   m_TagString: Untagged
@@ -3621,17 +3444,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &1149210584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1149210580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1157868031
 GameObject:
   m_ObjectHideFlags: 0
@@ -3770,8 +3582,6 @@ GameObject:
   - component: {fileID: 1216271653}
   - component: {fileID: 1216271655}
   - component: {fileID: 1216271654}
-  - component: {fileID: 1216271656}
-  - component: {fileID: 1216271657}
   m_Layer: 0
   m_Name: boulder (4)
   m_TagString: Untagged
@@ -3835,34 +3645,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1937604997
+  m_SortingLayerID: -456559429
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &1216271656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1216271652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1216271657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1216271652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1217597187
 GameObject:
   m_ObjectHideFlags: 0
@@ -3893,7 +3681,7 @@ Transform:
   - {fileID: 190145339}
   - {fileID: 1902310383}
   m_Father: {fileID: 1989121449}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1231078075
 GameObject:
@@ -3905,7 +3693,6 @@ GameObject:
   - component: {fileID: 1231078076}
   - component: {fileID: 1231078078}
   - component: {fileID: 1231078077}
-  - component: {fileID: 1231078079}
   m_Layer: 0
   m_Name: boulder (6)
   m_TagString: Untagged
@@ -3975,17 +3762,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &1231078079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1231078075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1238989890
 GameObject:
   m_ObjectHideFlags: 0
@@ -4190,8 +3966,6 @@ GameObject:
   - component: {fileID: 1424973325}
   - component: {fileID: 1424973327}
   - component: {fileID: 1424973326}
-  - component: {fileID: 1424973328}
-  - component: {fileID: 1424973329}
   m_Layer: 0
   m_Name: boulder (2)
   m_TagString: Untagged
@@ -4255,34 +4029,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1937604997
+  m_SortingLayerID: -456559429
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &1424973328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1424973324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1424973329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1424973324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1429917565
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,8 +4045,6 @@ GameObject:
   - component: {fileID: 1429917566}
   - component: {fileID: 1429917568}
   - component: {fileID: 1429917567}
-  - component: {fileID: 1429917569}
-  - component: {fileID: 1429917570}
   m_Layer: 0
   m_Name: boulder
   m_TagString: Untagged
@@ -4358,34 +4108,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1937604997
+  m_SortingLayerID: -456559429
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &1429917569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1429917565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1429917570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1429917565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1457933545
 GameObject:
   m_ObjectHideFlags: 0
@@ -4395,8 +4123,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1457933547}
   - component: {fileID: 1457933546}
-  - component: {fileID: 1457933548}
-  - component: {fileID: 1457933549}
   m_Layer: 0
   m_Name: Grass
   m_TagString: Untagged
@@ -4452,32 +4178,6 @@ Transform:
   m_Father: {fileID: 1006861769}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &1457933548
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1457933545}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -2.1}
-  m_Points:
-  - {x: -2.145, y: 0}
-  - {x: 2.145, y: 0}
---- !u!114 &1457933549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1457933545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1458270007
 GameObject:
   m_ObjectHideFlags: 0
@@ -4793,8 +4493,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1535479360}
   - component: {fileID: 1535479363}
-  - component: {fileID: 1535479362}
-  - component: {fileID: 1535479361}
   m_Layer: 0
   m_Name: Grass (8)
   m_TagString: Untagged
@@ -4815,32 +4513,6 @@ Transform:
   m_Father: {fileID: 1006861769}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1535479361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1535479359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &1535479362
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1535479359}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -2.1}
-  m_Points:
-  - {x: -2.145, y: 0}
-  - {x: 2.145, y: 0}
 --- !u!212 &1535479363
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5014,8 +4686,6 @@ GameObject:
   - component: {fileID: 1589393393}
   - component: {fileID: 1589393395}
   - component: {fileID: 1589393394}
-  - component: {fileID: 1589393396}
-  - component: {fileID: 1589393397}
   m_Layer: 0
   m_Name: boulder (5)
   m_TagString: Untagged
@@ -5079,34 +4749,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1937604997
+  m_SortingLayerID: -456559429
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &1589393396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1589393392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1589393397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1589393392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1622297811
 GameObject:
   m_ObjectHideFlags: 0
@@ -5531,8 +5179,6 @@ GameObject:
   - component: {fileID: 1809051863}
   - component: {fileID: 1809051865}
   - component: {fileID: 1809051864}
-  - component: {fileID: 1809051866}
-  - component: {fileID: 1809051867}
   m_Layer: 0
   m_Name: boulder (1)
   m_TagString: Untagged
@@ -5596,34 +5242,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1937604997
+  m_SortingLayerID: -456559429
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &1809051866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1809051862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1809051867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1809051862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1831938815
 GameObject:
   m_ObjectHideFlags: 0
@@ -5825,8 +5449,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1878745148}
   - component: {fileID: 1878745151}
-  - component: {fileID: 1878745150}
-  - component: {fileID: 1878745149}
   m_Layer: 0
   m_Name: Grass (5)
   m_TagString: Untagged
@@ -5847,32 +5469,6 @@ Transform:
   m_Father: {fileID: 1006861769}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!114 &1878745149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1878745147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &1878745150
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1878745147}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -2.1}
-  m_Points:
-  - {x: -2.145, y: 0}
-  - {x: 2.145, y: 0}
 --- !u!212 &1878745151
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5982,7 +5578,6 @@ GameObject:
   - component: {fileID: 1902310383}
   - component: {fileID: 1902310385}
   - component: {fileID: 1902310384}
-  - component: {fileID: 1902310386}
   m_Layer: 0
   m_Name: boulder (9)
   m_TagString: Untagged
@@ -6052,17 +5647,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &1902310386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1902310382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1952163818
 GameObject:
   m_ObjectHideFlags: 0
@@ -6292,8 +5876,8 @@ Transform:
   m_LocalPosition: {x: -12.27, y: 4.3529973, z: -1.6985912}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1217597188}
   - {fileID: 376199830}
+  - {fileID: 1217597188}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6830,8 +6414,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2085264613}
   - component: {fileID: 2085264616}
-  - component: {fileID: 2085264615}
-  - component: {fileID: 2085264614}
   m_Layer: 0
   m_Name: Grass (6)
   m_TagString: Untagged
@@ -6852,32 +6434,6 @@ Transform:
   m_Father: {fileID: 1006861769}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!114 &2085264614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2085264612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!68 &2085264615
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2085264612}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -2.1}
-  m_Points:
-  - {x: -2.145, y: 0}
-  - {x: 2.145, y: 0}
 --- !u!212 &2085264616
 SpriteRenderer:
   m_ObjectHideFlags: 0

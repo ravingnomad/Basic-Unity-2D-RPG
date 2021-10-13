@@ -415,8 +415,6 @@ GameObject:
   m_Component:
   - component: {fileID: 468928437}
   - component: {fileID: 468928439}
-  - component: {fileID: 468928438}
-  - component: {fileID: 468928440}
   m_Layer: 0
   m_Name: Teleporter
   m_TagString: Untagged
@@ -437,20 +435,6 @@ Transform:
   m_Father: {fileID: 964862538}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &468928438
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 468928436}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 2.1, y: 1.1}
 --- !u!212 &468928439
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -486,17 +470,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &468928440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 468928436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &524977588
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,6 +480,7 @@ GameObject:
   - component: {fileID: 524977589}
   - component: {fileID: 524977591}
   - component: {fileID: 524977590}
+  - component: {fileID: 524977592}
   m_Layer: 0
   m_Name: boulder (2)
   m_TagString: Untagged
@@ -570,12 +544,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &524977592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 524977588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &537290968
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,6 +571,7 @@ GameObject:
   - component: {fileID: 537290969}
   - component: {fileID: 537290971}
   - component: {fileID: 537290970}
+  - component: {fileID: 537290972}
   m_Layer: 0
   m_Name: boulder (3)
   m_TagString: Untagged
@@ -649,12 +635,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &537290972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 537290968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &571012470
 Prefab:
   m_ObjectHideFlags: 0
@@ -721,8 +718,6 @@ GameObject:
   - component: {fileID: 597705464}
   - component: {fileID: 597705467}
   - component: {fileID: 597705466}
-  - component: {fileID: 597705465}
-  - component: {fileID: 597705468}
   m_Layer: 0
   m_Name: Entrance
   m_TagString: Untagged
@@ -743,20 +738,6 @@ Transform:
   m_Father: {fileID: 964862538}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &597705465
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 597705463}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: -3.2072303, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 3.825539, y: 10.24}
 --- !u!68 &597705466
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -809,17 +790,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &597705468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 597705463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1709be43f8d647b18cf97bdadfec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &626167630
 Prefab:
   m_ObjectHideFlags: 0
@@ -1041,6 +1011,7 @@ GameObject:
   - component: {fileID: 684318681}
   - component: {fileID: 684318683}
   - component: {fileID: 684318682}
+  - component: {fileID: 684318684}
   m_Layer: 0
   m_Name: Red Crystal Cluster (19)
   m_TagString: Untagged
@@ -1104,12 +1075,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &684318684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 684318680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &698248800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,6 +1102,7 @@ GameObject:
   - component: {fileID: 698248801}
   - component: {fileID: 698248803}
   - component: {fileID: 698248802}
+  - component: {fileID: 698248804}
   m_Layer: 0
   m_Name: Red Crystal Cluster (23)
   m_TagString: Untagged
@@ -1183,12 +1166,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &698248804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 698248800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &763968023
 Prefab:
   m_ObjectHideFlags: 0
@@ -1357,6 +1351,7 @@ GameObject:
   - component: {fileID: 854245535}
   - component: {fileID: 854245537}
   - component: {fileID: 854245536}
+  - component: {fileID: 854245538}
   m_Layer: 0
   m_Name: Red Crystal Cluster (7)
   m_TagString: Untagged
@@ -1420,12 +1415,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &854245538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854245534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &921155836
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,6 +1577,7 @@ GameObject:
   - component: {fileID: 973810706}
   - component: {fileID: 973810708}
   - component: {fileID: 973810707}
+  - component: {fileID: 973810709}
   m_Layer: 0
   m_Name: Red Crystal Cluster (16)
   m_TagString: Untagged
@@ -1634,12 +1641,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &973810709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 973810705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &977791544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,6 +1668,7 @@ GameObject:
   - component: {fileID: 977791545}
   - component: {fileID: 977791547}
   - component: {fileID: 977791546}
+  - component: {fileID: 977791548}
   m_Layer: 0
   m_Name: Red Crystal Cluster (6)
   m_TagString: Untagged
@@ -1713,12 +1732,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &977791548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 977791544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &985184036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1831,7 +1861,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1021691495}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1849,8 +1879,8 @@ Transform:
   - {fileID: 1348100910}
   - {fileID: 698248801}
   - {fileID: 1771610549}
-  m_Father: {fileID: 1608236546}
-  m_RootOrder: 0
+  m_Father: {fileID: 2026849553}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1042299494
 GameObject:
@@ -1862,6 +1892,7 @@ GameObject:
   - component: {fileID: 1042299495}
   - component: {fileID: 1042299497}
   - component: {fileID: 1042299496}
+  - component: {fileID: 1042299498}
   m_Layer: 0
   m_Name: Red Crystal Cluster (8)
   m_TagString: Untagged
@@ -1925,12 +1956,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1042299498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1042299494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1082702722
 Prefab:
   m_ObjectHideFlags: 0
@@ -2005,6 +2047,7 @@ GameObject:
   - component: {fileID: 1113025868}
   - component: {fileID: 1113025870}
   - component: {fileID: 1113025869}
+  - component: {fileID: 1113025871}
   m_Layer: 0
   m_Name: tower_lightning (2)
   m_TagString: Untagged
@@ -2068,12 +2111,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 60bb42d21317467418dd335322ce13eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1113025871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1113025867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1138586329
 Prefab:
   m_ObjectHideFlags: 0
@@ -2204,6 +2258,7 @@ GameObject:
   - component: {fileID: 1226853316}
   - component: {fileID: 1226853318}
   - component: {fileID: 1226853317}
+  - component: {fileID: 1226853319}
   m_Layer: 0
   m_Name: Red Crystal Cluster (20)
   m_TagString: Untagged
@@ -2267,12 +2322,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1226853319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1226853315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1240890190
 Prefab:
   m_ObjectHideFlags: 0
@@ -2358,8 +2424,8 @@ Transform:
   - {fileID: 2076203252}
   - {fileID: 524977589}
   - {fileID: 537290969}
-  m_Father: {fileID: 1608236546}
-  m_RootOrder: 1
+  m_Father: {fileID: 2026849553}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1291025103
 Prefab:
@@ -2486,6 +2552,7 @@ GameObject:
   - component: {fileID: 1348100910}
   - component: {fileID: 1348100912}
   - component: {fileID: 1348100911}
+  - component: {fileID: 1348100913}
   m_Layer: 0
   m_Name: Red Crystal Cluster (21)
   m_TagString: Untagged
@@ -2549,12 +2616,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1348100913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1348100909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1404065236
 GameObject:
   m_ObjectHideFlags: 0
@@ -2730,7 +2808,7 @@ Transform:
   m_LocalScale: {x: 0.19999997, y: 0.13333336, z: 1}
   m_Children: []
   m_Father: {fileID: 1608236546}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1549717457
 BoxCollider2D:
@@ -2791,6 +2869,7 @@ GameObject:
   - component: {fileID: 1557795736}
   - component: {fileID: 1557795738}
   - component: {fileID: 1557795737}
+  - component: {fileID: 1557795739}
   m_Layer: 0
   m_Name: Red Crystal Cluster (15)
   m_TagString: Untagged
@@ -2854,12 +2933,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1557795739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1557795735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1558878706
 GameObject:
   m_ObjectHideFlags: 0
@@ -2870,6 +2960,7 @@ GameObject:
   - component: {fileID: 1558878707}
   - component: {fileID: 1558878709}
   - component: {fileID: 1558878708}
+  - component: {fileID: 1558878710}
   m_Layer: 0
   m_Name: Red Crystal Cluster (14)
   m_TagString: Untagged
@@ -2933,12 +3024,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1558878710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1558878706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1562323361 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4544391089655450, guid: 63d3c8717dc002e4f9fc82120344dd87,
@@ -3018,6 +3120,7 @@ GameObject:
   - component: {fileID: 1571356263}
   - component: {fileID: 1571356265}
   - component: {fileID: 1571356264}
+  - component: {fileID: 1571356266}
   m_Layer: 0
   m_Name: Red Crystal Cluster (11)
   m_TagString: Untagged
@@ -3081,12 +3184,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1571356266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1571356262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1607602404
 GameObject:
   m_ObjectHideFlags: 0
@@ -3203,10 +3317,7 @@ Transform:
   m_LocalPosition: {x: 145.5, y: -48, z: 0}
   m_LocalScale: {x: 10, y: 3, z: 1}
   m_Children:
-  - {fileID: 1021691496}
-  - {fileID: 1276071939}
   - {fileID: 1549717456}
-  - {fileID: 1966143862}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3332,6 +3443,7 @@ GameObject:
   - component: {fileID: 1771610549}
   - component: {fileID: 1771610551}
   - component: {fileID: 1771610550}
+  - component: {fileID: 1771610552}
   m_Layer: 0
   m_Name: Red Crystal Cluster (22)
   m_TagString: Untagged
@@ -3395,12 +3507,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1771610552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1771610548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1781461805
 Prefab:
   m_ObjectHideFlags: 0
@@ -3600,6 +3723,7 @@ GameObject:
   - component: {fileID: 1861153205}
   - component: {fileID: 1861153207}
   - component: {fileID: 1861153206}
+  - component: {fileID: 1861153208}
   m_Layer: 0
   m_Name: tower_lightning (1)
   m_TagString: Untagged
@@ -3663,12 +3787,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 60bb42d21317467418dd335322ce13eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1861153208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1861153204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1864488250
 GameObject:
   m_ObjectHideFlags: 0
@@ -3679,6 +3814,7 @@ GameObject:
   - component: {fileID: 1864488251}
   - component: {fileID: 1864488253}
   - component: {fileID: 1864488252}
+  - component: {fileID: 1864488254}
   m_Layer: 0
   m_Name: tower_lightning
   m_TagString: Untagged
@@ -3742,12 +3878,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 60bb42d21317467418dd335322ce13eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1864488254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1864488250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1892075505
 GameObject:
   m_ObjectHideFlags: 0
@@ -3758,6 +3905,7 @@ GameObject:
   - component: {fileID: 1892075506}
   - component: {fileID: 1892075508}
   - component: {fileID: 1892075507}
+  - component: {fileID: 1892075509}
   m_Layer: 0
   m_Name: tower_lightning (3)
   m_TagString: Untagged
@@ -3821,12 +3969,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 60bb42d21317467418dd335322ce13eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1892075509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1892075505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1908281270
 GameObject:
   m_ObjectHideFlags: 0
@@ -3837,6 +3996,7 @@ GameObject:
   - component: {fileID: 1908281271}
   - component: {fileID: 1908281273}
   - component: {fileID: 1908281272}
+  - component: {fileID: 1908281274}
   m_Layer: 0
   m_Name: Red Crystal Cluster (17)
   m_TagString: Untagged
@@ -3900,12 +4060,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1908281274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1908281270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1919921570
 GameObject:
   m_ObjectHideFlags: 0
@@ -4000,6 +4171,7 @@ GameObject:
   - component: {fileID: 1929267664}
   - component: {fileID: 1929267666}
   - component: {fileID: 1929267665}
+  - component: {fileID: 1929267667}
   m_Layer: 0
   m_Name: Red Crystal Cluster (18)
   m_TagString: Untagged
@@ -4063,12 +4235,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c025207f36f64d84e89467561ef69363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1929267667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1929267663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1966143861
 GameObject:
   m_ObjectHideFlags: 0
@@ -4090,7 +4273,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1966143861}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4098,8 +4281,8 @@ Transform:
   - {fileID: 1861153205}
   - {fileID: 1113025868}
   - {fileID: 1892075506}
-  m_Father: {fileID: 1608236546}
-  m_RootOrder: 3
+  m_Father: {fileID: 2026849553}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2021870102
 Prefab:
@@ -4180,6 +4363,9 @@ Transform:
   m_Children:
   - {fileID: 1823669985}
   - {fileID: 921155837}
+  - {fileID: 1021691496}
+  - {fileID: 1276071939}
+  - {fileID: 1966143862}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4193,6 +4379,7 @@ GameObject:
   - component: {fileID: 2076203252}
   - component: {fileID: 2076203254}
   - component: {fileID: 2076203253}
+  - component: {fileID: 2076203255}
   m_Layer: 0
   m_Name: boulder (1)
   m_TagString: Untagged
@@ -4256,12 +4443,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &2076203255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2076203251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2116129530
 Prefab:
   m_ObjectHideFlags: 0
@@ -4322,6 +4520,7 @@ GameObject:
   - component: {fileID: 2119396250}
   - component: {fileID: 2119396252}
   - component: {fileID: 2119396251}
+  - component: {fileID: 2119396253}
   m_Layer: 0
   m_Name: boulder
   m_TagString: Untagged
@@ -4385,9 +4584,20 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1788298181
+  m_SortingLayerID: -1937604997
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30d35456e38db5949a81a89da3e9d4ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &2119396253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2119396249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

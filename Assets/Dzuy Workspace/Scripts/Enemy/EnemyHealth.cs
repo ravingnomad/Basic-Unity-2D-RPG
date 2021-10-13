@@ -8,6 +8,7 @@ public class EnemyHealth : MonoBehaviour {
     public float CurrentHealth;
     public float MaxHealth;
 
+    private SpriteRenderer spriteRenderer;
     private Animator anim;
     private EnemyChasePlayer chasePlayerScript;
     private BoxCollider2D collider;
@@ -16,6 +17,7 @@ public class EnemyHealth : MonoBehaviour {
 
     void Start ()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         sfx = FindObjectOfType<SFXManager>();
         collider = GetComponent<BoxCollider2D>();
         CurrentHealth = MaxHealth;
@@ -53,7 +55,9 @@ public class EnemyHealth : MonoBehaviour {
         freezeRigidbody();
         collider.enabled = false;
         disableEnemyScripts();
+        spriteRenderer.sortingLayerName = "Environment Behind Player";
         anim.Stop();
+
     }
 
 

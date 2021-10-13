@@ -59,6 +59,7 @@ public class PlayerCamera : MonoBehaviour {
     public void SetBounds(BoxCollider2D newBounds)
     {
         boundBox = newBounds;
+
         minBounds = boundBox.bounds.min;
         maxBounds = boundBox.bounds.max;
     }
