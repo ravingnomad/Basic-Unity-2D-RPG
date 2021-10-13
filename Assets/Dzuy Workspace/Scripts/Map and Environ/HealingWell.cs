@@ -5,63 +5,67 @@ using UnityEngine;
 public class HealingWell : MonoBehaviour {
 
     public Dialogue dialogue;
-    public bool in_range = false;
-    public PlayerHealth health;
+    public bool playerInRange;
 
-    private SFXManager sfx;
+    private DialogueManager dialogueManager;
+    private PlayerHealth playerHealthScript;
+    private Animator animator;
+    private SFXManager sfxManager;
 
     void Start()
     {
-        sfx = FindObjectOfType<SFXManager>();
+        playerHealthScript = FindObjectOfType<PlayerHealth>();
+        dialogueManager = FindObjectOfType<DialogueManager>();
+        animator = dialogueManager.animator;
+        sfxManager = FindObjectOfType<SFXManager>();
+        playerInRange = false;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            health = FindObjectOfType<PlayerHealth>();
-            health.CurrentHealth = health.MaxHealth;
-            in_range = true;
-        }
-    }
+
 
     private void Update()
     {
-        if (in_range == true && Input.inputString == "e")
+        if (playerInRange == true && Input.inputString == "e")
         {
-            Animator animator = FindObjectOfType<DialogueManager>().animator;
             if (animator.GetBool("IsOpen") == false)
             {
-                FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-                sfx.healing.Play();
+                dialogueManager.StartDialogue(dialogue);
+                sfxManager.healing.Play();
+                healPlayer();
             }
             else if (Input.inputString == "e" && animator.GetBool("IsOpen") == true)
             {
-                FindObjectOfType<DialogueManager>().DisplayNextSentence();
-
+                dialogueManager.DisplayNextSentence();
             }
             else if (Input.inputString == "q" && animator.GetBool("IsOpen") == true)
             {
-                FindObjectOfType<DialogueManager>().EndDialogue();
+                dialogueManager.EndDialogue();
             }
         }
     }
+
+
     void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
-            if (other.gameObject.tag == "Player")
-            {
-                in_range = true;
-            }
+            playerInRange = true;
         }
     }
+
+
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
-            FindObjectOfType<DialogueManager>().EndDialogue();
-            in_range = false;
+            dialogueManager.EndDialogue();
+            playerInRange = false;
         }
+    }
+
+
+    void healPlayer()
+    {
+        playerHealthScript.SetMaxHealth();
     }
 }
