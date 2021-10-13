@@ -6,10 +6,11 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
 
-    public Text nameText;
+    public Text objectNameText;
     public Text dialogueText;
     public Animator animator;
     public static bool Exists;
+
     private Queue<string> sentences;
 	
 
@@ -22,7 +23,6 @@ public class DialogueManager : MonoBehaviour {
             animator = GameObject.FindGameObjectWithTag("Dialogue Box").GetComponent<Animator>();
         }
         else
-
         {
             Destroy(gameObject);
         }
@@ -32,8 +32,8 @@ public class DialogueManager : MonoBehaviour {
     public void StartDialogue(DialogueSentences dialogue)
     {
         animator.SetBool("IsOpen", true);
-        Debug.Log("You are speaking to " + dialogue.name);
-        nameText.text = dialogue.name;
+        Debug.Log("You are speaking to " + dialogue.objectName);
+        objectNameText.text = dialogue.objectName;
 
         sentences.Clear();
 

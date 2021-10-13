@@ -5,49 +5,53 @@ using UnityEngine;
 public class HealingLake : MonoBehaviour {
 
     public DialogueSentences dialogue;
-    public bool in_range = false;
-    public PlayerHealth health;
-    public bool entered;
+    public bool playerInRange;
+    public PlayerHealth playerHealthScript;
+    public bool playerEnteredLake;
 
-    private SFXManager sfx;
+    private SFXManager sfxManager;
+    private Animator animator;
+    private DialogueManager dialogueManager;
 
     void Start()
     {
-        sfx = FindObjectOfType<SFXManager>();
+        playerInRange = false;
+        playerHealthScript = FindObjectOfType<PlayerHealth>();
+        sfxManager = FindObjectOfType<SFXManager>();
+        dialogueManager = FindObjectOfType<DialogueManager>();
+        animator = dialogueManager.animator;
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
-            health = FindObjectOfType<PlayerHealth>();
-            health.CurrentHealth = health.MaxHealth;
-            in_range = true;
-            entered = true;
-            sfx.healing.Play();
+            healPlayer();
+            playerInRange = true;
+            playerEnteredLake = true;
+            sfxManager.healing.Play();
         }
     }
     private void Update()
     {
-        if (in_range == true && entered == true)
+        if (playerInRange == true && playerEnteredLake == true)
         {
-            Animator animator = FindObjectOfType<DialogueManager>().animator;
             if (animator.GetBool("IsOpen") == false)
             {
-                FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+                dialogueManager.StartDialogue(dialogue);
             }
             else if (Input.inputString == "e" && animator.GetBool("IsOpen") == true)
             {
-                FindObjectOfType<DialogueManager>().DisplayNextSentence();
+                dialogueManager.DisplayNextSentence();
                 if (animator.GetBool("IsOpen") == false)
                 {
-                    entered = false;
+                    playerEnteredLake = false;
                 }
             }
             else if (Input.inputString == "q" && animator.GetBool("IsOpen") == true)
             {
-                FindObjectOfType<DialogueManager>().EndDialogue();
-                entered = false;
+                dialogueManager.EndDialogue();
+                playerEnteredLake = false;
             }
         }
     }
@@ -57,9 +61,15 @@ public class HealingLake : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            FindObjectOfType<DialogueManager>().EndDialogue();
-            in_range = false;
+            dialogueManager.EndDialogue();
+            playerInRange = false;
         }
+    }
+
+
+    void healPlayer()
+    {
+        playerHealthScript.SetMaxHealth();
     }
 }
 
