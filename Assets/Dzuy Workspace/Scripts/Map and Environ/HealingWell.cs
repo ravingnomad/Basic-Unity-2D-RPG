@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealingWell : MonoBehaviour {
 
-    public DialogueSentences dialogue;
+    public Dialogue dialogue;
     public bool playerInRange;
 
     private DialogueManager dialogueManager;

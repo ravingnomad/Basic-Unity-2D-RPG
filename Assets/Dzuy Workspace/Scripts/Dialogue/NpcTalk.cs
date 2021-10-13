@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class NpcTalk : MonoBehaviour
 {
-    public DialogueSentences dialogue;
+    public Dialogue dialogue;
     public bool in_range = false;
 
     private DialogueManager dialogueManager;
@@ -43,6 +43,21 @@ public class NpcTalk : MonoBehaviour
                     dialogueManager.DisplayNextSentence();
                 }
             }
+
+            
+            
+            /*if (Input.inputString == "e" && animator.GetBool("IsOpen") == false)
+            {
+                FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+            }
+            else if (Input.inputString == "e" && animator.GetBool("IsOpen") == true)
+            {
+                FindObjectOfType<DialogueManager>().DisplayNextSentence();
+            }
+            else if (Input.inputString == "q" && animator.GetBool("IsOpen") == true)
+            {
+                FindObjectOfType<DialogueManager>().EndDialogue();
+            }*/
         }
     }
 
