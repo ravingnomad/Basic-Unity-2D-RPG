@@ -7,7 +7,7 @@ public class HealingLake : MonoBehaviour {
     public bool playerInRange;
     public PlayerHealth playerHealthScript;
     public bool playerEnteredLake;
-    public Dialogue dialogue;
+    public DialogueSentences dialogue;
 
     private SFXManager sfxManager;
     private Animator animator;

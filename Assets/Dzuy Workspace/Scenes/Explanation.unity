@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 642094132}
   m_Layer: 5
   m_Name: NPC Name
-  m_TagString: Untagged
+  m_TagString: NPC Name Text
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1077,7 +1077,7 @@ GameObject:
   - component: {fileID: 1074002269}
   m_Layer: 5
   m_Name: Dialogue
-  m_TagString: Untagged
+  m_TagString: Dialogue Text
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1410,8 +1410,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe976d9d38ca4ce45a2e0f30b256cac3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 642094132}
-  dialogueText: {fileID: 1074002269}
+  objectNameText: {fileID: 0}
+  dialogueText: {fileID: 0}
   animator: {fileID: 0}
 --- !u!114 &1578693417
 MonoBehaviour:

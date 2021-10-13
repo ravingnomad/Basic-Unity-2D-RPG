@@ -21,6 +21,8 @@ public class DialogueManager : MonoBehaviour {
             DontDestroyOnLoad(gameObject);
             sentences = new Queue<string>();
             animator = GameObject.FindGameObjectWithTag("Dialogue Box").GetComponent<Animator>();
+            objectNameText = GameObject.FindGameObjectWithTag("NPC Name Text").GetComponent<Text>();
+            dialogueText = GameObject.FindGameObjectWithTag("Dialogue Text").GetComponent<Text>();
         }
         else
         {
@@ -29,7 +31,7 @@ public class DialogueManager : MonoBehaviour {
 	}
 
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(DialogueSentences dialogue)
     {
         animator.SetBool("IsOpen", true);
         Debug.Log("You are speaking to " + dialogue.objectName);
