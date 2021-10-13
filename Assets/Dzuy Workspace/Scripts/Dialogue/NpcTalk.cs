@@ -8,15 +8,24 @@ public class NpcTalk : MonoBehaviour
     public DialogueSentences dialogue;
     public bool in_range = false;
 
+    private DialogueManager dialogueManager;
+    private Animator animator;
+
+
+
+    void Start()
+    {
+        dialogueManager = FindObjectOfType<DialogueManager>();
+        animator = dialogueManager.animator;
+    }
+
 
     private void Update()
     {
         if (in_range == true)
         {
-            DialogueManager dialogueManager = FindObjectOfType<DialogueManager>();
             if (Input.inputString == "e")
             {
-                Animator animator = dialogueManager.animator;
                 if (animator.GetBool("IsOpen") == false)
                 {
                     dialogueManager.StartDialogue(dialogue);
@@ -29,7 +38,6 @@ public class NpcTalk : MonoBehaviour
 
             else if (Input.inputString == "q")
             {
-                Animator animator = dialogueManager.animator;
                 if (animator.GetBool("IsOpen") == true)
                 {
                     dialogueManager.DisplayNextSentence();
@@ -52,7 +60,7 @@ public class NpcTalk : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            FindObjectOfType<DialogueManager>().EndDialogue();
+            dialogueManager.EndDialogue();
             in_range = false;
         }
     }
