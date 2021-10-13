@@ -29,7 +29,7 @@ public class DialogueManager : MonoBehaviour {
 	}
 
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(DialogueSentences dialogue)
     {
         animator.SetBool("IsOpen", true);
         Debug.Log("You are speaking to " + dialogue.name);

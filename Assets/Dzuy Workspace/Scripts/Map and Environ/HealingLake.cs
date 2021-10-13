@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealingLake : MonoBehaviour {
 
-    public Dialogue dialogue;
+    public DialogueSentences dialogue;
     public bool in_range = false;
     public PlayerHealth health;
     public bool entered;
@@ -39,7 +39,7 @@ public class HealingLake : MonoBehaviour {
             else if (Input.inputString == "e" && animator.GetBool("IsOpen") == true)
             {
                 FindObjectOfType<DialogueManager>().DisplayNextSentence();
-                if (animator.GetBool("Is Open") == false)
+                if (animator.GetBool("IsOpen") == false)
                 {
                     entered = false;
                 }

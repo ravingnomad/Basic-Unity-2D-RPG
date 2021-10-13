@@ -5,17 +5,8 @@ using UnityEngine.UI;
 
 public class NpcTalk : MonoBehaviour
 {
-    public Dialogue dialogue;
+    public DialogueSentences dialogue;
     public bool in_range = false;
-
-/*
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            Debug.Log("Entered NPC range");
-        }
-    }*/
 
 
     private void Update()
@@ -44,21 +35,6 @@ public class NpcTalk : MonoBehaviour
                     dialogueManager.DisplayNextSentence();
                 }
             }
-
-            
-            
-            /*if (Input.inputString == "e" && animator.GetBool("IsOpen") == false)
-            {
-                FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-            }
-            else if (Input.inputString == "e" && animator.GetBool("IsOpen") == true)
-            {
-                FindObjectOfType<DialogueManager>().DisplayNextSentence();
-            }
-            else if (Input.inputString == "q" && animator.GetBool("IsOpen") == true)
-            {
-                FindObjectOfType<DialogueManager>().EndDialogue();
-            }*/
         }
     }
 
