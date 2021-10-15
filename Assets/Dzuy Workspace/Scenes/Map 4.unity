@@ -646,12 +646,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Healing Lake
+    objectName: 
     sentences:
     - A mysterious force envelops you and heals all wounds.
-  in_range: 0
-  health: {fileID: 0}
-  entered: 0
+    - 1 Just testing
+    - 2 See this yet
+    - 3 Try to walk out maybe
+    - 4 Okay now leave
+  dialogueManager: {fileID: 0}
+  playerHealthScript: {fileID: 0}
+  playerEnteredLake: 0
 --- !u!61 &232488380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1910,7 +1914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Giant Tree
+    objectName: 
     sentences:
     - This giant tree, though ancient, exudes strength and endurance.
     - There must be a reason as to why it is so massive....
@@ -2490,7 +2494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Giant Tree
+    objectName: 
     sentences:
     - This giant tree, though ancient, exudes strength and endurance.
     - There must be a reason as to why it is so massive....
@@ -2745,7 +2749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Giant Tree
+    objectName: 
     sentences:
     - This giant tree, though ancient, exudes strength and endurance.
     - There must be a reason as to why it is so massive....

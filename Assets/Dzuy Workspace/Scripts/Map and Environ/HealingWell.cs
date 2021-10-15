@@ -2,28 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealingWell : MonoBehaviour {
+public class HealingWell : Interactable {
 
-    public DialogueSentences dialogue;
-    public bool playerInRange;
-
-    private DialogueManager dialogueManager;
     private PlayerHealth playerHealthScript;
-    private Animator animator;
     private SFXManager sfxManager;
 
-    void Start()
+    protected override void Start()
     {
         playerHealthScript = FindObjectOfType<PlayerHealth>();
-        dialogueManager = FindObjectOfType<DialogueManager>();
-        animator = dialogueManager.animator;
         sfxManager = FindObjectOfType<SFXManager>();
-        playerInRange = false;
+        base.Start();
     }
 
 
 
-    private void Update()
+    /*private void Update()
     {
         if (playerInRange == true && Input.inputString == "e")
         {
@@ -42,14 +35,15 @@ public class HealingWell : MonoBehaviour {
                 dialogueManager.EndDialogue();
             }
         }
-    }
+    }*/
 
 
     void OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && Input.inputString == "e")
         {
-            playerInRange = true;
+            healPlayer();
+            startDialogue();
         }
     }
 
@@ -59,7 +53,7 @@ public class HealingWell : MonoBehaviour {
         if (other.gameObject.tag == "Player")
         {
             dialogueManager.EndDialogue();
-            playerInRange = false;
+            
         }
     }
 

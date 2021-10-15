@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//Content derived from user Brackeys on Youtube. Pretty much identical.
+
 
 public class DialogueManager : MonoBehaviour {
 
-    public Text objectNameText;
-    public Text dialogueText;
-    public Animator animator;
     public static bool Exists;
 
-    private Queue<string> sentences;
+    private Text nameText;
+    private Text dialogueText;
+    public Animator animator;
+    private Queue<string> sentenceQueue;
 	
 
 	void Start () {
@@ -19,9 +19,9 @@ public class DialogueManager : MonoBehaviour {
         {
             Exists = true;
             DontDestroyOnLoad(gameObject);
-            sentences = new Queue<string>();
+            sentenceQueue = new Queue<string>();
             animator = GameObject.FindGameObjectWithTag("Dialogue Box").GetComponent<Animator>();
-            objectNameText = GameObject.FindGameObjectWithTag("NPC Name Text").GetComponent<Text>();
+            nameText = GameObject.FindGameObjectWithTag("NPC Name Text").GetComponent<Text>();
             dialogueText = GameObject.FindGameObjectWithTag("Dialogue Text").GetComponent<Text>();
         }
         else
@@ -31,46 +31,52 @@ public class DialogueManager : MonoBehaviour {
 	}
 
 
-    public void StartDialogue(DialogueSentences dialogue)
+    public void LoadSentencesToQueue(DialogueSentences dialogue)
     {
         animator.SetBool("IsOpen", true);
-        Debug.Log("You are speaking to " + dialogue.objectName);
-        objectNameText.text = dialogue.objectName;
-
-        sentences.Clear();
-
+        nameText.text = dialogue.objectName;
+        sentenceQueue.Clear();
         foreach (string sentence in dialogue.sentences)
         {
-            sentences.Enqueue(sentence);
+            sentenceQueue.Enqueue(sentence);
         }
-        DisplayNextSentence();
     }
 
 
     public void DisplayNextSentence()
     {
-        if (sentences.Count == 0)
+        if (sentenceQueue.Count == 0)
         {
             EndDialogue();
             return;
         }
-        string sentence = sentences.Dequeue();
-
+        string sentence = sentenceQueue.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }
+
+
     IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
+        
         foreach (char letter in sentence)
         {
             dialogueText.text += letter;
             yield return null;
         }
     }
+
+
     public void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
-        sentences.Clear();
+        sentenceQueue.Clear();
+    }
+
+
+    public bool dialogueBoxStillOpen()
+    {
+        return animator.GetBool("IsOpen");
     }
 }

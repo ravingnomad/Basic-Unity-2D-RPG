@@ -2,57 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealingLake : MonoBehaviour {
+public class HealingLake : Interactable {
 
-    public bool playerInRange;
-    public PlayerHealth playerHealthScript;
-    public bool playerEnteredLake;
-    public DialogueSentences dialogue;
-
+    private PlayerHealth playerHealthScript;
     private SFXManager sfxManager;
-    private Animator animator;
-    private DialogueManager dialogueManager;
 
-    void Start()
+
+    protected override void Start()
     {
-        playerInRange = false;
+        base.Start();
         playerHealthScript = FindObjectOfType<PlayerHealth>();
         sfxManager = FindObjectOfType<SFXManager>();
-        dialogueManager = FindObjectOfType<DialogueManager>();
-        animator = dialogueManager.animator;
     }
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
             healPlayer();
-            playerInRange = true;
-            playerEnteredLake = true;
             sfxManager.healing.Play();
-        }
-    }
-    private void Update()
-    {
-        if (playerInRange == true && playerEnteredLake == true)
-        {
-            if (animator.GetBool("IsOpen") == false)
-            {
-                dialogueManager.StartDialogue(dialogue);
-            }
-            else if (Input.inputString == "e" && animator.GetBool("IsOpen") == true)
-            {
-                dialogueManager.DisplayNextSentence();
-                if (animator.GetBool("IsOpen") == false)
-                {
-                    playerEnteredLake = false;
-                }
-            }
-            else if (Input.inputString == "q" && animator.GetBool("IsOpen") == true)
-            {
-                dialogueManager.EndDialogue();
-                playerEnteredLake = false;
-            }
+            dialogueManager.LoadSentencesToQueue(dialogue);
+            dialogueManager.DisplayNextSentence();
+            StartCoroutine(progressDialogue());
         }
     }
 
@@ -62,7 +34,6 @@ public class HealingLake : MonoBehaviour {
         if (other.gameObject.tag == "Player")
         {
             dialogueManager.EndDialogue();
-            playerInRange = false;
         }
     }
 

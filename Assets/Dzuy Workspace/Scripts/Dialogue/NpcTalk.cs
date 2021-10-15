@@ -3,46 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NpcTalk : MonoBehaviour
+public class NpcTalk : Interactable
 {
-    public DialogueSentences dialogue;
-    public bool in_range = false;
-
-    private DialogueManager dialogueManager;
-    private Animator animator;
+    private bool playerInRange;
+    private bool playerAlreadyTalking;
 
 
-
-    void Start()
+    protected override void Start()
     {
-        dialogueManager = FindObjectOfType<DialogueManager>();
-        animator = dialogueManager.animator;
+        playerInRange = false;
+        playerAlreadyTalking = false;
+        base.Start();
     }
 
 
     private void Update()
     {
-        if (in_range == true)
+        if (playerInRange == true && Input.inputString == "e" && dialogueManager.dialogueBoxStillOpen() == false)
         {
-            if (Input.inputString == "e")
-            {
-                if (animator.GetBool("IsOpen") == false)
-                {
-                    dialogueManager.StartDialogue(dialogue);
-                }
-                else if (animator.GetBool("IsOpen") == true)
-                {
-                    dialogueManager.DisplayNextSentence();
-                }
-            }
-
-            else if (Input.inputString == "q")
-            {
-                if (animator.GetBool("IsOpen") == true)
-                {
-                    dialogueManager.DisplayNextSentence();
-                }
-            }
+            startDialogue();
         }
     }
 
@@ -51,7 +30,7 @@ public class NpcTalk : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            in_range = true;
+            playerInRange = true;
         }
     }
 
@@ -61,7 +40,7 @@ public class NpcTalk : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             dialogueManager.EndDialogue();
-            in_range = false;
+            playerInRange = false;
         }
     }
 }

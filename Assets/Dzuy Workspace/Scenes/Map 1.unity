@@ -1901,11 +1901,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Journal
+    objectName: 
     sentences:
     - You have obtained a sword!
     - Use the < button to attack with sword.
-  in_range: 0
+    - Test 1
+    - Test 2
+  dialogueManager: {fileID: 0}
 --- !u!61 &1447121111
 BoxCollider2D:
   m_ObjectHideFlags: 0
