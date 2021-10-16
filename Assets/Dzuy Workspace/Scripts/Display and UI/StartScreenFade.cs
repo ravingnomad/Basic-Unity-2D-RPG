@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Fade : MonoBehaviour {
+public class StartScreenFade : MonoBehaviour {
 
-	// Use this for initialization
+
 	private void Start ()
     {
         StartCoroutine(Wait());

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class StartScreen : MonoBehaviour {
 
     public string area;
-	// Update is called once per frame
+
 	void Update () {
 		if (Input.inputString == "e")
         {

@@ -6,10 +6,9 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour {
 
     public Slider healthBar;
-    public PlayerHealth health;
-
+    public PlayerHealth playerHealthScript;
     public static bool UIExists;
-	// Use this for initialization
+
 	void Start () {
         if (!UIExists)
         {
@@ -21,15 +20,15 @@ public class UIController : MonoBehaviour {
         {
             Destroy(gameObject);
         }
-        health = GameObject.FindWithTag("Player").GetComponent<PlayerHealth>();
+        playerHealthScript = GameObject.FindWithTag("Player").GetComponent<PlayerHealth>();
         healthBar = GetComponentInChildren<Slider>();
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
-        healthBar.maxValue = health.MaxHealth;
-        healthBar.value = health.CurrentHealth;
-        if (health.dead == true)
+        healthBar.maxValue = playerHealthScript.MaxHealth;
+        healthBar.value = playerHealthScript.CurrentHealth;
+        if (playerHealthScript.dead == true)
         {
             Destroy(gameObject);
         }
