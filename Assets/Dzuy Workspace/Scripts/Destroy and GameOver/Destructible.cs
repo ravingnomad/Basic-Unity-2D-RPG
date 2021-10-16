@@ -7,63 +7,45 @@ public class Destructible : MonoBehaviour
 
     public int CurrentHealth;
     public int MaxHealth;
-    public bool gunOnly;
+    public bool damagedByGunOnly;
 
-    private bool hit;
-    private SFXManager sfx;
-    // Use this for initialization
+    private SFXManager sfxManager;
+    private DestroyManager destroyManager;
+
+
+
+
     void Start()
     {
-        sfx = FindObjectOfType<SFXManager>();
+        destroyManager = FindObjectOfType<DestroyManager>();
+        sfxManager = FindObjectOfType<SFXManager>();
         CurrentHealth = MaxHealth;
     }
 
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        hit = false;
-        if (gunOnly == true)
+        if (col.gameObject.tag == "Player Bullet")
         {
-            if (col.gameObject.tag == "Player Bullet" && hit == false)
-            {
-                hit = true;
-                CurrentHealth -= 50;
-            }
-
-            if (col.gameObject.tag == "Player Weapon" && hit == false)
-            {
-                hit = true;
-                sfx.SwordHitMetal.Play();
-            }
+            sfxManager.SwordHitCrate.Play();
+            CurrentHealth -= 50;
         }
-
-        //if was hit by the player's sword, extra damage and full knockback
-        if (gunOnly == false)
+        if (col.gameObject.tag == "Player Weapon")
         {
-            if (col.gameObject.tag == "Player Weapon" && hit == false)
+            if (damagedByGunOnly == true)
             {
-                hit = true;
-                sfx.SwordHitCrate.Play();
+                sfxManager.SwordHitMetal.Play();
+            }
+            if (damagedByGunOnly == false)
+            {
+                sfxManager.SwordHitCrate.Play();
                 CurrentHealth -= 20;
             }
-
-            if (col.gameObject.tag == "Player Bullet" && hit == false)
-            {
-                hit = true;
-                sfx.SwordHitCrate.Play();
-                CurrentHealth -= 50;
-            }
-            
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         if (CurrentHealth <= 0)
         {
-            sfx.BrokenCrate.Play();
-            FindObjectOfType<DestroyManager>().AddToList(gameObject.name);
+            sfxManager.BrokenCrate.Play();
+            destroyManager.AddToList(gameObject.name);
             Destroy(gameObject);
         }
     }

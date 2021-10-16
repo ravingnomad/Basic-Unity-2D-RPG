@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class DestroyManager : MonoBehaviour {
 
-    // Use this for initialization
-    public List<string> list;
 
+    public List<string> destroyList;
     public static bool Exists;
 
     private void Start()
@@ -16,7 +15,6 @@ public class DestroyManager : MonoBehaviour {
             Exists = true;
             DontDestroyOnLoad(gameObject);
         }
-
         else
         {
             Destroy(gameObject);
@@ -25,16 +23,18 @@ public class DestroyManager : MonoBehaviour {
 
     private void Update()
     {
-        foreach (string g in list)
+        foreach (string g in destroyList)
         {
             Destroy(GameObject.Find(g));
         }
     }
-    public void AddToList(string g)
+
+
+    public void AddToList(string objectName)
     {
-        if (list.Contains(g) == false)
+        if (destroyList.Contains(objectName) == false)
         {
-            list.Add(g);
+            destroyList.Add(objectName);
         }
     }
 }
