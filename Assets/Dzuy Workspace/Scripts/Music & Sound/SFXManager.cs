@@ -31,14 +31,15 @@ public class SFXManager : MonoBehaviour {
     public AudioSource GameOverDecision;
 
     public static bool Exists;
-	// Use this for initialization
+
+
+
 	void Start () {
         if (!Exists)
         {
             Exists = true;
             DontDestroyOnLoad(transform.gameObject);
         }
-
         else
         {
             Destroy(gameObject);

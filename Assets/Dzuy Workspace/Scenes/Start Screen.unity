@@ -260,7 +260,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 10.3, y: 184.9}
+  m_AnchoredPosition: {x: 10.299999, y: 184.9}
   m_SizeDelta: {x: -181, y: -504.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &361042388
@@ -739,6 +739,16 @@ Prefab:
     - target: {fileID: 114133934223932128, guid: 08fa70631684e0a4ca7be99e8ee7fb8c,
         type: 2}
       propertyPath: newTrack
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114133934223932128, guid: 08fa70631684e0a4ca7be99e8ee7fb8c,
+        type: 2}
+      propertyPath: newTrackSwitchTo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114133934223932128, guid: 08fa70631684e0a4ca7be99e8ee7fb8c,
+        type: 2}
+      propertyPath: switchToTrackNumber
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

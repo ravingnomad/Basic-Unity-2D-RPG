@@ -5,9 +5,8 @@ using UnityEngine;
 public class PlayerStart : MonoBehaviour {
 
     public string pointName;
-
-    public GameObject thePlayer = null;
-    public GameObject theCamera = null;
+    public GameObject thePlayer;
+    public GameObject theCamera;
 
     void Start() {
         thePlayer = GameObject.FindWithTag("Player");

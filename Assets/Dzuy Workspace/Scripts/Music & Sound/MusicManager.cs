@@ -9,39 +9,40 @@ public class MusicManager : MonoBehaviour {
     public int currentTrack;
     public bool musicCanPlay;
 
-	// Use this for initialization
+
 	void Start () {
         if (!Exists)
         {
             Exists = true;
             DontDestroyOnLoad(gameObject);
         }
-
         else
-        {
             Destroy(gameObject);
-        }
     }
 	
-	// Update is called once per frame
-	void Update () {
-        if (musicCanPlay == true)
-        {
-            if (Tracks[currentTrack].isPlaying == false)
-            {
-                Tracks[currentTrack].Play();
-            }
-        }
 
-        else {
-            Tracks[currentTrack].Stop();
-        }
+	void Update () {
+        if (musicCanPlay == true && Tracks[currentTrack].isPlaying == false)
+            playTrack();
+        if (musicCanPlay == false) 
+            stopTrack();
 	}
 
-    public void SwitchTrack(int newTrack)
+
+    public void playTrack()
+    {
+        Tracks[currentTrack].Play();
+    }
+
+
+    public void stopTrack()
     {
         Tracks[currentTrack].Stop();
-        currentTrack = newTrack;
-        Tracks[currentTrack].Play();
+    }
+
+
+    public void switchTrack(int newTrackNumber)
+    {
+        currentTrack = newTrackNumber;
     }
 }

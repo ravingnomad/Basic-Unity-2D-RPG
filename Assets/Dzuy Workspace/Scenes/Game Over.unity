@@ -327,6 +327,11 @@ Prefab:
       propertyPath: newTrack
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114133934223932128, guid: 08fa70631684e0a4ca7be99e8ee7fb8c,
+        type: 2}
+      propertyPath: switchToTrackNumber
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08fa70631684e0a4ca7be99e8ee7fb8c, type: 2}
   m_IsPrefabParent: 0

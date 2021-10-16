@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class MusicSwitcher : MonoBehaviour {
 
-    private MusicManager musicManager;
-
-    public int newTrack;
-
+    public int switchToTrackNumber;
     public bool switchOnStart;
 
+    private MusicManager musicManager;
 
 	void Start () {
         musicManager = FindObjectOfType<MusicManager>();
-        if (switchOnStart == true && musicManager.Tracks[newTrack].isPlaying == false)
+        if (switchOnStart == true && musicManager.Tracks[switchToTrackNumber].isPlaying == false)
         {
-            musicManager.SwitchTrack(newTrack);
+            switchTrack(switchToTrackNumber);
             gameObject.SetActive(false);
         }
 	}
@@ -26,8 +24,16 @@ public class MusicSwitcher : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            musicManager.SwitchTrack(newTrack);
+            switchTrack(switchToTrackNumber);
             gameObject.SetActive(false);
         }
+    }
+
+
+    public void switchTrack(int newTrack)
+    {
+        musicManager.stopTrack();
+        musicManager.switchTrack(switchToTrackNumber);
+        musicManager.playTrack();
     }
 }

@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerSpawn : MonoBehaviour {
 
-    public PlayerMove player;
+    public PlayerMove playerMoveScript;
 
 	void Start () {
-        player = FindObjectOfType<PlayerMove>();
-        if (player.StartPoint == null)
+        playerMoveScript = FindObjectOfType<PlayerMove>();
+        if (playerMoveScript.StartPoint == null)
         {
-            player.transform.position = transform.position;
+            playerMoveScript.transform.position = transform.position;
         }
 	}
 }
