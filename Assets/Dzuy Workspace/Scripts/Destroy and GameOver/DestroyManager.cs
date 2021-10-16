@@ -23,9 +23,9 @@ public class DestroyManager : MonoBehaviour {
 
     private void Update()
     {
-        foreach (string g in destroyList)
+        foreach (string objectName in destroyList)
         {
-            Destroy(GameObject.Find(g));
+            Destroy(GameObject.Find(objectName));
         }
     }
 
