@@ -73,7 +73,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1253343901080456}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.855995, y: -7.029045, z: 0}
+  m_LocalPosition: {x: 8.559047, y: 5.936471, z: 0}
   m_LocalScale: {x: 0.79999995, y: 0.79999995, z: 1}
   m_Children:
   - {fileID: 4382080517766462}
@@ -196,6 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentHealth: 50
   MaxHealth: 75
+  chasePlayerScript: {fileID: 114992703232400658}
 --- !u!114 &114902571853282980
 MonoBehaviour:
   m_ObjectHideFlags: 1

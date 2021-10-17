@@ -6,13 +6,11 @@ using UnityEngine.UI;
 public class NpcTalk : Interactable
 {
     private bool playerInRange;
-    private bool playerAlreadyTalking;
 
 
     protected override void Start()
     {
         playerInRange = false;
-        playerAlreadyTalking = false;
         base.Start();
     }
 

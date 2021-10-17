@@ -37,6 +37,8 @@ public class SlimeAttack : EnemyAttack
             slimeAttack();
             StartCoroutine(pauseAttack());
         }
+        else if (slimeIsDead() == true)
+            StopAllCoroutines();
         else
         {
             if (slimeCanMove)
@@ -49,10 +51,10 @@ public class SlimeAttack : EnemyAttack
     IEnumerator pauseAttack()
     {
         yield return new WaitForSeconds(3);
-        slimeAbleToAttack = true;
-        enemyBody.constraints &= ~RigidbodyConstraints2D.FreezePosition;
         if (slimeIsDead() == false)
         {
+            slimeAbleToAttack = true;
+            enemyBody.constraints &= ~RigidbodyConstraints2D.FreezePosition;
             enemyChaseScript.enabled = true;
             enemyMovementScript.enabled = true;
             slimeCanMove = true;
@@ -69,6 +71,7 @@ public class SlimeAttack : EnemyAttack
     private void slimeAttack()
     {
         enemyMovementScript.enabled = false;
+        enemyChaseScript.enabled = false;
         enemyBody.constraints = RigidbodyConstraints2D.FreezePosition | RigidbodyConstraints2D.FreezeRotation;
         attackPlayer();
         slimeCanMove = false;

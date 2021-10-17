@@ -1905,8 +1905,6 @@ MonoBehaviour:
     sentences:
     - You have obtained a sword!
     - Use the < button to attack with sword.
-    - Test 1
-    - Test 2
   dialogueManager: {fileID: 0}
 --- !u!61 &1447121111
 BoxCollider2D:
@@ -1945,7 +1943,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1451810195}
   - component: {fileID: 1451810196}
-  - component: {fileID: 1451810197}
   m_Layer: 9
   m_Name: Openbook
   m_TagString: Untagged
@@ -2001,17 +1998,6 @@ SpriteRenderer:
   m_Color: {r: 0.6691177, g: 0.07379974, b: 0.07379974, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &1451810197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1451810194}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1477538435 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1797105893092308, guid: a33ab84be9c93194289025cee1059d21,
@@ -2103,7 +2089,6 @@ GameObject:
   - component: {fileID: 1500715634}
   - component: {fileID: 1500715633}
   - component: {fileID: 1500715635}
-  - component: {fileID: 1500715636}
   m_Layer: 0
   m_Name: Sword 1-1
   m_TagString: Untagged
@@ -2168,17 +2153,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4935661d4afe5a04ca43f9c0e59fabcc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1500715636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1500715632}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45d951298f9f046bb6b21a766386be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1549842821

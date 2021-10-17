@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class HealingWell : Interactable {
 
+    private bool playerInRange;
     private PlayerHealth playerHealthScript;
     private SFXManager sfxManager;
 
     protected override void Start()
     {
+        playerInRange = false;
         playerHealthScript = FindObjectOfType<PlayerHealth>();
         sfxManager = FindObjectOfType<SFXManager>();
         base.Start();
@@ -16,31 +18,9 @@ public class HealingWell : Interactable {
 
 
 
-    /*private void Update()
+    private void Update()
     {
-        if (playerInRange == true && Input.inputString == "e")
-        {
-            if (animator.GetBool("IsOpen") == false)
-            {
-                dialogueManager.StartDialogue(dialogue);
-                sfxManager.healing.Play();
-                healPlayer();
-            }
-            else if (Input.inputString == "e" && animator.GetBool("IsOpen") == true)
-            {
-                dialogueManager.DisplayNextSentence();
-            }
-            else if (Input.inputString == "q" && animator.GetBool("IsOpen") == true)
-            {
-                dialogueManager.EndDialogue();
-            }
-        }
-    }*/
-
-
-    void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player" && Input.inputString == "e")
+        if (playerInRange == true && Input.inputString == "e" && dialogueManager.dialogueBoxStillOpen() == false)
         {
             healPlayer();
             startDialogue();
@@ -53,7 +33,7 @@ public class HealingWell : Interactable {
         if (other.gameObject.tag == "Player")
         {
             dialogueManager.EndDialogue();
-            
+            playerInRange = false;
         }
     }
 

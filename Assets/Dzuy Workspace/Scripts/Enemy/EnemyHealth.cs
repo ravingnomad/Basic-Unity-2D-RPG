@@ -10,7 +10,7 @@ public class EnemyHealth : MonoBehaviour {
 
     private SpriteRenderer spriteRenderer;
     private Animator anim;
-    private EnemyChasePlayer chasePlayerScript;
+    public EnemyChasePlayer chasePlayerScript;
     private BoxCollider2D collider;
     private SFXManager sfx;
 
@@ -52,12 +52,11 @@ public class EnemyHealth : MonoBehaviour {
             GetComponent<SlimeTakeDamage>().enabled = false;
             sfx.SlimeDeath.Play();
         }
+        disableEnemyScripts();
         freezeRigidbody();
         collider.enabled = false;
-        disableEnemyScripts();
-        spriteRenderer.sortingLayerName = "Environment Behind Player";
+        spriteRenderer.sortingLayerName = "Ground";
         anim.Stop();
-
     }
 
 
@@ -79,12 +78,9 @@ public class EnemyHealth : MonoBehaviour {
     {
         EnemyAttack enemyAttackScript = GetComponent<EnemyAttack>();
         EnemyMovement enemyMovementScript = GetComponent<EnemyMovement>();
-        while (enemyAttackScript.enabled && enemyMovementScript.enabled && chasePlayerScript.enabled)
-        {
-            enemyAttackScript.enabled = false;
-            enemyMovementScript.enabled = false;
-            chasePlayerScript.enabled = false;
-        }
+        enemyAttackScript.enabled = false;
+        enemyMovementScript.enabled = false;
+        chasePlayerScript.enabled = false;
     }
 
 }

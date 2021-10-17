@@ -649,13 +649,7 @@ MonoBehaviour:
     objectName: 
     sentences:
     - A mysterious force envelops you and heals all wounds.
-    - 1 Just testing
-    - 2 See this yet
-    - 3 Try to walk out maybe
-    - 4 Okay now leave
   dialogueManager: {fileID: 0}
-  playerHealthScript: {fileID: 0}
-  playerEnteredLake: 0
 --- !u!61 &232488380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1918,7 +1912,7 @@ MonoBehaviour:
     sentences:
     - This giant tree, though ancient, exudes strength and endurance.
     - There must be a reason as to why it is so massive....
-  in_range: 0
+  dialogueManager: {fileID: 0}
 --- !u!61 &1624103798
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2498,7 +2492,7 @@ MonoBehaviour:
     sentences:
     - This giant tree, though ancient, exudes strength and endurance.
     - There must be a reason as to why it is so massive....
-  in_range: 0
+  dialogueManager: {fileID: 0}
 --- !u!61 &1922325135
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2753,7 +2747,7 @@ MonoBehaviour:
     sentences:
     - This giant tree, though ancient, exudes strength and endurance.
     - There must be a reason as to why it is so massive....
-  in_range: 0
+  dialogueManager: {fileID: 0}
 --- !u!61 &2077331235
 BoxCollider2D:
   m_ObjectHideFlags: 0
