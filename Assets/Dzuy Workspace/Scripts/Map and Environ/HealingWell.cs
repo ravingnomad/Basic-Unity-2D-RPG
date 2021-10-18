@@ -28,6 +28,13 @@ public class HealingWell : Interactable {
     }
 
 
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+            playerInRange = true;
+    }
+
+
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
@@ -40,6 +47,7 @@ public class HealingWell : Interactable {
 
     void healPlayer()
     {
+        sfxManager.healing.Play();
         playerHealthScript.SetMaxHealth();
     }
 }

@@ -21,7 +21,6 @@ public class HealingLake : Interactable {
         if (other.gameObject.tag == "Player")
         {
             healPlayer();
-            sfxManager.healing.Play();
             dialogueManager.LoadSentencesToQueue(dialogue);
             dialogueManager.DisplayNextSentence();
             StartCoroutine(progressDialogue());
@@ -40,6 +39,7 @@ public class HealingLake : Interactable {
 
     void healPlayer()
     {
+        sfxManager.healing.Play();
         playerHealthScript.SetMaxHealth();
     }
 }

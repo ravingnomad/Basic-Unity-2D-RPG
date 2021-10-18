@@ -56,6 +56,7 @@ public class EnemyHealth : MonoBehaviour {
         freezeRigidbody();
         collider.enabled = false;
         spriteRenderer.sortingLayerName = "Ground";
+        spriteRenderer.sortingOrder = 2;
         anim.Stop();
     }
 
@@ -76,8 +77,10 @@ public class EnemyHealth : MonoBehaviour {
 
     private void disableEnemyScripts()
     {
+        SpriteLayerOrder spriteLayerOrder = GetComponent<SpriteLayerOrder>();
         EnemyAttack enemyAttackScript = GetComponent<EnemyAttack>();
         EnemyMovement enemyMovementScript = GetComponent<EnemyMovement>();
+        spriteLayerOrder.enabled = false;
         enemyAttackScript.enabled = false;
         enemyMovementScript.enabled = false;
         chasePlayerScript.enabled = false;
