@@ -34,10 +34,10 @@ public class PlayerHealth : MonoBehaviour {
             sfx.playerDeadGrunt.Play();
             sfx.playerDeadMusic.Play();
             StartCoroutine(DeathFade());
-            PlayerMove.Exists = false;
-            PlayerCamera.Exists = false;
-            UIController.UIExists = false;
-            DestroyManager.Exists = false;
+            //PlayerMove.Exists = false;
+            //PlayerCamera.Exists = false;
+            //UIController.UIExists = false;
+            //DestroyManager.Exists = false;
             Destroy(FindObjectOfType<PlayerCamera>());
             SceneManager.LoadScene("Game Over");
             faded = true;

@@ -10,7 +10,7 @@ public class PlayerStart : MonoBehaviour {
 
     void Start() {
         thePlayer = GameObject.FindWithTag("Player");
-        theCamera = GameObject.FindWithTag("MainCamera");
+        theCamera = GameObject.FindWithTag("Player Camera");
         if (thePlayer.GetComponent<PlayerMove>().StartPoint == pointName)
         {
             thePlayer.transform.position = transform.position;

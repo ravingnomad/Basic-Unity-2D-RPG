@@ -4,13 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+
 public class DialogueManager : MonoBehaviour {
 
     public static bool Exists;
-
-    private Text nameText;
-    private Text dialogueText;
     public Animator animator;
+    public Text nameText;
+    public Text dialogueText;
+
     private Queue<string> sentenceQueue;
 	
 
@@ -18,11 +19,8 @@ public class DialogueManager : MonoBehaviour {
         if (!Exists)
         {
             Exists = true;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoadManager.SetDontDestroy(this.gameObject);
             sentenceQueue = new Queue<string>();
-            animator = GameObject.FindGameObjectWithTag("Dialogue Box").GetComponent<Animator>();
-            nameText = GameObject.FindGameObjectWithTag("NPC Name Text").GetComponent<Text>();
-            dialogueText = GameObject.FindGameObjectWithTag("Dialogue Text").GetComponent<Text>();
         }
         else
         {

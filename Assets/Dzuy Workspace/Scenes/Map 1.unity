@@ -767,34 +767,9 @@ Prefab:
       propertyPath: followTarget
       value: 
       objectReference: {fileID: 1477538435}
-    - target: {fileID: 20042558227533712, guid: 8c0118e9fce393340be5378200391f30,
-        type: 2}
-      propertyPath: m_BackGroundColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20042558227533712, guid: 8c0118e9fce393340be5378200391f30,
-        type: 2}
-      propertyPath: m_BackGroundColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20042558227533712, guid: 8c0118e9fce393340be5378200391f30,
-        type: 2}
-      propertyPath: m_BackGroundColor.b
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1975664466978078, guid: 8c0118e9fce393340be5378200391f30, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 20042558227533712, guid: 8c0118e9fce393340be5378200391f30,
-        type: 2}
-      propertyPath: orthographic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 20042558227533712, guid: 8c0118e9fce393340be5378200391f30,
-        type: 2}
-      propertyPath: m_NormalizedViewPortRect.x
-      value: 0
+      propertyPath: m_Name
+      value: Player Camera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c0118e9fce393340be5378200391f30, type: 2}
@@ -3054,6 +3029,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1750091421802624, guid: b230acc5a8c1a4e4ebfb73843a74c313, type: 2}
+      propertyPath: m_Name
+      value: Player UI
+      objectReference: {fileID: 0}
     - target: {fileID: 224050742455822966, guid: b230acc5a8c1a4e4ebfb73843a74c313,
         type: 2}
       propertyPath: m_AnchorMax.x
@@ -3064,25 +3043,9 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114250402191252182, guid: b230acc5a8c1a4e4ebfb73843a74c313,
-        type: 2}
-      propertyPath: m_UiScaleMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114250402191252182, guid: b230acc5a8c1a4e4ebfb73843a74c313,
-        type: 2}
-      propertyPath: m_ReferenceResolution.x
-      value: 1240
-      objectReference: {fileID: 0}
-    - target: {fileID: 114250402191252182, guid: b230acc5a8c1a4e4ebfb73843a74c313,
-        type: 2}
-      propertyPath: m_ReferenceResolution.y
-      value: 768
-      objectReference: {fileID: 0}
-    - target: {fileID: 114250402191252182, guid: b230acc5a8c1a4e4ebfb73843a74c313,
-        type: 2}
-      propertyPath: m_MatchWidthOrHeight
-      value: 0.8
+    - target: {fileID: 1750091421802624, guid: b230acc5a8c1a4e4ebfb73843a74c313, type: 2}
+      propertyPath: m_TagString
+      value: UI Manager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b230acc5a8c1a4e4ebfb73843a74c313, type: 2}

@@ -1408,7 +1408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentHealth: 0
   MaxHealth: 100
-  damagedByGunOnly: 0
+  damagedByGunOnly: 1
 --- !u!61 &621641086
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartScreenFade : MonoBehaviour {
+public class FadeToStartScreen : MonoBehaviour {
 
 
 	private void Start ()
@@ -13,7 +13,7 @@ public class StartScreenFade : MonoBehaviour {
 	}
     IEnumerator Wait()
     {
-        yield return new WaitForSecondsRealtime(5);
+        yield return new WaitForSecondsRealtime(3);
         SceneManager.LoadScene("Start Screen");
     }
 	

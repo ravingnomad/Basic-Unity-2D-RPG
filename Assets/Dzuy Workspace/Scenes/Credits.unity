@@ -492,6 +492,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1268869490}
+  - component: {fileID: 1268869491}
   - component: {fileID: 1268869489}
   m_Layer: 0
   m_Name: Explanation
@@ -508,10 +509,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1268869488}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f116f5bd3aa0949b106cbfcc917307, type: 3}
+  m_Script: {fileID: 11500000, guid: 694a2ddea2583dd4ba34f5c6b9dc6dcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  area: Space END
+  area: End Screen
 --- !u!4 &1268869490
 Transform:
   m_ObjectHideFlags: 0
@@ -528,6 +529,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1268869491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1268869488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f4578ca2e756149b57bc9f8246c820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1417520296
 GameObject:
   m_ObjectHideFlags: 0

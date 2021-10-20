@@ -24,7 +24,7 @@ public class PlayerCamera : MonoBehaviour {
         if (!Exists)
         {
             Exists = true;
-            DontDestroyOnLoad(transform.gameObject);
+            DontDestroyOnLoadManager.SetDontDestroy(this.gameObject);
         }
 
         else

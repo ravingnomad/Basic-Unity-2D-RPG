@@ -38,6 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Dzuy Workspace/Scenes/Space 4.unity
   - enabled: 1
-    path: Assets/Dzuy Workspace/Scenes/Space END.unity
-  - enabled: 1
     path: Assets/Dzuy Workspace/Scenes/Start Screen.unity
+  - enabled: 1
+    path: Assets/Dzuy Workspace/Scenes/End Screen.unity

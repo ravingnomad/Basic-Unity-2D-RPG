@@ -14,7 +14,7 @@ public class MusicManager : MonoBehaviour {
         if (!Exists)
         {
             Exists = true;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoadManager.SetDontDestroy(this.gameObject);
         }
         else
             Destroy(gameObject);

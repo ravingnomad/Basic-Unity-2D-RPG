@@ -7,21 +7,23 @@ public class UIController : MonoBehaviour {
 
     public Slider healthBar;
     public PlayerHealth playerHealthScript;
-    public static bool UIExists;
+    public static bool Exists;
+
+    private Canvas uiCanvas;
 
 	void Start () {
-        if (!UIExists)
+        if (!Exists)
         {
-            UIExists = true;
-            DontDestroyOnLoad(transform.gameObject);
+            Exists = true;
+            DontDestroyOnLoadManager.SetDontDestroy(this.gameObject);
+            playerHealthScript = GameObject.FindWithTag("Player").GetComponent<PlayerHealth>();
+            healthBar = GetComponentInChildren<Slider>();
+            uiCanvas = GetComponent<Canvas>();
         }
-
         else
         {
             Destroy(gameObject);
         }
-        playerHealthScript = GameObject.FindWithTag("Player").GetComponent<PlayerHealth>();
-        healthBar = GetComponentInChildren<Slider>();
 	}
 	
 
@@ -30,7 +32,7 @@ public class UIController : MonoBehaviour {
         healthBar.value = playerHealthScript.CurrentHealth;
         if (playerHealthScript.dead == true)
         {
-            Destroy(gameObject);
+            uiCanvas.enabled = false;
         }
 	}
 }

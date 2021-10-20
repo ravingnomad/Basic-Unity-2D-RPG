@@ -17,11 +17,10 @@ public class PlayerMove : MonoBehaviour {
         animator = GetComponent<Animator>();
         playerRigidBody = GetComponent<Rigidbody2D>();
         lastMoveDirection = new Vector2(0, -1);
-        
         if (!Exists)
         {
            Exists = true;
-           DontDestroyOnLoad(transform.gameObject);
+           DontDestroyOnLoadManager.SetDontDestroy(this.gameObject);
        }
 
         else

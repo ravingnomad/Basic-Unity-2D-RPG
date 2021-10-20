@@ -7,46 +7,28 @@ public class GameOverManager : MonoBehaviour {
 
     private Animator animator;
     private MusicManager musicManager;
-    private SFXManager sfxManager;
 
 
 	void Start () {
         musicManager = FindObjectOfType<MusicManager>();
-        sfxManager = FindObjectOfType<SFXManager>();
         animator = GetComponent<Animator>();
-        if (FindObjectOfType<PlayerCamera>() != null)
-        {
-            Destroy(FindObjectOfType<PlayerCamera>());
-        }
 	}
 
     public void Quit()
     {
-        if (Application.isEditor)
-        {
-            animator.SetBool("Decided", true);
-            //UnityEditor.EditorApplication.isPlaying = false;
-        }
-
-        else
-        {
-            animator.SetBool("Decided", true);
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#endif
             Application.Quit();
-        }
-        
     }
 
     public void Retry()
     {
         animator.SetBool("Decided", true);
-        Destroy(GameObject.FindGameObjectWithTag("Player"));
-        Destroy(GameObject.FindGameObjectWithTag("MainCamera"));
-        
         musicManager.Tracks[4].Stop();
-        Destroy(GameObject.FindGameObjectWithTag("Dialogue Box Canvas"));
-        DialogueManager.Exists = false;
-        Destroy(FindObjectOfType<DialogueManager>().gameObject);
-        Destroy(FindObjectOfType<DestroyManager>().gameObject);
+        DontDestroyOnLoadManager.DestroyAll();
         SceneManager.LoadScene("Start Screen");
     }
+
+
 }

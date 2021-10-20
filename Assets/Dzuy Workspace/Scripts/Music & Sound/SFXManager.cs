@@ -38,7 +38,7 @@ public class SFXManager : MonoBehaviour {
         if (!Exists)
         {
             Exists = true;
-            DontDestroyOnLoad(transform.gameObject);
+            DontDestroyOnLoadManager.SetDontDestroy(this.gameObject);
         }
         else
         {

@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 114040768395419024}
   m_Layer: 0
   m_Name: SFX Manager
-  m_TagString: Untagged
+  m_TagString: SFX Manager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

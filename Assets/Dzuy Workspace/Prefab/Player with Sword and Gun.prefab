@@ -337,7 +337,7 @@ MonoBehaviour:
   dead: 0
   fadeoutTexture: {fileID: 2800000, guid: 892094e23a4604249a1a2da0b45d7156, type: 3}
   fadeSpeed: 2
-  invincible: 1
+  invincible: 0
   playerCamera: {fileID: 0}
 --- !u!114 &114996940987814406
 MonoBehaviour:

@@ -17,6 +17,12 @@ TagManager:
   - Ground
   - NPC Name Text
   - Dialogue Text
+  - Music Manager
+  - SFX Manager
+  - Player Camera
+  - Destroy Manager
+  - Dialogue Manager
+  - UI Manager
   layers:
   - Default
   - TransparentFX

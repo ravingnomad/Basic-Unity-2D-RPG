@@ -17,8 +17,6 @@ public class PlayerDamaged : MonoBehaviour {
 
     private PlayerHealth health;
     private SFXManager sfx;
-    private bool wasGoblin; //these two tells script which enemy attacked player and which SFX to use
-    private bool wasSlime;
 	
 	void Start () {
         health = GetComponent<PlayerHealth>();
@@ -82,8 +80,6 @@ public class PlayerDamaged : MonoBehaviour {
                 knockbackCounter = knockbackTime;
                 wasHit = false;
                 anim.SetBool("Damaged", false);
-                wasGoblin = false;
-                wasSlime = false;
             }
 
             else

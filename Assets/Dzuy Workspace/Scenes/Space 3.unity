@@ -1498,7 +1498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentHealth: 0
   MaxHealth: 80
-  gunOnly: 0
+  damagedByGunOnly: 0
 --- !u!1001 &577980155
 Prefab:
   m_ObjectHideFlags: 0
@@ -2162,12 +2162,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Locked Door
+    objectName: 
     sentences:
     - Door to the Crew Rest Departments.
     - The door is locked.
     - There are faint hints of blood stains on the door.
-  in_range: 0
+  dialogueManager: {fileID: 0}
 --- !u!212 &718335602
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2390,7 +2390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Log 4
+    objectName: 
     sentences:
     - 'Ship Log 4 - Year 2XXX
 
@@ -2404,7 +2404,7 @@ MonoBehaviour:
       As long as we mine sufficiently deep, we can obtain any of the materials we
       require to repair the damaged done to our ship.
     - However, this world is proving to be much more dangerous than initially anticipated.
-  in_range: 0
+  dialogueManager: {fileID: 0}
 --- !u!61 &785872897
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2542,7 +2542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Log 5
+    objectName: 
     sentences:
     - 'Ship Log 5 - Year 2XXX
 
@@ -2556,7 +2556,7 @@ MonoBehaviour:
     - However, this teleporter is very unstable. As long as these strange creatures
       have not occupied the teleporter room, we should be able to flee back to our
       dimension and request assistance from the world government.
-  in_range: 0
+  dialogueManager: {fileID: 0}
 --- !u!61 &797144067
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5377,7 +5377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentHealth: 0
   MaxHealth: 60
-  gunOnly: 1
+  damagedByGunOnly: 1
 --- !u!1 &1672584949
 GameObject:
   m_ObjectHideFlags: 0
@@ -6314,7 +6314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentHealth: 0
   MaxHealth: 60
-  gunOnly: 0
+  damagedByGunOnly: 1
 --- !u!1001 &2077062706
 Prefab:
   m_ObjectHideFlags: 0

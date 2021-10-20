@@ -7,7 +7,7 @@ public class EndScreen : MonoBehaviour {
 
     private void Update()
     {
-        if (Input.inputString == "e")
+        /*if (Input.inputString == "e")
         {
             Destroy(GameObject.FindGameObjectWithTag("Player"));
             PlayerMove.Exists = false;
@@ -17,10 +17,13 @@ public class EndScreen : MonoBehaviour {
             DestroyManager.Exists = false;
             UIController.UIExists = false;
             SceneManager.LoadScene("Start Screen");
-        }
+        }*/
 
-        else if (Input.inputString == "q")
+        if (Input.inputString == "q")
         {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#endif
             Application.Quit();
         }
     }

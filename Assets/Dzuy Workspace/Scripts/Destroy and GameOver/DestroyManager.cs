@@ -13,7 +13,7 @@ public class DestroyManager : MonoBehaviour {
         if (!Exists)
         {
             Exists = true;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoadManager.SetDontDestroy(this.gameObject);
         }
         else
         {
